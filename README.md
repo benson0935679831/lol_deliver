@@ -16,3 +16,23 @@
     <td>D0845456</td>
   </tr>
 </table>
+<table>
+  <tr>
+    <th>組員姓名</th>
+    <th>學號</th>
+    <th>github帳號</th>
+    <th>issue<\th>
+  </tr>
+  <tr>
+    <td>李岳霖</td>
+    <td>學號</td>
+    <td>BensonOUO</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>楊宇盛</td>
+    <td>D0845456</td>
+    <td>D0845456</td>
+    <td></td>
+  </tr>
+</table>
