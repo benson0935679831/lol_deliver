@@ -21,7 +21,7 @@
     <th>組員姓名</th>
     <th>學號</th>
     <th>github帳號</th>
-    <th>issue<\th>
+    <th>issue</th>
   </tr>
   <tr>
     <td>李岳霖</td>
