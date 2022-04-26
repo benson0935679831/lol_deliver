@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td>李岳霖</td>
-    <td>學號</td>
+    <td>D0845180</td>
     <td>BensonOUO</td>
     <td></td>
   </tr>
