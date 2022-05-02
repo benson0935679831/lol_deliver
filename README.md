@@ -17,13 +17,13 @@
   </tr>
   <tr>
     <td>韋嘉祐</td>
-    <td>CasperQAQ</td>
     <td>D0843810</td>
+    <td>CasperQAQ</td>
   </tr>
   <tr>
     <td>陳昶廷</td>
-    <td>ChangTingChen</td>
     <td>D0845456</td>
+    <td>ChangTingChen</td>
   </tr>
 </table>
 
