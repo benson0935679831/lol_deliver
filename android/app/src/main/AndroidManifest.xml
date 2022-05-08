@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOL_Deliver">
         <activity
-            android:name=".UserLoginActivity"
+            android:name=".UserRegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

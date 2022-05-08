@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void goToLoginIntent(View view){
-        Intent intent = new Intent(this, UserLoginActivity.class);
+        Intent intent = new Intent(this, UserRegisterActivity.class);
 
         startActivity(intent);
     }
