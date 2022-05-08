@@ -12,7 +12,7 @@
         android:layout_width="170dp"
         android:layout_height="71dp"
         android:layout_marginTop="48dp"
-        android:text="三寶"
+        android:text="外送員"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/button6"
         app:layout_constraintStart_toStartOf="@+id/button6"
