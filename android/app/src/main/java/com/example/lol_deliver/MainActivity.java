@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+    public void goToLoginPage(View view){
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+    }
 }

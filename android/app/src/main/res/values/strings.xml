@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">LOL_Deliver</string>
+    <string name="app_name">峽谷外送員</string>
     <!--    註冊畫面資料-->
     <string name="signUp_title">註冊身分</string>
-    <string name="hint_nameInput">名字：</string>
+    <string name="hint_nameInput">帳號：</string>
     <string name="hint_eMailInput">電子信箱：</string>
     <string name="hint_pswdInput">密碼：</string>
     <string name="hint_pswd2Input">確認密碼：</string>

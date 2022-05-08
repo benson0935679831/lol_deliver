@@ -7,22 +7,45 @@
     android:background="#B3DEE5"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="170dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="48dp"
-        android:text="外送員"
+    <ImageView
+        android:id="@+id/btn_back1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/tv_register"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="24dp"
+        android:text="註冊身分"
+        android:textColor="#000000"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/button6"
-        app:layout_constraintStart_toStartOf="@+id/button6"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/btn_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_register"
+        app:layout_constraintVertical_bias="0.19" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn_user"
         android:layout_width="170dp"
         android:layout_height="71dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="124dp"
         android:onClick="goToLoginIntent"
         android:shadowColor="#000000"
         android:shadowDx="10"
@@ -37,49 +60,27 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_deliver"
+        android:layout_width="170dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="48dp"
+        android:onClick="goToLoginPage"
+        android:text="外送員"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_user"
+        app:layout_constraintStart_toStartOf="@+id/btn_user"
+        app:layout_constraintTop_toBottomOf="@+id/btn_user" />
+
+    <Button
+        android:id="@+id/btn_shoper"
         android:layout_width="170dp"
         android:layout_height="71dp"
         android:layout_marginTop="48dp"
         android:text="商家"
         android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="@+id/btn_deliver"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/button7"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="24dp"
-        android:text="註冊身分"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/btn_back1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.481"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="409dp"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintStart_toStartOf="@+id/btn_deliver"
+        app:layout_constraintTop_toBottomOf="@+id/btn_deliver" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
