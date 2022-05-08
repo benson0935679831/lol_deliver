@@ -12,9 +12,7 @@ from pathlib import Path   #解路徑用的lib
 
 from requests.exceptions import HTTPError       #連線錯誤的lib
 
-def searchAndInsert(dt, stockno):
-    id = '123@mail.com'
-    pwd = '123456'
+def searchAndInsert(id, pwd):
     phpurl='http://localhost:8080/delivery/loginCheck.php?userID=%s&userPWD=%s'
     senddata= phpurl % (id,pwd)
     print(senddata)
@@ -31,7 +29,7 @@ def searchAndInsert(dt, stockno):
         print(res.text)    
 
 def main():
-    searchAndInsert("20210131","1101")
+    searchAndInsert("281477","123456")
 
 if __name__ == "__main__":
     main()

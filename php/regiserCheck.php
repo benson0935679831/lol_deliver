@@ -12,7 +12,7 @@
         
         $qAccount = "INSERT INTO `account` (`account`, `password`, `identity`) VALUES ('%s', '%s', '%s')";
         $qCustomer = "INSERT INTO `customer` (`name`, `phone`, `mail`) VALUES ('%s', '%s', '%s')";
-        $qAddr = ""
+        $qAddr = "";
         $query = sprintf($qAccount,$userMail,$userPassword,$userIdentity);
         if(mysqli_query($query)){
             $query = sprintf($qCustomer,$userName,$userPhone,$userMail);
@@ -23,5 +23,4 @@
             return FALSE;
         }
     }
-
-    
+?> 
