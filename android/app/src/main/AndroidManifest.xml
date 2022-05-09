@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOL_Deliver">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".UserRegisterActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".UserSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectIdentityActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

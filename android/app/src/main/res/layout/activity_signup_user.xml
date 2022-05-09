@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/MainTheme_color"
-    tools:context=".UserRegisterActivity">
+    tools:context=".UserSignupActivity">
 
     <ImageButton
         android:id="@+id/btn_back"
@@ -136,6 +136,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
+        android:onClick="register"
         android:text="@string/button_signUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

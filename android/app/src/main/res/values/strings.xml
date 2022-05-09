@@ -9,4 +9,6 @@
     <string name="hint_telInput">電話：</string>
     <string name="hint_addressInput">地址：</string>
     <string name="button_signUp">註冊</string>
+    <string name="log_in">登入</string>
+    <string name="sign_up">註冊</string>
 </resources>

@@ -13,13 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void goToLoginIntent(View view){
-        Intent intent = new Intent(this, UserRegisterActivity.class);
 
-        startActivity(intent);
-    }
-    public void goToLoginPage(View view){
-        Intent intent = new Intent(this, MainActivity2.class);
+    /**
+     * go to select identity page
+     * @param view
+     */
+    public void goToSltId(View view){
+        Intent intent = new Intent(this, SelectIdentityActivity.class);
         startActivity(intent);
     }
 }
