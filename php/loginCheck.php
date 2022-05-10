@@ -13,6 +13,7 @@
     mysqli_close($link);		//關閉Query
 
     if(!$result){       //帳號不存在
+        echo "accout";
         echo "FALSE";
     }else{
         if(mysqli_num_rows($result)>0){
@@ -21,6 +22,7 @@
             if($check[0]["password"] == $userPWDInput)        
                 echo "TRUE";
             else        //密碼錯誤
+                echo "password";
                 echo "FALSE";
         }
         else{

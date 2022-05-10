@@ -29,7 +29,7 @@ def searchAndInsert(id, pwd):
         print(res.text)    
 
 def main():
-    searchAndInsert("281477","123456")
+    searchAndInsert("281477","asd89")
 
 if __name__ == "__main__":
     main()
