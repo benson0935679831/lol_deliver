@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -53,12 +54,21 @@ public class UserSignupActivity extends AppCompatActivity{
                         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                         conn.setConnectTimeout(5000);// 設置連接超時為5秒
                         conn.setRequestMethod("GET");// 設置請求類型為Get類型
-                        if (conn.getResponseCode() != 200)// 判斷請求Url是否成功
+                        Log.i("notice", "here");
+                        if (conn.getResponseCode() != 200) {// 判斷請求Url是否成功
+                            Log.i("notice", "請求url失敗");
                             throw new RuntimeException("請求url失敗");
-                        if (Boolean.parseBoolean(conn.getInputStream().toString()))// 確認電子郵件是否存在
+                        }
+                        if (Boolean.parseBoolean(conn.getInputStream().toString())){// 確認電子郵件是否存在
                             msg[0] = "此電子郵件已存在!";
-                        else
+                            Log.i("notice", "此電子郵件已存在!");
+                            Log.i("notice", msg[0]);
+                        }
+                        else {
                             msg[0] = "註冊成功";
+                            Log.i("notice", "註冊成功");
+                            Log.i("notice", msg[0]);
+                        }
                     }catch(IOException e){
                         e.printStackTrace();
                     }
