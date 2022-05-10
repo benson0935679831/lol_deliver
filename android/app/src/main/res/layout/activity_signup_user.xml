@@ -44,18 +44,18 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_registAccount" />
 
     <TextView
-        android:id="@+id/tv_account"
+        android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/hint_nameInput"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@+id/etx_account"
+        app:layout_constraintStart_toStartOf="@+id/etx_name"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <EditText
-        android:id="@+id/etx_account"
+        android:id="@+id/etx_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -63,7 +63,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_account" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
 
     <TextView
         android:id="@+id/tv_email"
@@ -74,7 +74,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@+id/etx_email"
-        app:layout_constraintTop_toBottomOf="@+id/etx_account" />
+        app:layout_constraintTop_toBottomOf="@+id/etx_name" />
 
     <EditText
         android:id="@+id/etx_email"
