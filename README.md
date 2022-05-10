@@ -56,6 +56,6 @@
     <td>陳昶廷</td>
     <td>D0845456</td>
     <td>ChangTingChen</td>
-    <td></td>
+    <td>#6</td>
   </tr>
 </table>
