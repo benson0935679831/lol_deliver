@@ -1,25 +1,47 @@
 package com.example.lol_deliver;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 
-public class UserSignupActivity extends AppCompatActivity{
+public class UserSignupActivity extends AppCompatActivity implements OnCompleteListener<AuthResult> {
+    private EditText etName;
+    private EditText etEmail;
+    private EditText etPassword;
+    private EditText etchkPassword;
+
+    private FirebaseAuth firebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup_user);
+
+        etName = findViewById(R.id.et_name);
+        etEmail = findViewById(R.id.et_email);
+        etPassword = findViewById(R.id.et_password);
+        etchkPassword = findViewById(R.id.et_chkPassword);
+
+        firebaseAuth = FirebaseAuth.getInstance();
     }
 
     /**
@@ -36,10 +58,10 @@ public class UserSignupActivity extends AppCompatActivity{
      * @throws IOException
      */
     public void register(View view) throws IOException {
-        EditText etxName = (EditText) findViewById(R.id.etx_name);
-        EditText etxEmail = (EditText) findViewById(R.id.etx_email);
-        EditText etxPassword = (EditText) findViewById(R.id.etx_password);
-        EditText etxChkPassword = (EditText) findViewById(R.id.etx_chkPassword);
+        EditText etxName = (EditText) findViewById(R.id.et_name);
+        EditText etxEmail = (EditText) findViewById(R.id.et_email);
+        EditText etxPassword = (EditText) findViewById(R.id.et_password);
+        EditText etxChkPassword = (EditText) findViewById(R.id.et_chkPassword);
 
         if(etxPassword.getText().toString().compareTo(etxChkPassword.getText().toString()) != 0)// 確認密碼與驗證碼是否相同
             Toast.makeText(this,"密碼與確認密碼不同!",Toast.LENGTH_SHORT).show();
@@ -80,5 +102,42 @@ public class UserSignupActivity extends AppCompatActivity{
 
         }
     }
+    public void onRegister(View view){
+        String email = etEmail.getText().toString();
+        String password = etPassword.getText().toString();
+        String chkPassword = etchkPassword.getText().toString();
+        if(password.compareTo(chkPassword) != 0){
+            Toast.makeText(this,"密碼與確認密碼不同!",Toast.LENGTH_LONG).show();
+        }
+        else {
+            firebaseAuth.createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(this, this);
+        }
+    }
+    public void onCancel(View view){
+        finish();
+    }
+    @Override
+    public void onComplete(@NonNull Task<AuthResult> task) {
+        if(task.isSuccessful()){
+            Toast.makeText(this, "註冊成功", Toast.LENGTH_LONG).show();
+            addUser();
+            finish();
+        }
+        else{
+            Toast.makeText(this, "註冊失敗", Toast.LENGTH_LONG).show();
+        }
+    }
+    private void addUser(){
+        String email = etEmail.getText().toString();
+        String name = etName.getText().toString();
+        FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+        DatabaseReference userRef = firebaseDatabase.getReference("users");
+        DatabaseReference phoneRef = userRef.child(name);
+        Map<String, Object> user = new HashMap<>();
+        user.put("email", email);
+        user.put("name",name);
+        phoneRef.updateChildren(user);
 
+    }
 }

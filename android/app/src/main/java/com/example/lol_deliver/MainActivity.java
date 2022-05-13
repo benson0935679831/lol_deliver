@@ -12,14 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-
-    /**
-     * go to select identity page
-     * @param view
-     */
-    public void goToSltId(View view){
-        Intent intent = new Intent(this, SelectIdentityActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
+
 }

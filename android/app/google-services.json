@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677307177218",
+    "project_id": "lol-deliver-d3041",
+    "storage_bucket": "lol-deliver-d3041.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677307177218:android:6fa6c2900ad49866920a1b",
+        "android_client_info": {
+          "package_name": "com.example.lol_deliver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677307177218-imbasivu67d2a5gieb2udisn5clp131j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLKurmlNhlxcNklge6HYo6sD4B9bwpts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677307177218-imbasivu67d2a5gieb2udisn5clp131j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
