@@ -44,7 +44,7 @@
     <td>楊宇盛</td>
     <td>D0845456</td>
     <td>D0845456</td>
-    <td></td>
+    <td>#2</td>
   </tr>
   <tr>
     <td>韋嘉祐</td>
@@ -56,6 +56,6 @@
     <td>陳昶廷</td>
     <td>D0845456</td>
     <td>ChangTingChen</td>
-    <td>#6</td>
+    <td>#6、#7</td>
   </tr>
 </table>
