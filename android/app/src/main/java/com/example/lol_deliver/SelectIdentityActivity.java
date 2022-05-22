@@ -19,7 +19,7 @@ public class SelectIdentityActivity extends AppCompatActivity {
     }
 
     public void goToSignupIntent(View view){
-        Intent intent = new Intent(this, UserSignupActivity.class);
+        Intent intent = new Intent(this, SignupActivity.class);
         startActivity(intent);
     }
 }

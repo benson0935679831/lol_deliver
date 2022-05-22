@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".UserSignupActivity"
+            android:name=".SignupActivity"
             android:exported="false" />
         <activity
             android:name=".SelectIdentityActivity"

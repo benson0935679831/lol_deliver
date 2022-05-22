@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getSupportActionBar().hide();
 
         etEmail = findViewById(R.id.et_login_account);
         etPassword = findViewById(R.id.et_login_password);

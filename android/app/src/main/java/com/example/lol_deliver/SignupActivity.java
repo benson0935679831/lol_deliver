@@ -24,7 +24,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class UserSignupActivity extends AppCompatActivity implements OnCompleteListener<AuthResult> {
+public class SignupActivity extends AppCompatActivity implements OnCompleteListener<AuthResult> {
     private EditText etName;
     private EditText etEmail;
     private EditText etPassword;
@@ -34,7 +34,8 @@ public class UserSignupActivity extends AppCompatActivity implements OnCompleteL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup_user);
+        setContentView(R.layout.activity_signup);
+        getSupportActionBar().hide();
 
         etName = findViewById(R.id.et_name);
         etEmail = findViewById(R.id.et_email);
