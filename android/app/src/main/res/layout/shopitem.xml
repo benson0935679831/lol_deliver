@@ -35,7 +35,7 @@
                     app:cardCornerRadius="8dp">
 
                     <ImageView
-                        android:id="@+id/iv_shop"
+                        android:id="@+id/iv_sk_shopIcon"
                         android:layout_width="match_parent"
                         android:layout_height="178dp"
                         android:layout_weight="1"

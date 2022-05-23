@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88129f79-2177-47a8-b0f2-35cacf6738f7" name="Default Changelist" comment="" />
+    <list default="true" id="fbb6dc94-e290-46f8-8d54-3565843b5e62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="ProjectId" id="28sRBQ7g9RHi2Vc4L2w7UnnIjKS" />
+  <component name="ProjectId" id="28sQYZFnT98nGrKq8JYxUgCQFEA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,12 +32,24 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="88129f79-2177-47a8-b0f2-35cacf6738f7" name="Default Changelist" comment="" />
-      <created>1652003170567</created>
+      <changelist id="fbb6dc94-e290-46f8-8d54-3565843b5e62" name="Default Changelist" comment="" />
+      <created>1652002861774</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652003170567</updated>
+      <updated>1652002861774</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
