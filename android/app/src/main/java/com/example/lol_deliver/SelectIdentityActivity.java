@@ -18,8 +18,14 @@ public class SelectIdentityActivity extends AppCompatActivity {
         finish();
     }
 
-    public void goToSignupIntent(View view){
+    public void goToSignupCustomerIntent(View view){
         Intent intent = new Intent(this, SignupActivity.class);
+        intent.putExtra("identity", "customer");
+        startActivity(intent);
+    }
+    public void goToSignupShopkeeperIntent(View view){
+        Intent intent = new Intent(this, SignupActivity.class);
+        intent.putExtra("identity", "shopkeeper");
         startActivity(intent);
     }
 }

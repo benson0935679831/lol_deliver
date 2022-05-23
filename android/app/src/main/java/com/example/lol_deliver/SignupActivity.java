@@ -29,6 +29,7 @@ public class SignupActivity extends AppCompatActivity implements OnCompleteListe
     private EditText etEmail;
     private EditText etPassword;
     private EditText etchkPassword;
+    private String identity;
 
     private FirebaseAuth firebaseAuth;
     @Override
@@ -42,6 +43,8 @@ public class SignupActivity extends AppCompatActivity implements OnCompleteListe
         etPassword = findViewById(R.id.et_password);
         etchkPassword = findViewById(R.id.et_chkPassword);
 
+        Intent oldIntent = getIntent();
+        identity = oldIntent.getStringExtra("identity");
         firebaseAuth = FirebaseAuth.getInstance();
     }
 
@@ -138,6 +141,7 @@ public class SignupActivity extends AppCompatActivity implements OnCompleteListe
         Map<String, Object> user = new HashMap<>();
         user.put("email", email);
         user.put("name",name);
+        user.put("identity",identity);
         phoneRef.updateChildren(user);
 
     }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B3DEE5"
+    android:background="@color/MainTheme_color"
     tools:context=".SelectIdentityActivity">
 
     <ImageView
@@ -47,7 +47,7 @@
         android:layout_width="170dp"
         android:layout_height="71dp"
         android:layout_marginTop="124dp"
-        android:onClick="goToSignupIntent"
+        android:onClick="goToSignupCustomerIntent"
         android:shadowColor="#000000"
         android:shadowDx="10"
         android:shadowDy="100"
@@ -65,7 +65,7 @@
         android:layout_width="170dp"
         android:layout_height="71dp"
         android:layout_marginTop="48dp"
-        android:onClick="goToSignupIntent"
+        android:onClick="goToSignupCustomerIntent"
         android:text="外送員"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_user"
@@ -77,7 +77,7 @@
         android:layout_width="170dp"
         android:layout_height="71dp"
         android:layout_marginTop="48dp"
-        android:onClick="goToSignupIntent"
+        android:onClick="goToSignupShopkeeperIntent"
         android:text="商家"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_deliver"
