@@ -36,7 +36,7 @@ public class ShopAdapter extends ArrayAdapter<ShopItem>{
         }
         ShopItem food = shopItemList.get(position);
 
-        ImageView iv = shopLayout.findViewById(R.id.iv_shop);
+        ImageView iv = shopLayout.findViewById(R.id.iv_sk_shopIcon);
         iv.setImageResource(food.getImgResId());
         // 這行true會導致圖片不一樣大
 //        iv.setAdjustViewBounds(true);
