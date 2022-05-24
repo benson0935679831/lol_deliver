@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="MainTheme_color">#B3DEE5</color>
     <color name="sk_text">#222E6D</color>
+    <color name="GREEN">#177A74</color>
+    <color name="Orange">#E87B17</color>
 </resources>

@@ -6,123 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/MainTheme_color">
 
-    <ScrollView
-        android:layout_width="411dp"
-        android:layout_height="194dp"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
-        tools:layout_editor_absoluteX="0dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <TextView
-                android:id="@+id/tv_sk_shopname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="36dp"
-                android:shadowColor="@color/sk_text"
-                android:text="築間幸福鍋物 台中逢甲店"
-                android:textColor="@color/sk_text"
-                android:textSize="30sp" />
-
-            <TextView
-                android:id="@+id/tx_sk_phone"
-                android:layout_width="238dp"
-                android:layout_height="26dp"
-                android:layout_marginTop="16dp"
-                android:text="電話     04-24511313"
-                android:textColor="@color/sk_text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/tx_sk_address"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="地址     407台中市西屯區逢甲路173號"
-                android:textColor="@color/sk_text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:text="營業時間\n星期一     11:00 - 04:00\n星期二     11:00 - 04:00\n星期三     11:00 - 04:00\n星期四     11:00 - 04:00\n星期五     11:00 - 04:00\n星期六     11:00 - 04:00\n星期日     11:00 - 04:00"
-                android:textColor="@color/sk_text"
-                android:textSize="14sp" />
-        </LinearLayout>
-    </ScrollView>
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="138dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="540dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
-
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-        app:cardCornerRadius="8dp">
-
-        <ImageView
-            android:id="@+id/iv_sk_shopIcon"
-            android:layout_width="match_parent"
-            android:layout_height="178dp"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/zhujian" />
-
-    </androidx.cardview.widget.CardView>
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="196dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="420dp"
-        android:text="修改資訊"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cardView" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="196dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="532dp"
-        android:text="統計資訊"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cardView" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="196dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="12dp"
-        android:text="編輯菜單"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation"
+        android:id="@+id/nvg_sk"
         android:layout_width="0dp"
         android:layout_height="92dp"
         android:background="@color/MainTheme_color"
@@ -132,8 +17,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:layout_constraintVertical_bias="0.95"
         app:menu="@menu/sk_homepage" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fcv_sk"
+        android:name="com.example.lol_deliver.SKHomepageFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/nvg_sk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="我的店家"
+        android:id="@+id/nav1"
+        android:icon="@drawable/sk_myshop"
+
+        />
+    <item android:title="當前訂單"
+        android:icon="@drawable/sk_nowticket"
+        android:id="@+id/nav2"
+        />
+
+</menu>
