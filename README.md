@@ -59,3 +59,37 @@
     <td>#6、#7</td>
   </tr>
 </table>
+# 2022-05-24
+
+<table>
+  <tr>
+    <th>組員姓名</th>
+    <th>學號</th>
+    <th>github帳號</th>
+    <th>issue</th>
+  </tr>
+  <tr>
+    <td>李岳霖</td>
+    <td>D0845180</td>
+    <td>BensonOUO</td>
+    <td>#8</td>
+  </tr>
+  <tr>
+    <td>楊宇盛</td>
+    <td>D0845456</td>
+    <td>D0845456</td>
+    <td>#2、#10</td>
+  </tr>
+  <tr>
+    <td>韋嘉祐</td>
+    <td>D0843810</td>
+    <td>CasperQAQ</td>
+    <td>#4</td>
+  </tr>
+  <tr>
+    <td>陳昶廷</td>
+    <td>D0845456</td>
+    <td>ChangTingChen</td>
+    <td>#6、#7</td>
+  </tr>
+</table>
