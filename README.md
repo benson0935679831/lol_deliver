@@ -38,7 +38,7 @@
     <td>李岳霖</td>
     <td>D0845180</td>
     <td>BensonOUO</td>
-    <td></td>
+    <td>#8</td>
   </tr>
   <tr>
     <td>楊宇盛</td>
