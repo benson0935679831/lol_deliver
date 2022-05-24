@@ -27,6 +27,7 @@
   </tr>
 </table>
 
+<H1>2022-05-17</H1>
 <table>
   <tr>
     <th>組員姓名</th>
@@ -56,7 +57,7 @@
     <td>陳昶廷</td>
     <td>D0845456</td>
     <td>ChangTingChen</td>
-    <td>#6、#7</td>
+    <td>#6</td>
   </tr>
 </table>
 
@@ -90,6 +91,6 @@
     <td>陳昶廷</td>
     <td>D0845456</td>
     <td>ChangTingChen</td>
-    <td>#6、#7</td>
+    <td>#7</td>
   </tr>
 </table>
