@@ -4,11 +4,13 @@ public class ShopItem {
     private int imgResId;
     private String shopName;
     private String shopDetail;
+    private String shopStar;
 
-    public ShopItem(int imgResId, String shopName, String shopDetail){
+    public ShopItem(int imgResId, String shopName, String shopDetail, String shopStar){
         this.imgResId = imgResId;
         this.shopName = shopName;
         this.shopDetail = shopDetail;
+        this.shopStar = shopStar;
     }
 
     public int getImgResId() {
@@ -22,4 +24,6 @@ public class ShopItem {
     public String getShopDetail() {
         return shopDetail;
     }
+
+    public String getShopStar(){return shopStar;}
 }

@@ -46,6 +46,9 @@ public class ShopAdapter extends ArrayAdapter<ShopItem>{
         TextView tvShopDetail = shopLayout.findViewById(R.id.tv_shopDetail);
         tvShopDetail.setText(food.getShopDetail());
 
+        TextView tvStar = shopLayout.findViewById(R.id.tv_shopStar);
+        tvStar.setText(food.getShopStar());
+
         return shopLayout;
     }
 }

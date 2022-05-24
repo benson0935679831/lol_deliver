@@ -21,22 +21,9 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/lol_deliver/android/app/src/main/res/layout/orderitem.xml" value="0.1421875" />
         <entry key="..\:/Users/user/AndroidStudioProjects/lol_deliver/android/app/src/main/res/layout/rounded_editview.xml" value="0.11626139817629179" />
         <entry key="..\:/Users/user/AndroidStudioProjects/lol_deliver/android/app/src/main/res/layout/shopitem.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lol_deliver/android/app/src/main/res/layout/shopkeeper_homepage.xml" value="0.21354166666666666" />
         <entry key="..\:/Users/user/AndroidStudioProjects/lol_deliver/android/app/src/main/res/layout/styles.xml" value="0.13269927536231885" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/drawable/button_drawable.xml" value="0.247" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/acitivity_shopkeeper_homepage.xml" value="0.2" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_login.xml" value="0.2265625" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_select_identity.xml" value="0.24114583333333334" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_signup.xml" value="0.24114583333333334" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_skhomepage.xml" value="0.264" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_notifications.xml" value="0.11296859169199595" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_sk_homepage.xml" value="0.176" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_sk_now_order.xml" value="0.23958333333333334" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/orderitem.xml" value="0.24114583333333334" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/shopitem.xml" value="0.24114583333333334" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/shopkeeper_homepage.xml" value="0.264" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/menu/sk_homepage.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/lol_deliver/android/app/src/main/res/menu/sk_homepage.xml" value="0.24974358974358973" />
       </map>
     </option>
   </component>
