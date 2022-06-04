@@ -65,7 +65,7 @@
         android:layout_width="170dp"
         android:layout_height="71dp"
         android:layout_marginTop="48dp"
-        android:onClick="goToSignupCustomerIntent"
+        android:onClick="goToSignupDeliverIntent"
         android:text="外送員"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_user"

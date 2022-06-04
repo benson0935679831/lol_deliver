@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.android.material.button.MaterialButtonToggleGroup;
+
 public class SelectIdentityActivity extends AppCompatActivity {
 
     @Override
@@ -26,6 +28,11 @@ public class SelectIdentityActivity extends AppCompatActivity {
     public void goToSignupShopkeeperIntent(View view){
         Intent intent = new Intent(this, SignupActivity.class);
         intent.putExtra("identity", "shopkeeper");
+        startActivity(intent);
+    }
+    public void goToSignupDeliverIntent(View view){
+        Intent intent = new Intent(this, SignupActivity.class);
+        intent.putExtra("identity", "deliver");
         startActivity(intent);
     }
 }
