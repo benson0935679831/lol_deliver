@@ -88,7 +88,7 @@ public class SignupActivity extends AppCompatActivity implements OnCompleteListe
         }
     }
     private void addUser(String UID){
-        // 改為由電話號碼當主鍵
+        // 改為由UID當主鍵
         String name = etName.getText().toString();
         String email = etEmail.getText().toString();
         String phone = etPhone.getText().toString();
