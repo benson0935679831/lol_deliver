@@ -46,8 +46,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         Intent intent = new Intent(this, ShopkeeperHomepage.class);
         startActivity(intent);
     }
-    public void onClick(View view){
-        Intent it = new Intent(this,PersonaldataActivity.class);
-        startActivity(it);
-    }
+
 }
