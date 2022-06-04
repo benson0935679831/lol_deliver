@@ -16,6 +16,10 @@
         "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_customer_begin.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_customer_begin.xml"
+    },
+    {
         "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fooditem.xml",
         "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fooditem.xml"
     },
@@ -32,16 +36,12 @@
         "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_select_identity.xml"
     },
     {
-        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shopmenu.xml",
-        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_shopmenu.xml"
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shop_menu.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_shop_menu.xml"
     },
     {
         "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
         "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_signup.xml"
-    },
-    {
-        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shop_menu.xml",
-        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_shop_menu.xml"
     },
     {
         "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopitem.xml",

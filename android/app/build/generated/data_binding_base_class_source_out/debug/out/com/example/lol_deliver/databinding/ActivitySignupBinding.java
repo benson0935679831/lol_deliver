@@ -48,6 +48,9 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final EditText etPassword;
 
   @NonNull
+  public final EditText etPhone;
+
+  @NonNull
   public final Guideline guideline3;
 
   @NonNull
@@ -63,14 +66,17 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final TextView tvPassword;
 
   @NonNull
+  public final TextView tvPhone;
+
+  @NonNull
   public final TextView tvRegistAccount;
 
   private ActivitySignupBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnBack,
       @NonNull Button btnRegist, @NonNull Button button, @NonNull View divider,
       @NonNull EditText etChkPassword, @NonNull EditText etEmail, @NonNull EditText etName,
-      @NonNull EditText etPassword, @NonNull Guideline guideline3, @NonNull TextView tvChkPassword,
-      @NonNull TextView tvEmail, @NonNull TextView tvName, @NonNull TextView tvPassword,
-      @NonNull TextView tvRegistAccount) {
+      @NonNull EditText etPassword, @NonNull EditText etPhone, @NonNull Guideline guideline3,
+      @NonNull TextView tvChkPassword, @NonNull TextView tvEmail, @NonNull TextView tvName,
+      @NonNull TextView tvPassword, @NonNull TextView tvPhone, @NonNull TextView tvRegistAccount) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnRegist = btnRegist;
@@ -80,11 +86,13 @@ public final class ActivitySignupBinding implements ViewBinding {
     this.etEmail = etEmail;
     this.etName = etName;
     this.etPassword = etPassword;
+    this.etPhone = etPhone;
     this.guideline3 = guideline3;
     this.tvChkPassword = tvChkPassword;
     this.tvEmail = tvEmail;
     this.tvName = tvName;
     this.tvPassword = tvPassword;
+    this.tvPhone = tvPhone;
     this.tvRegistAccount = tvRegistAccount;
   }
 
@@ -163,6 +171,12 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.et_phone;
+      EditText etPhone = ViewBindings.findChildViewById(rootView, id);
+      if (etPhone == null) {
+        break missingId;
+      }
+
       id = R.id.guideline3;
       Guideline guideline3 = ViewBindings.findChildViewById(rootView, id);
       if (guideline3 == null) {
@@ -193,6 +207,12 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_phone;
+      TextView tvPhone = ViewBindings.findChildViewById(rootView, id);
+      if (tvPhone == null) {
+        break missingId;
+      }
+
       id = R.id.tv_registAccount;
       TextView tvRegistAccount = ViewBindings.findChildViewById(rootView, id);
       if (tvRegistAccount == null) {
@@ -200,8 +220,8 @@ public final class ActivitySignupBinding implements ViewBinding {
       }
 
       return new ActivitySignupBinding((ConstraintLayout) rootView, btnBack, btnRegist, button,
-          divider, etChkPassword, etEmail, etName, etPassword, guideline3, tvChkPassword, tvEmail,
-          tvName, tvPassword, tvRegistAccount);
+          divider, etChkPassword, etEmail, etName, etPassword, etPhone, guideline3, tvChkPassword,
+          tvEmail, tvName, tvPassword, tvPhone, tvRegistAccount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

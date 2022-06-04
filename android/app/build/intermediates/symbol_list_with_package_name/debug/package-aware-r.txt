@@ -2036,6 +2036,7 @@ id et_login_account
 id et_login_password
 id et_name
 id et_password
+id et_phone
 id et_search
 id exitUntilCollapsed
 id expand_activities_button
@@ -2341,6 +2342,7 @@ id tv_menu_transTime
 id tv_name
 id tv_order
 id tv_password
+id tv_phone
 id tv_registAccount
 id tv_register
 id tv_shopDetail
@@ -2436,6 +2438,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acitivity_shopkeeper_homepage
+layout activity_customer_begin
 layout activity_login
 layout activity_main
 layout activity_select_identity
@@ -2608,11 +2611,15 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string copy_toast_msg
 string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fallback_menu_item_copy_link
+string fallback_menu_item_open_in_browser
+string fallback_menu_item_share_link
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -2623,6 +2630,7 @@ string hide_bottom_view_on_scroll_behavior
 string hint_addressInput
 string hint_eMailInput
 string hint_nameInput
+string hint_phone
 string hint_pswd2Input
 string hint_pswdInput
 string hint_telInput
@@ -3576,6 +3584,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml image_share_filepaths
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

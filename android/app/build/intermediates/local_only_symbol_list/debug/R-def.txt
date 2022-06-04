@@ -60,6 +60,7 @@ id et_login_account
 id et_login_password
 id et_name
 id et_password
+id et_phone
 id et_search
 id fcv_sk
 id frameLayout
@@ -108,6 +109,7 @@ id tv_menu_transTime
 id tv_name
 id tv_order
 id tv_password
+id tv_phone
 id tv_registAccount
 id tv_register
 id tv_shopDetail
@@ -117,6 +119,7 @@ id tv_sk_shopname
 id tx_sk_address
 id tx_sk_phone
 layout acitivity_shopkeeper_homepage
+layout activity_customer_begin
 layout activity_login
 layout activity_main
 layout activity_select_identity
@@ -149,6 +152,7 @@ string hello_blank_fragment
 string hint_addressInput
 string hint_eMailInput
 string hint_nameInput
+string hint_phone
 string hint_pswd2Input
 string hint_pswdInput
 string hint_telInput

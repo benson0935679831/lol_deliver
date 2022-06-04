@@ -140,6 +140,10 @@
         "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\zhujian.jpg"
     },
     {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_customer_begin.xml.flat",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_customer_begin.xml"
+    },
+    {
         "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
         "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
