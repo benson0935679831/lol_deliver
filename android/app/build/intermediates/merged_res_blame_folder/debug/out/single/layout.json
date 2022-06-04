@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sk_now_order1.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_now_order1.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sk_now_order.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_now_order.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fooditem.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fooditem.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\acitivity_shopkeeper_homepage.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\acitivity_shopkeeper_homepage.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sk_homepage.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_homepage.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_select_identity.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_select_identity.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shopmenu.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_shopmenu.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signup.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_shop_menu.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_shop_menu.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\shopitem.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\shopitem.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_dashboard.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\orderitem.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\orderitem.xml"
+    },
+    {
+        "merged": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\learn\\Android Studio\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    }
+]
