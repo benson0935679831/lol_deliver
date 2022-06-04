@@ -4,72 +4,46 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity{
-    public static String identity;
-    private DatabaseReference mDatabase;
-    private Intent intent;
-    private FirebaseAuth firebaseAuth;
-    public static boolean VALID_USER = false;
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if(!VALID_USER){
-            intent = new Intent(this, LoginActivity.class);
-            startActivity(intent);
-        }
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if(user==null){
-            Log.v("user","user is null");
-        }
-        else{
-            Log.v("user","user is exist");
-        }
-        if(identity!=null) {
-            Log.d("id", identity);
-        }
-        else{
-            Log.d("id","null");
-        }
-//        if(user!=null){
-//            // Name, email address, and profile photo Url
-//            String name = user.getDisplayName();
-//            String email = user.getEmail();
-//            String phone = user.getPhoneNumber();
-//            Log.v("user",name);
-//            Log.v("user",email);
-//            Log.v("user",phone);
-//            // Check if user's email is verified
-////            boolean emailVerified = user.isEmailVerified();
-////            if(emailVerified) {
-////                Log.v("user", "true");
-////            }
-////            else{
-////                Log.v("user", "false");
-////            }
-//            // The user's ID, unique to the Firebase project. Do NOT use this value to
-//            // authenticate with your backend server, if you have one. Use
-//            // FirebaseUser.getIdToken() instead.
-//            String uid = user.getUid();
-//            Log.v("user",uid);
-//        }
+        //隱藏標題列
+        getSupportActionBar().hide();
 
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+        ArrayList<ShopItem> shopList = new ArrayList<ShopItem>();
+
+        shopList.add(new ShopItem(R.drawable.zhujian,"築間幸福鍋物 台中逢甲店","20-30分鐘•30.00TWD", "4.8"));
+        shopList.add(new ShopItem(R.drawable.macdonald,"麥當勞 台中逢甲店","20-30分鐘•30.00TWD", "4.2"));
+        shopList.add(new ShopItem(R.drawable.qingno3,"慶三號烤肉倉庫 台中逢甲店","50-60分鐘•20.00TWD", "4.5"));
+
+        ShopAdapter adapter = new ShopAdapter(this,R.layout.shopitem, shopList);
+
+        ListView lvShop =(ListView) findViewById(R.id.lv_shops);
+        lvShop.setAdapter(adapter);
+        lvShop.setOnItemClickListener(this);
     }
-    public void sign_out(View view){
-        VALID_USER = false;
-        FirebaseAuth.getInstance().signOut();
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
+
+        Toast.makeText(this, "第"+Integer.toString(index)+"間餐廳",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ShopMenuActivity.class);
+        startActivity(intent);
+    }
+    public void onClick(View view){
+        Intent intent = new Intent(this, ShopkeeperHomepage.class);
+        startActivity(intent);
     }
 }

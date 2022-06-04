@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOL_Deliver">
         <activity
-            android:name=".CustomerBeginActivity"
+            android:name=".ShopMenuActivity"
             android:exported="false" />
         <activity
             android:name=".ShopkeeperHomepage"
