@@ -1943,7 +1943,9 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_back
 id btn_back1
+id btn_back3
 id btn_deliver
+id btn_edit
 id btn_login
 id btn_regist
 id btn_register
@@ -1953,7 +1955,11 @@ id btn_user
 id button
 id button2
 id button3
+id button4
 id button5
+id button6
+id button7
+id button8
 id buttonPanel
 id cache_measures
 id cancel_action
@@ -2023,6 +2029,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id edit_data
 id edit_query
 id elastic
 id end
@@ -2201,6 +2208,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id personal_list
 id pin
 id position
 id postLayout
@@ -2270,6 +2278,7 @@ id staticPostLayout
 id status_bar_latest_event_content
 id stop
 id stretch
+id subject
 id submenuarrow
 id submit_area
 id tabMode
@@ -2342,6 +2351,7 @@ id tv_menu_transTime
 id tv_name
 id tv_order
 id tv_password
+id tv_personal
 id tv_phone
 id tv_registAccount
 id tv_register
@@ -2439,8 +2449,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout acitivity_shopkeeper_homepage
 layout activity_customer_begin
+layout activity_editor
 layout activity_login
 layout activity_main
+layout activity_personaldata
 layout activity_select_identity
 layout activity_shop_menu
 layout activity_signup
@@ -2528,6 +2540,7 @@ layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout orderitem
+layout personalitem
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

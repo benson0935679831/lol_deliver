@@ -38,7 +38,9 @@ drawable star_1
 drawable zhujian
 id btn_back
 id btn_back1
+id btn_back3
 id btn_deliver
+id btn_edit
 id btn_login
 id btn_regist
 id btn_register
@@ -48,12 +50,18 @@ id btn_user
 id button
 id button2
 id button3
+id button4
 id button5
+id button6
+id button7
+id button8
 id cardView
+id content
 id cv_order
 id divider
 id divider2
 id divider3
+id edit_data
 id et_chkPassword
 id et_email
 id et_login_account
@@ -89,6 +97,8 @@ id navigation_dashboard
 id navigation_home
 id navigation_notifications
 id nvg_sk
+id personal_list
+id subject
 id textView
 id textView4
 id text_dashboard
@@ -109,6 +119,7 @@ id tv_menu_transTime
 id tv_name
 id tv_order
 id tv_password
+id tv_personal
 id tv_phone
 id tv_registAccount
 id tv_register
@@ -120,8 +131,10 @@ id tx_sk_address
 id tx_sk_phone
 layout acitivity_shopkeeper_homepage
 layout activity_customer_begin
+layout activity_editor
 layout activity_login
 layout activity_main
+layout activity_personaldata
 layout activity_select_identity
 layout activity_shop_menu
 layout activity_signup
@@ -133,6 +146,7 @@ layout fragment_sk_homepage
 layout fragment_sk_now_order
 layout fragment_sk_now_order1
 layout orderitem
+layout personalitem
 layout shopitem
 menu bottom_nav_menu
 menu sk_homepage

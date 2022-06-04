@@ -32,6 +32,9 @@
             android:name="com.example.lol_deliver.LoginActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.lol_deliver.CustomerBeginActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.lol_deliver.MainActivity"
             android:exported="true" >
             <intent-filter>

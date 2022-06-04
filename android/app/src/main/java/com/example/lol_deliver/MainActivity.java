@@ -9,9 +9,11 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,29 +24,17 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-        ArrayList<ShopItem> shopList = new ArrayList<ShopItem>();
 
-        shopList.add(new ShopItem(R.drawable.zhujian,"築間幸福鍋物 台中逢甲店","20-30分鐘•30.00TWD", "4.8"));
-        shopList.add(new ShopItem(R.drawable.macdonald,"麥當勞 台中逢甲店","20-30分鐘•30.00TWD", "4.2"));
-        shopList.add(new ShopItem(R.drawable.qingno3,"慶三號烤肉倉庫 台中逢甲店","50-60分鐘•20.00TWD", "4.5"));
-
-        ShopAdapter adapter = new ShopAdapter(this,R.layout.shopitem, shopList);
-
-        ListView lvShop =(ListView) findViewById(R.id.lv_shops);
-        lvShop.setAdapter(adapter);
-        lvShop.setOnItemClickListener(this);
     }
-
-    @Override
-    public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
-
-        Toast.makeText(this, "第"+Integer.toString(index)+"間餐廳",Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, ShopMenuActivity.class);
-        startActivity(intent);
-    }
-    public void onClick(View view){
+    public void goToShop(View view){
         Intent intent = new Intent(this, ShopkeeperHomepage.class);
         startActivity(intent);
     }
-
+    public void goToCustomer(View view){
+        Intent intent = new Intent(this, CustomerBeginActivity.class);
+        startActivity(intent);
+    }
+    public void sign_out(View view){
+        FirebaseAuth.getInstance().signOut();
+    }
 }
