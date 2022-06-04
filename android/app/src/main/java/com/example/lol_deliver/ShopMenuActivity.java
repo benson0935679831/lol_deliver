@@ -21,7 +21,7 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
 
         ArrayList<FoodItem> foodList = new ArrayList<FoodItem>();
 
-        foodList.add(new FoodItem(R.drawable.zhujian,"澳洲羊肉鍋","", "$430起"));
+        foodList.add(new FoodItem(R.drawable.zhujian,"澳洲羊肉鍋","", "$420起"));
         foodList.add(new FoodItem(R.drawable.macdonald,"梅花豬肉鍋","", "$400起"));
         foodList.add(new FoodItem(R.drawable.qingno3,"超值獨享鍋物三選一","小肥牛、梅花豚、雞腿肉擇一", "$228起"));
 
