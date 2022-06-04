@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
 
         Toast.makeText(this, "第"+Integer.toString(index)+"間餐廳",Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, ShopMenuActivity.class);
+        startActivity(intent);
     }
     public void onClick(View view){
         Intent intent = new Intent(this, ShopkeeperHomepage.class);
