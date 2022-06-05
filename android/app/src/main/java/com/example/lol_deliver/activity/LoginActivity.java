@@ -11,15 +11,17 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.lol_deliver.R;
+import com.example.lol_deliver.ShopkeeperHomepage;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class LoginActivity extends AppCompatActivity implements OnCompleteListener<AuthResult>{
+public class LoginActivity extends AppCompatActivity implements OnCompleteListener<AuthResult>, MainActivity.DataListener{
     private EditText etEmail;
     private EditText etPassword;
     private FirebaseAuth firebaseAuth;
@@ -63,35 +65,43 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
             if(Uid!=null) {
                 Log.d("user", Uid);
             }
-            mDatabase = FirebaseDatabase.getInstance().getReference();
-//            String identity = String.valueOf(mDatabase.child("users").child(Uid).child("email").get());
-//             identity2= String.valueOf(mDatabase.child("users").child(Uid).child("identity").get());
-//            mDatabase.child("users").child(Uid).child("identity").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-//                public String identity1;
-//                @Override
-//                public void onComplete(@NonNull Task<DataSnapshot> task) {
-//                    if(!task.isSuccessful()){
-//                        Log.e("user", "Error getting data", task.getException());
-//                    }
-//                    else{
-//                        Log.d("user", String.valueOf(task.getResult().getValue()));
-//                        identity2 = String.valueOf(task.getResult().getValue());
-//                        MainActivity.identity = String.valueOf(task.getResult().getValue());
-//                    }
-//                }
-//            });
-
-            if(identity2!=null) {
-                Log.d("user", identity2);
-            }
-            else{
-                Log.d("user","null");
-            }
             finish();
+            getIdentity(Uid, this);
         }
         else{
             Toast.makeText(this, "登入失敗", Toast.LENGTH_LONG).show();
         }
     }
-
+    @Override
+    public void newIdentityReceived(String identity) {
+        if(identity.equals("customer")){
+            Intent intent = new Intent(this, CustomerBeginActivity.class);
+            startActivity(intent);
+        }
+        else if(identity.equals("shopkeeper")) {
+            Intent intent = new Intent(this, ShopkeeperHomepage.class);
+            startActivity(intent);
+        }
+        else{
+            Log.d("error", "identity is null");
+        }
+    }
+    public void getIdentity(String Uid, MainActivity.DataListener dataListener){
+        final String[] identity = new String[1];
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+        mDatabase.child("users").child(Uid).child("identity").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                if (!task.isSuccessful()) {
+                    Log.e("firebase", "Error getting data", task.getException());
+                }
+                else {
+                    Log.d("firebase", String.valueOf(task.getResult().getValue()));
+                    identity[0] = String.valueOf(task.getResult().getValue());
+                }
+                // 接受到新資料(身分)後呼叫DataListener
+                dataListener.newIdentityReceived(identity[0]);
+            }
+        });
+    }
 }
