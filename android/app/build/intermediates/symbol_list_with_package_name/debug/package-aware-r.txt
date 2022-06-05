@@ -1798,8 +1798,10 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable icon_back
+drawable icon_personaldata
 drawable icon_search
 drawable icon_setting
+drawable icon_sidebar
 drawable like
 drawable logo
 drawable macdonald
@@ -2094,6 +2096,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_ct_icon
 id iv_filter
 id iv_like
 id iv_magnifier
@@ -2118,6 +2121,7 @@ id listMode
 id list_item
 id lv_menu
 id lv_shops
+id lv_sidebar
 id masked
 id material_clock_display
 id material_clock_face
@@ -2342,6 +2346,7 @@ id tv_email
 id tv_foodDetail
 id tv_foodName
 id tv_foodPrice
+id tv_icon
 id tv_menu_comment
 id tv_menu_moreBtn
 id tv_menu_refactorBtn
@@ -2546,6 +2551,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout shopitem
+layout sidebaritem
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

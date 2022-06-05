@@ -10,8 +10,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.lol_deliver.R;
@@ -22,7 +22,7 @@ import java.lang.String;
 
 public final class ActivityCustomerBeginBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
   public final ImageButton btnSetting;
@@ -51,11 +51,14 @@ public final class ActivityCustomerBeginBinding implements ViewBinding {
   @NonNull
   public final ListView lvShops;
 
-  private ActivityCustomerBeginBinding(@NonNull ConstraintLayout rootView,
+  @NonNull
+  public final ListView lvSidebar;
+
+  private ActivityCustomerBeginBinding(@NonNull DrawerLayout rootView,
       @NonNull ImageButton btnSetting, @NonNull View divider2, @NonNull TextInputEditText etSearch,
       @NonNull FrameLayout frameLayout, @NonNull Guideline guideline4,
       @NonNull ImageView imageView5, @NonNull ImageView ivFilter, @NonNull ImageView ivMagnifier,
-      @NonNull ListView lvShops) {
+      @NonNull ListView lvShops, @NonNull ListView lvSidebar) {
     this.rootView = rootView;
     this.btnSetting = btnSetting;
     this.divider2 = divider2;
@@ -66,11 +69,12 @@ public final class ActivityCustomerBeginBinding implements ViewBinding {
     this.ivFilter = ivFilter;
     this.ivMagnifier = ivMagnifier;
     this.lvShops = lvShops;
+    this.lvSidebar = lvSidebar;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -149,8 +153,14 @@ public final class ActivityCustomerBeginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCustomerBeginBinding((ConstraintLayout) rootView, btnSetting, divider2,
-          etSearch, frameLayout, guideline4, imageView5, ivFilter, ivMagnifier, lvShops);
+      id = R.id.lv_sidebar;
+      ListView lvSidebar = ViewBindings.findChildViewById(rootView, id);
+      if (lvSidebar == null) {
+        break missingId;
+      }
+
+      return new ActivityCustomerBeginBinding((DrawerLayout) rootView, btnSetting, divider2,
+          etSearch, frameLayout, guideline4, imageView5, ivFilter, ivMagnifier, lvShops, lvSidebar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

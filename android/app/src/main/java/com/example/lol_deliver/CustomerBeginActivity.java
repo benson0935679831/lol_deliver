@@ -20,7 +20,7 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         //隱藏標題列
         getSupportActionBar().hide();
 
-
+        // ShopItem
         ArrayList<ShopItem> shopList = new ArrayList<ShopItem>();
 
         shopList.add(new ShopItem(R.drawable.zhujian,"築間幸福鍋物 台中逢甲店","20-30分鐘•30.00TWD","4.5"));
@@ -32,6 +32,15 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         ListView lvShop =(ListView) findViewById(R.id.lv_shops);
         lvShop.setAdapter(adapter);
         lvShop.setOnItemClickListener(this);
+
+        // Sidebar
+        ArrayList<SidebarItem> sidebarItems = new ArrayList<SidebarItem>();
+        sidebarItems.add(new SidebarItem(R.drawable.icon_personaldata, "個人資料"));
+        sidebarItems.add(new SidebarItem(R.drawable.icon_setting, "設定"));
+        SidebarAdapter sidebarAdapter = new SidebarAdapter(this, R.layout.sidebaritem, sidebarItems);
+        ListView lvSidebar = (ListView) findViewById(R.id.lv_sidebar);
+        lvSidebar.setAdapter(sidebarAdapter);
+        lvSidebar.setOnItemClickListener(this);
     }
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
@@ -40,7 +49,7 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         startActivity(intent);
     }
     public void onClick(View view){
-        Intent intent = new Intent(this, ShopkeeperHomepage.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, ShopkeeperHomepage.class);
+//        startActivity(intent);
     }
 }
