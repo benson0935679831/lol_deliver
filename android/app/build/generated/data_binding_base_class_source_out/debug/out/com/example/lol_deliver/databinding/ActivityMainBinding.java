@@ -28,12 +28,16 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final Button button8;
 
+  @NonNull
+  public final Button button9;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button button6,
-      @NonNull Button button7, @NonNull Button button8) {
+      @NonNull Button button7, @NonNull Button button8, @NonNull Button button9) {
     this.rootView = rootView;
     this.button6 = button6;
     this.button7 = button7;
     this.button8 = button8;
+    this.button9 = button9;
   }
 
   @Override
@@ -81,7 +85,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, button6, button7, button8);
+      id = R.id.button9;
+      Button button9 = ViewBindings.findChildViewById(rootView, id);
+      if (button9 == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, button6, button7, button8,
+          button9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
