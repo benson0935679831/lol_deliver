@@ -56,6 +56,12 @@
             android:name="com.example.lol_deliver.activity.SelectIdentityActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.lol_deliver.activity.PersonaldataActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.lol_deliver.activity.EditorActivity"
+            android:exported="false" />
+        <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
             android:exported="true"

@@ -5,13 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.lol_deliver.R;
 import com.example.lol_deliver.activity.PersonaldataActivity;
 
 public class EditorActivity extends AppCompatActivity {
-
+    public static final int RESULT_CODE = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,15 @@ public class EditorActivity extends AppCompatActivity {
         }
         TextView textView = findViewById(R.id.edit_data);
         textView.setHint(msg);
+    }
+    public void goSave(View view){
+        EditText editText = findViewById(R.id.edit_data);
+        String data = editText.getText().toString();
+        Intent intent = new Intent();
+        intent.putExtra("resultData", editText.getText().toString());
+        setResult(RESULT_CODE, intent);
+        finish();
+
     }
     public void goBack(View view){
         finish();
