@@ -31,7 +31,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="16dp"
                     android:shadowColor="@color/sk_text"
-                    android:text="築間幸福鍋物 台中逢甲店"
+                    android:text=""
                     android:textColor="@color/sk_text"
                     android:textSize="30sp" />
 
@@ -41,7 +41,7 @@
                     android:layout_height="26dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="8dp"
-                    android:text="04-24511313"
+                    android:text=""
                     android:textColor="@color/sk_text"
                     android:textSize="18sp" />
 
@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="8dp"
-                    android:text="407台中市西屯區逢甲路173號"
+                    android:text=""
                     android:textColor="@color/sk_text"
                     android:textSize="18sp" />
 
@@ -65,75 +65,187 @@
                     android:textColor="@color/sk_text"
                     android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/tv_sk_timeMon"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/SKtimeMon"
-                    android:textColor="@color/sk_text"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/tv_sk_timeTue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/SKtimeTue"
-                    android:textColor="@color/sk_text"
-                    android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/tv_sk_Mon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SKtimeMon"
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/tv_sk_timeWed"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/SKtimeWed"
-                    android:textColor="@color/sk_text"
-                    android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/tv_sk_timeMon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+                </LinearLayout>
 
-                <TextView
-                    android:id="@+id/tv_sk_timeThur"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/SKtimeThur"
-                    android:textColor="@color/sk_text"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/tv_sk_timeFri"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/SKtimeFri"
-                    android:textColor="@color/sk_text"
-                    android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/tv_sk_Tue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SKtimeTue"
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
 
-                <TextView
-                    android:id="@+id/tv_sk_timeSat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/SKtimeSat"
-                    android:textColor="@color/sk_text"
-                    android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/tv_sk_timeTue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+                </LinearLayout>
 
-                <TextView
-                    android:id="@+id/tv_sk_timeSun"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="8dp"
-                    android:text="@string/SKtimeSun"
-                    android:textColor="@color/sk_text"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_sk_Wed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SKtimeWed"
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sk_timeWed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_sk_Thur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SKtimeThur"
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sk_timeThur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_sk_Fri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SKtimeFri"
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sk_timeFri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_sk_Sat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SKtimeSat"
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sk_timeSat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_sk_Sun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/SKtimeSun"
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sk_timeSun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="8dp"
+                        android:text=""
+                        android:textColor="@color/sk_text"
+                        android:textSize="18sp" />
+                </LinearLayout>
             </LinearLayout>
         </ScrollView>
 
@@ -193,6 +305,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_sk_modifyInfo" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

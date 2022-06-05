@@ -41,10 +41,25 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
   public final TextView tvSkAddress;
 
   @NonNull
+  public final TextView tvSkFri;
+
+  @NonNull
+  public final TextView tvSkMon;
+
+  @NonNull
   public final TextView tvSkPhone;
 
   @NonNull
+  public final TextView tvSkSat;
+
+  @NonNull
   public final TextView tvSkShopname;
+
+  @NonNull
+  public final TextView tvSkSun;
+
+  @NonNull
+  public final TextView tvSkThur;
 
   @NonNull
   public final TextView tvSkTime;
@@ -70,13 +85,21 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
   @NonNull
   public final TextView tvSkTimeWed;
 
+  @NonNull
+  public final TextView tvSkTue;
+
+  @NonNull
+  public final TextView tvSkWed;
+
   private FragmentSkHomepageBinding(@NonNull FrameLayout rootView, @NonNull Button btnSkModifyInfo,
       @NonNull Button btnSkModifyMenu, @NonNull Button button5, @NonNull CardView cardView,
-      @NonNull ImageView ivSkShopIcon, @NonNull TextView tvSkAddress, @NonNull TextView tvSkPhone,
-      @NonNull TextView tvSkShopname, @NonNull TextView tvSkTime, @NonNull TextView tvSkTimeFri,
-      @NonNull TextView tvSkTimeMon, @NonNull TextView tvSkTimeSat, @NonNull TextView tvSkTimeSun,
-      @NonNull TextView tvSkTimeThur, @NonNull TextView tvSkTimeTue,
-      @NonNull TextView tvSkTimeWed) {
+      @NonNull ImageView ivSkShopIcon, @NonNull TextView tvSkAddress, @NonNull TextView tvSkFri,
+      @NonNull TextView tvSkMon, @NonNull TextView tvSkPhone, @NonNull TextView tvSkSat,
+      @NonNull TextView tvSkShopname, @NonNull TextView tvSkSun, @NonNull TextView tvSkThur,
+      @NonNull TextView tvSkTime, @NonNull TextView tvSkTimeFri, @NonNull TextView tvSkTimeMon,
+      @NonNull TextView tvSkTimeSat, @NonNull TextView tvSkTimeSun, @NonNull TextView tvSkTimeThur,
+      @NonNull TextView tvSkTimeTue, @NonNull TextView tvSkTimeWed, @NonNull TextView tvSkTue,
+      @NonNull TextView tvSkWed) {
     this.rootView = rootView;
     this.btnSkModifyInfo = btnSkModifyInfo;
     this.btnSkModifyMenu = btnSkModifyMenu;
@@ -84,8 +107,13 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
     this.cardView = cardView;
     this.ivSkShopIcon = ivSkShopIcon;
     this.tvSkAddress = tvSkAddress;
+    this.tvSkFri = tvSkFri;
+    this.tvSkMon = tvSkMon;
     this.tvSkPhone = tvSkPhone;
+    this.tvSkSat = tvSkSat;
     this.tvSkShopname = tvSkShopname;
+    this.tvSkSun = tvSkSun;
+    this.tvSkThur = tvSkThur;
     this.tvSkTime = tvSkTime;
     this.tvSkTimeFri = tvSkTimeFri;
     this.tvSkTimeMon = tvSkTimeMon;
@@ -94,6 +122,8 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
     this.tvSkTimeThur = tvSkTimeThur;
     this.tvSkTimeTue = tvSkTimeTue;
     this.tvSkTimeWed = tvSkTimeWed;
+    this.tvSkTue = tvSkTue;
+    this.tvSkWed = tvSkWed;
   }
 
   @Override
@@ -159,15 +189,45 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_sk_Fri;
+      TextView tvSkFri = ViewBindings.findChildViewById(rootView, id);
+      if (tvSkFri == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_sk_Mon;
+      TextView tvSkMon = ViewBindings.findChildViewById(rootView, id);
+      if (tvSkMon == null) {
+        break missingId;
+      }
+
       id = R.id.tv_sk_phone;
       TextView tvSkPhone = ViewBindings.findChildViewById(rootView, id);
       if (tvSkPhone == null) {
         break missingId;
       }
 
+      id = R.id.tv_sk_Sat;
+      TextView tvSkSat = ViewBindings.findChildViewById(rootView, id);
+      if (tvSkSat == null) {
+        break missingId;
+      }
+
       id = R.id.tv_sk_shopname;
       TextView tvSkShopname = ViewBindings.findChildViewById(rootView, id);
       if (tvSkShopname == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_sk_Sun;
+      TextView tvSkSun = ViewBindings.findChildViewById(rootView, id);
+      if (tvSkSun == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_sk_Thur;
+      TextView tvSkThur = ViewBindings.findChildViewById(rootView, id);
+      if (tvSkThur == null) {
         break missingId;
       }
 
@@ -219,10 +279,22 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_sk_Tue;
+      TextView tvSkTue = ViewBindings.findChildViewById(rootView, id);
+      if (tvSkTue == null) {
+        break missingId;
+      }
+
+      id = R.id.tv_sk_Wed;
+      TextView tvSkWed = ViewBindings.findChildViewById(rootView, id);
+      if (tvSkWed == null) {
+        break missingId;
+      }
+
       return new FragmentSkHomepageBinding((FrameLayout) rootView, btnSkModifyInfo, btnSkModifyMenu,
-          button5, cardView, ivSkShopIcon, tvSkAddress, tvSkPhone, tvSkShopname, tvSkTime,
-          tvSkTimeFri, tvSkTimeMon, tvSkTimeSat, tvSkTimeSun, tvSkTimeThur, tvSkTimeTue,
-          tvSkTimeWed);
+          button5, cardView, ivSkShopIcon, tvSkAddress, tvSkFri, tvSkMon, tvSkPhone, tvSkSat,
+          tvSkShopname, tvSkSun, tvSkThur, tvSkTime, tvSkTimeFri, tvSkTimeMon, tvSkTimeSat,
+          tvSkTimeSun, tvSkTimeThur, tvSkTimeTue, tvSkTimeWed, tvSkTue, tvSkWed);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
