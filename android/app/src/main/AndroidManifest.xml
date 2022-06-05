@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOL_Deliver">
         <activity
+            android:name=".activity_sidedish"
+            android:exported="false" />
+        <activity
             android:name=".activity.ShopMenuActivity"
             android:exported="false" />
         <activity
@@ -20,7 +23,8 @@
         <activity
             android:name=".activity.LoginActivity"
             android:exported="false" />
-        <activity android:name=".activity.CustomerBeginActivity"
+        <activity
+            android:name=".activity.CustomerBeginActivity"
             android:exported="false" />
         <activity
             android:name=".activity.MainActivity"
@@ -37,10 +41,12 @@
         <activity
             android:name=".activity.SelectIdentityActivity"
             android:exported="false" />
-        <activity android:name=".activity.PersonaldataActivity"
-            android:exported="false"/>
-        <activity android:name=".activity.EditorActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".activity.PersonaldataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditorActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
