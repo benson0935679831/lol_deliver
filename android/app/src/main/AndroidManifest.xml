@@ -37,6 +37,10 @@
         <activity
             android:name=".SelectIdentityActivity"
             android:exported="false" />
+        <activity android:name=".PersonaldataActivity"
+            android:exported="false"/>
+        <activity android:name=".EditorActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
