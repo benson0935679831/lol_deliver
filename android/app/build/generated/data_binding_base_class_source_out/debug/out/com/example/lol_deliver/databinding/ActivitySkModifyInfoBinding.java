@@ -58,17 +58,41 @@ public final class ActivitySkModifyInfoBinding implements ViewBinding {
   public final EditText etSkTimeWed;
 
   @NonNull
+  public final TextView textView10;
+
+  @NonNull
+  public final TextView textView11;
+
+  @NonNull
   public final TextView textView3;
 
   @NonNull
   public final TextView textView4;
+
+  @NonNull
+  public final TextView textView5;
+
+  @NonNull
+  public final TextView textView6;
+
+  @NonNull
+  public final TextView textView7;
+
+  @NonNull
+  public final TextView textView8;
+
+  @NonNull
+  public final TextView textView9;
 
   private ActivitySkModifyInfoBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnModifyInfoCancel, @NonNull Button btnModifyInfoOk,
       @NonNull EditText etSkAddress, @NonNull EditText etSkPhone, @NonNull EditText etSkShopName,
       @NonNull EditText etSkTimeFri, @NonNull EditText etSkTimeMon, @NonNull EditText etSkTimeSat,
       @NonNull EditText etSkTimeSun, @NonNull EditText etSkTimeThur, @NonNull EditText etSkTimeTue,
-      @NonNull EditText etSkTimeWed, @NonNull TextView textView3, @NonNull TextView textView4) {
+      @NonNull EditText etSkTimeWed, @NonNull TextView textView10, @NonNull TextView textView11,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
     this.btnModifyInfoCancel = btnModifyInfoCancel;
     this.btnModifyInfoOk = btnModifyInfoOk;
@@ -82,8 +106,15 @@ public final class ActivitySkModifyInfoBinding implements ViewBinding {
     this.etSkTimeThur = etSkTimeThur;
     this.etSkTimeTue = etSkTimeTue;
     this.etSkTimeWed = etSkTimeWed;
+    this.textView10 = textView10;
+    this.textView11 = textView11;
     this.textView3 = textView3;
     this.textView4 = textView4;
+    this.textView5 = textView5;
+    this.textView6 = textView6;
+    this.textView7 = textView7;
+    this.textView8 = textView8;
+    this.textView9 = textView9;
   }
 
   @Override
@@ -185,6 +216,18 @@ public final class ActivitySkModifyInfoBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView10;
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
+      if (textView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView11;
+      TextView textView11 = ViewBindings.findChildViewById(rootView, id);
+      if (textView11 == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
@@ -197,9 +240,40 @@ public final class ActivitySkModifyInfoBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView8;
+      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
+      if (textView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
+        break missingId;
+      }
+
       return new ActivitySkModifyInfoBinding((ConstraintLayout) rootView, btnModifyInfoCancel,
           btnModifyInfoOk, etSkAddress, etSkPhone, etSkShopName, etSkTimeFri, etSkTimeMon,
-          etSkTimeSat, etSkTimeSun, etSkTimeThur, etSkTimeTue, etSkTimeWed, textView3, textView4);
+          etSkTimeSat, etSkTimeSun, etSkTimeThur, etSkTimeTue, etSkTimeWed, textView10, textView11,
+          textView3, textView4, textView5, textView6, textView7, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
