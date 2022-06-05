@@ -17,6 +17,16 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="SKshopName">築間幸福鍋物 台中逢甲店</string>
+    <string name="SKphone">04-24511313</string>
+    <string name="SKaddress">407台中市西屯區逢甲路173號</string>
+    <string name="SKtimeMon">星期一 11:00 - 04:00</string>
+    <string name="SKtimeTue">星期二 11:00 - 04:00</string>
+    <string name="SKtimeWed">星期三 11:00 - 04:00</string>
+    <string name="SKtimeThur">星期四 11:00 - 04:00</string>
+    <string name="SKtimeFri">星期五 11:00 - 04:00</string>
+    <string name="SKtimeSat">星期六 11:00 - 04:00</string>
+    <string name="SKtimeSun">星期日 11:00 - 04:00</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -23,19 +23,25 @@
         android:testOnly="true"
         android:theme="@style/Theme.LOL_Deliver" >
         <activity
-            android:name="com.example.lol_deliver.activity.ShopMenuActivity"
+            android:name="com.example.lol_deliver.SKModifyMenu"
+            android:exported="false" />
+        <activity
+            android:name="com.example.lol_deliver.SKModifyInfo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.lol_deliver.ShopMenuActivity"
             android:exported="false" />
         <activity
             android:name="com.example.lol_deliver.ShopkeeperHomepage"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.activity.LoginActivity"
+            android:name="com.example.lol_deliver.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.activity.CustomerBeginActivity"
+            android:name="com.example.lol_deliver.CustomerBeginActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.activity.MainActivity"
+            android:name="com.example.lol_deliver.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,16 +50,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.lol_deliver.activity.SignupActivity"
+            android:name="com.example.lol_deliver.SignupActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.activity.SelectIdentityActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.lol_deliver.activity.PersonaldataActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.lol_deliver.activity.EditorActivity"
+            android:name="com.example.lol_deliver.SelectIdentityActivity"
             android:exported="false" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
