@@ -23,10 +23,10 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
-  public final Button button2;
+  public final Button btnSkModifyInfo;
 
   @NonNull
-  public final Button button3;
+  public final Button btnSkModifyMenu;
 
   @NonNull
   public final Button button5;
@@ -49,13 +49,13 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
   @NonNull
   public final TextView txSkPhone;
 
-  private FragmentSkHomepageBinding(@NonNull FrameLayout rootView, @NonNull Button button2,
-      @NonNull Button button3, @NonNull Button button5, @NonNull CardView cardView,
+  private FragmentSkHomepageBinding(@NonNull FrameLayout rootView, @NonNull Button btnSkModifyInfo,
+      @NonNull Button btnSkModifyMenu, @NonNull Button button5, @NonNull CardView cardView,
       @NonNull ImageView ivSkShopIcon, @NonNull TextView textView4, @NonNull TextView tvSkShopname,
       @NonNull TextView txSkAddress, @NonNull TextView txSkPhone) {
     this.rootView = rootView;
-    this.button2 = button2;
-    this.button3 = button3;
+    this.btnSkModifyInfo = btnSkModifyInfo;
+    this.btnSkModifyMenu = btnSkModifyMenu;
     this.button5 = button5;
     this.cardView = cardView;
     this.ivSkShopIcon = ivSkShopIcon;
@@ -92,15 +92,15 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button2;
-      Button button2 = ViewBindings.findChildViewById(rootView, id);
-      if (button2 == null) {
+      id = R.id.btn_sk_modifyInfo;
+      Button btnSkModifyInfo = ViewBindings.findChildViewById(rootView, id);
+      if (btnSkModifyInfo == null) {
         break missingId;
       }
 
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
+      id = R.id.btn_sk_modifyMenu;
+      Button btnSkModifyMenu = ViewBindings.findChildViewById(rootView, id);
+      if (btnSkModifyMenu == null) {
         break missingId;
       }
 
@@ -146,8 +146,8 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSkHomepageBinding((FrameLayout) rootView, button2, button3, button5,
-          cardView, ivSkShopIcon, textView4, tvSkShopname, txSkAddress, txSkPhone);
+      return new FragmentSkHomepageBinding((FrameLayout) rootView, btnSkModifyInfo, btnSkModifyMenu,
+          button5, cardView, ivSkShopIcon, textView4, tvSkShopname, txSkAddress, txSkPhone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

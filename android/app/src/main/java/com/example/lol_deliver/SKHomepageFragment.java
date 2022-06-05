@@ -1,5 +1,6 @@
 package com.example.lol_deliver;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +25,9 @@ public class SKHomepageFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    Button btn_modifyInfo;
+    Button btn_modifyMenu;
 
     public SKHomepageFragment() {
         // Required empty public constructor
@@ -59,6 +64,34 @@ public class SKHomepageFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sk_homepage, container, false);
+        View view = inflater.inflate(R.layout.fragment_sk_homepage, null);
+        btn_modifyInfo = (Button) view.findViewById(R.id.btn_sk_modifyInfo);
+        btn_modifyInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ModifyInfo(view);
+            }
+        });
+
+        btn_modifyMenu = (Button) view.findViewById(R.id.btn_sk_modifyMenu);
+        btn_modifyMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ModifyMenu(view);
+            }
+        });
+
+        return view;
+//        return inflater.inflate(R.layout.fragment_sk_homepage, container, false);
+    }
+
+    public void ModifyInfo(View view) {
+        Intent intent = new Intent(SKHomepageFragment.this.getActivity(), SKModifyInfo.class);
+        startActivity(intent);
+    }
+
+    public void ModifyMenu(View view) {
+        Intent intent = new Intent(SKHomepageFragment.this.getActivity(), SKModifyMenu.class);
+        startActivity(intent);
     }
 }

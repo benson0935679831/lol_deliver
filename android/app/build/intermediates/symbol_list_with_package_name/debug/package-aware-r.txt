@@ -1951,10 +1951,10 @@ id btn_regist
 id btn_register
 id btn_setting
 id btn_shoper
+id btn_sk_modifyInfo
+id btn_sk_modifyMenu
 id btn_user
 id button
-id button2
-id button3
 id button4
 id button5
 id button6
@@ -2307,6 +2307,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
+id textView3
 id textView4
 id text_dashboard
 id text_home
@@ -2456,6 +2458,8 @@ layout activity_personaldata
 layout activity_select_identity
 layout activity_shop_menu
 layout activity_signup
+layout activity_sk_modify_info
+layout activity_sk_modify_menu
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
