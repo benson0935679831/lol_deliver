@@ -36,12 +36,12 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\macdonald.jpg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_setting.png.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_setting.png"
+    },
+    {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_acitivity_shopkeeper_homepage.xml.flat",
@@ -88,12 +88,12 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\basket.png"
-    },
-    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket.png.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\basket.png"
     },
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_modify_menu.xml.flat",

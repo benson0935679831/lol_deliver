@@ -3,12 +3,21 @@ package com.example.lol_deliver;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -28,6 +37,10 @@ public class SKHomepageFragment extends Fragment {
 
     Button btn_modifyInfo;
     Button btn_modifyMenu;
+
+    TextView Name, Phone ,Address;
+    TextView Mon, Tue, Wed, Thur, Fri, Sat, Sun;
+    private DatabaseReference mDataBase;
 
     public SKHomepageFragment() {
         // Required empty public constructor
@@ -65,6 +78,7 @@ public class SKHomepageFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_sk_homepage, null);
+
         btn_modifyInfo = (Button) view.findViewById(R.id.btn_sk_modifyInfo);
         btn_modifyInfo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,8 +95,47 @@ public class SKHomepageFragment extends Fragment {
             }
         });
 
+        Name = (TextView) view.findViewById(R.id.tv_sk_shopname);
+        Phone = (TextView) view.findViewById(R.id.tv_sk_phone);
+        Address = (TextView) view.findViewById(R.id.tv_sk_address);
+        Mon = (TextView) view.findViewById(R.id.tv_sk_timeMon);
+        Tue = (TextView) view.findViewById(R.id.tv_sk_timeTue);
+        Wed = (TextView) view.findViewById(R.id.tv_sk_timeWed);
+        Thur = (TextView) view.findViewById(R.id.tv_sk_timeThur);
+        Fri = (TextView) view.findViewById(R.id.tv_sk_timeFri);
+        Sat = (TextView) view.findViewById(R.id.tv_sk_timeSat);
+        Sun = (TextView) view.findViewById(R.id.tv_sk_timeSun);
+
+        loadInfo("name", Name);
+        loadInfo("phone", Phone);
+        loadInfo("address", Address);
+        loadInfo("Mon", Mon);
+        loadInfo("Tue", Tue);
+        loadInfo("Wed", Wed);
+        loadInfo("Thur", Thur);
+        loadInfo("Fri", Fri);
+        loadInfo("Sat", Sat);
+        loadInfo("Sun", Sun);
         return view;
 //        return inflater.inflate(R.layout.fragment_sk_homepage, container, false);
+    }
+
+    public void loadInfo(String tag, TextView tv){
+        mDataBase = FirebaseDatabase.getInstance().getReference();
+        mDataBase.child("shops").child("JhuJian").child(tag).addListenerForSingleValueEvent(
+                new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        String res = snapshot.getValue(String.class);
+                        tv.setText(res);
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                }
+        );
     }
 
     public void ModifyInfo(View view) {
