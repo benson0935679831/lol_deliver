@@ -20,12 +20,12 @@ public final class ActivitySkModifyMenuBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textView2;
+  public final TextView tvSideDishFoodQuan;
 
   private ActivitySkModifyMenuBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textView2) {
+      @NonNull TextView tvSideDishFoodQuan) {
     this.rootView = rootView;
-    this.textView2 = textView2;
+    this.tvSideDishFoodQuan = tvSideDishFoodQuan;
   }
 
   @Override
@@ -55,13 +55,13 @@ public final class ActivitySkModifyMenuBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
+      id = R.id.tv_sideDish_foodQuan;
+      TextView tvSideDishFoodQuan = ViewBindings.findChildViewById(rootView, id);
+      if (tvSideDishFoodQuan == null) {
         break missingId;
       }
 
-      return new ActivitySkModifyMenuBinding((ConstraintLayout) rootView, textView2);
+      return new ActivitySkModifyMenuBinding((ConstraintLayout) rootView, tvSideDishFoodQuan);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

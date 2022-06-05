@@ -41,6 +41,9 @@
             android:name="com.example.lol_deliver.activity.CustomerBeginActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.lol_deliver.activity.SideDishActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.lol_deliver.activity.MainActivity"
             android:exported="true" >
             <intent-filter>

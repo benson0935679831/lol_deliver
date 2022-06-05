@@ -30,6 +30,9 @@
             android:name=".activity.CustomerBeginActivity"
             android:exported="false" />
         <activity
+            android:name=".activity.SideDishActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>

@@ -40,4 +40,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void test(View view){
+        Intent intent = new Intent(this, SideDishActivity.class);
+        startActivity(intent);
+    }
 }

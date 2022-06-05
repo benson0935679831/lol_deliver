@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\User\.gradle\caches\transforms-3\1424adf5c43f9ae0ddb7a5dd3ddb920d\transformed\viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\User\.gradle\caches\transforms-3\7007b8e0afebb438cab8301250b9c23b\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User\.gradle\caches\transforms-3\f97c5df623dd74a0a16a6b829c4558ac\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -66,20 +66,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\User\.gradle\cac
 MERGED from [androidx.print:print:1.0.0] C:\Users\User\.gradle\caches\transforms-3\1ef7b216f2329211a86f04fa83dca8ed\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\User\.gradle\caches\transforms-3\1ed04b1c220abe929d68f0d8f703665c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-3\65d573d01cb9ac217dbe76413691b885\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
+INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-49:12
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:2:11-69
@@ -92,7 +92,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\User\.gradle
 	android:name
 		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:7:5-47:19
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:7:5-50:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User\.gradle\caches\transforms-3\f97c5df623dd74a0a16a6b829c4558ac\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\User\.gradle\caches\transforms-3\f97c5df623dd74a0a16a6b829c4558ac\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-3\c79ded034b955bd08f6f52dd2dec2819\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -169,34 +169,40 @@ ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManif
 		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
 		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:30:13-59
+activity#com.example.lol_deliver.activity.SideDishActivity
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:33:13-54
 activity#com.example.lol_deliver.activity.MainActivity
-ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:35:9-43:20
 	android:exported
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:33:13-50
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:36:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:41:27-74
 activity#com.example.lol_deliver.activity.SignupActivity
-ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:41:9-43:40
-	android:exported
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:43:13-37
-	android:name
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:42:13-52
-activity#com.example.lol_deliver.activity.SelectIdentityActivity
 ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:45:13-60
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:45:13-52
+activity#com.example.lol_deliver.activity.SelectIdentityActivity
+ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:47:9-49:40
+	android:exported
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml:48:13-60
 uses-sdk
 INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\learn\Android Studio\lol_deliver\android\app\src\main\AndroidManifest.xml
