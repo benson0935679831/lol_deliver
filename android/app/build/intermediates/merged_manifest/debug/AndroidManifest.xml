@@ -29,19 +29,19 @@
             android:name="com.example.lol_deliver.SKModifyInfo"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.ShopMenuActivity"
+            android:name="com.example.lol_deliver.activity.ShopMenuActivity"
             android:exported="false" />
         <activity
             android:name="com.example.lol_deliver.ShopkeeperHomepage"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.LoginActivity"
+            android:name="com.example.lol_deliver.activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.CustomerBeginActivity"
+            android:name="com.example.lol_deliver.activity.CustomerBeginActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.MainActivity"
+            android:name="com.example.lol_deliver.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -50,10 +50,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.lol_deliver.SignupActivity"
+            android:name="com.example.lol_deliver.activity.SignupActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.lol_deliver.SelectIdentityActivity"
+            android:name="com.example.lol_deliver.activity.SelectIdentityActivity"
             android:exported="false" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"

@@ -18,19 +18,19 @@
             android:name=".SKModifyInfo"
             android:exported="false" />
         <activity
-            android:name=".ShopMenuActivity"
+            android:name=".activity.ShopMenuActivity"
             android:exported="false" />
         <activity
             android:name=".ShopkeeperHomepage"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".CustomerBeginActivity"
+            android:name=".activity.CustomerBeginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,10 +39,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignupActivity"
+            android:name=".activity.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".SelectIdentityActivity"
+            android:name=".activity.SelectIdentityActivity"
             android:exported="false" />
     </application>
 
