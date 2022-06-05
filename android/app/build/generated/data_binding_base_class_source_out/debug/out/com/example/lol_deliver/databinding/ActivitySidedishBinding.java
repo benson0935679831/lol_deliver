@@ -28,22 +28,22 @@ public final class ActivitySidedishBinding implements ViewBinding {
   public final View divider5;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView ivSideDishAddCartBtn;
 
   @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
-  public final ImageView imageView6;
+  public final ImageView ivSideDishBackIcon;
 
   @NonNull
   public final ImageView ivSideDishFoodIcon;
 
   @NonNull
-  public final ListView lvSideDish;
+  public final ImageView ivSideDishMinusBtn;
 
   @NonNull
-  public final TextView textView2;
+  public final ImageView ivSideDishPlusBtn;
+
+  @NonNull
+  public final ListView lvSideDish;
 
   @NonNull
   public final TextView tvSideDishFoodDetail;
@@ -54,24 +54,29 @@ public final class ActivitySidedishBinding implements ViewBinding {
   @NonNull
   public final TextView tvSideDishFoodPrice;
 
+  @NonNull
+  public final TextView tvSideDishFoodQuan;
+
   private ActivitySidedishBinding(@NonNull ConstraintLayout rootView, @NonNull View divider4,
-      @NonNull View divider5, @NonNull ImageView imageView2, @NonNull ImageView imageView4,
-      @NonNull ImageView imageView6, @NonNull ImageView ivSideDishFoodIcon,
-      @NonNull ListView lvSideDish, @NonNull TextView textView2,
-      @NonNull TextView tvSideDishFoodDetail, @NonNull TextView tvSideDishFoodName,
-      @NonNull TextView tvSideDishFoodPrice) {
+      @NonNull View divider5, @NonNull ImageView ivSideDishAddCartBtn,
+      @NonNull ImageView ivSideDishBackIcon, @NonNull ImageView ivSideDishFoodIcon,
+      @NonNull ImageView ivSideDishMinusBtn, @NonNull ImageView ivSideDishPlusBtn,
+      @NonNull ListView lvSideDish, @NonNull TextView tvSideDishFoodDetail,
+      @NonNull TextView tvSideDishFoodName, @NonNull TextView tvSideDishFoodPrice,
+      @NonNull TextView tvSideDishFoodQuan) {
     this.rootView = rootView;
     this.divider4 = divider4;
     this.divider5 = divider5;
-    this.imageView2 = imageView2;
-    this.imageView4 = imageView4;
-    this.imageView6 = imageView6;
+    this.ivSideDishAddCartBtn = ivSideDishAddCartBtn;
+    this.ivSideDishBackIcon = ivSideDishBackIcon;
     this.ivSideDishFoodIcon = ivSideDishFoodIcon;
+    this.ivSideDishMinusBtn = ivSideDishMinusBtn;
+    this.ivSideDishPlusBtn = ivSideDishPlusBtn;
     this.lvSideDish = lvSideDish;
-    this.textView2 = textView2;
     this.tvSideDishFoodDetail = tvSideDishFoodDetail;
     this.tvSideDishFoodName = tvSideDishFoodName;
     this.tvSideDishFoodPrice = tvSideDishFoodPrice;
+    this.tvSideDishFoodQuan = tvSideDishFoodQuan;
   }
 
   @Override
@@ -113,21 +118,15 @@ public final class ActivitySidedishBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
+      id = R.id.iv_sideDish_addCartBtn;
+      ImageView ivSideDishAddCartBtn = ViewBindings.findChildViewById(rootView, id);
+      if (ivSideDishAddCartBtn == null) {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView6;
-      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView6 == null) {
+      id = R.id.iv_sideDish_backIcon;
+      ImageView ivSideDishBackIcon = ViewBindings.findChildViewById(rootView, id);
+      if (ivSideDishBackIcon == null) {
         break missingId;
       }
 
@@ -137,15 +136,21 @@ public final class ActivitySidedishBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.lv_sideDish;
-      ListView lvSideDish = ViewBindings.findChildViewById(rootView, id);
-      if (lvSideDish == null) {
+      id = R.id.iv_sideDish_minusBtn;
+      ImageView ivSideDishMinusBtn = ViewBindings.findChildViewById(rootView, id);
+      if (ivSideDishMinusBtn == null) {
         break missingId;
       }
 
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
+      id = R.id.iv_sideDish_plusBtn;
+      ImageView ivSideDishPlusBtn = ViewBindings.findChildViewById(rootView, id);
+      if (ivSideDishPlusBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.lv_sideDish;
+      ListView lvSideDish = ViewBindings.findChildViewById(rootView, id);
+      if (lvSideDish == null) {
         break missingId;
       }
 
@@ -167,9 +172,16 @@ public final class ActivitySidedishBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_sideDish_foodQuan;
+      TextView tvSideDishFoodQuan = ViewBindings.findChildViewById(rootView, id);
+      if (tvSideDishFoodQuan == null) {
+        break missingId;
+      }
+
       return new ActivitySidedishBinding((ConstraintLayout) rootView, divider4, divider5,
-          imageView2, imageView4, imageView6, ivSideDishFoodIcon, lvSideDish, textView2,
-          tvSideDishFoodDetail, tvSideDishFoodName, tvSideDishFoodPrice);
+          ivSideDishAddCartBtn, ivSideDishBackIcon, ivSideDishFoodIcon, ivSideDishMinusBtn,
+          ivSideDishPlusBtn, lvSideDish, tvSideDishFoodDetail, tvSideDishFoodName,
+          tvSideDishFoodPrice, tvSideDishFoodQuan);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

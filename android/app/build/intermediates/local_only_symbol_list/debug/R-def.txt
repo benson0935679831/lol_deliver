@@ -60,6 +60,7 @@ id btn_sk_modifyInfo
 id btn_sk_modifyMenu
 id btn_user
 id button
+id button2
 id button4
 id button5
 id button6
@@ -99,18 +100,19 @@ id guideline2
 id guideline3
 id guideline4
 id imageView
-id imageView2
 id imageView3
-id imageView4
 id imageView5
-id imageView6
 id iv_ct_icon
 id iv_filter
 id iv_like
 id iv_magnifier
 id iv_menu_back
 id iv_menu_shopIcon
+id iv_sideDish_addCartBtn
+id iv_sideDish_backIcon
 id iv_sideDish_foodIcon
+id iv_sideDish_minusBtn
+id iv_sideDish_plusBtn
 id iv_sk_foodIcon
 id iv_sk_shopIcon
 id iv_star
@@ -130,7 +132,6 @@ id nvg_sk
 id personal_list
 id subject
 id textView
-id textView2
 id textView3
 id textView4
 id text_dashboard
@@ -162,6 +163,7 @@ id tv_shopStar
 id tv_sideDish_foodDetail
 id tv_sideDish_foodName
 id tv_sideDish_foodPrice
+id tv_sideDish_foodQuan
 id tv_sk_address
 id tv_sk_phone
 id tv_sk_shopname
