@@ -12,22 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOL_Deliver">
         <activity
-            android:name=".activity_sidedish"
+            android:name=".SKModifyMenu"
             android:exported="false" />
         <activity
-            android:name=".activity.ShopMenuActivity"
+            android:name=".SKModifyInfo"
+            android:exported="false" />
+        <activity
+            android:name=".ShopMenuActivity"
             android:exported="false" />
         <activity
             android:name=".ShopkeeperHomepage"
             android:exported="false" />
         <activity
-            android:name=".activity.LoginActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.CustomerBeginActivity"
+            android:name=".CustomerBeginActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,16 +39,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.SignupActivity"
+            android:name=".SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SelectIdentityActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.PersonaldataActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activity.EditorActivity"
+            android:name=".SelectIdentityActivity"
             android:exported="false" />
     </application>
 
