@@ -133,36 +133,36 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\us
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:13:9-49
-activity#com.example.lol_deliver.ShopMenuActivity
+activity#com.example.lol_deliver.activity.ShopMenuActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:15:13-45
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:15:13-54
 activity#com.example.lol_deliver.ShopkeeperHomepage
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:18:13-47
-activity#com.example.lol_deliver.LoginActivity
+activity#com.example.lol_deliver.activity.LoginActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:21:13-42
-activity#com.example.lol_deliver.CustomerBeginActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:21:13-51
+activity#com.example.lol_deliver.activity.CustomerBeginActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:23:9-24:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:23:19-56
-activity#com.example.lol_deliver.MainActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:23:19-65
+activity#com.example.lol_deliver.activity.MainActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:25:9-33:20
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:27:13-36
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:26:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
@@ -173,30 +173,30 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:31:27-74
-activity#com.example.lol_deliver.SignupActivity
+activity#com.example.lol_deliver.activity.SignupActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:34:9-36:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:35:13-43
-activity#com.example.lol_deliver.SelectIdentityActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:35:13-52
+activity#com.example.lol_deliver.activity.SelectIdentityActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:37:9-39:40
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:38:13-51
-activity#com.example.lol_deliver.PersonaldataActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:38:13-60
+activity#com.example.lol_deliver.activity.PersonaldataActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:40:9-41:39
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:40:19-55
-activity#com.example.lol_deliver.EditorActivity
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:40:19-64
+activity#com.example.lol_deliver.activity.EditorActivity
 ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:42:9-43:39
 	android:exported
 		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:42:19-49
+		ADDED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:42:19-58
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml

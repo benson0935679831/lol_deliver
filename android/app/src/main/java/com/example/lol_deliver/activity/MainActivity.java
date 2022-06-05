@@ -1,17 +1,14 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ListView;
-import android.widget.Toast;
 
+import com.example.lol_deliver.R;
+import com.example.lol_deliver.ShopkeeperHomepage;
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void personalData(View view){
-        Intent intent = new Intent(this,PersonaldataActivity.class);
+        Intent intent = new Intent(this, PersonaldataActivity.class);
         startActivity(intent);
     }
 

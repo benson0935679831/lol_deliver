@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,12 +12,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.example.lol_deliver.item.PersonalItem;
+import com.example.lol_deliver.R;
+
 import java.util.List;
 
-public class PersonalAdapter extends ArrayAdapter<Personal> {
+public class PersonalAdapter extends ArrayAdapter<PersonalItem> {
     private Context context;
-    private List<Personal> personals;
-    public PersonalAdapter(@NonNull Context context, int resource,List<Personal>personals) {
+    private List<PersonalItem> personals;
+    public PersonalAdapter(@NonNull Context context, int resource,List<PersonalItem>personals) {
         super(context, resource,personals);
         this.context = context;
         this.personals = personals;
@@ -29,12 +32,12 @@ public class PersonalAdapter extends ArrayAdapter<Personal> {
         LinearLayout listLayout = null;
 
         if(convertView == null){
-            listLayout = (LinearLayout) inflater.inflate(R.layout.personalitem, null);
+            listLayout = (LinearLayout) inflater.inflate(R.layout.item_personal, null);
         }
         else{
             listLayout = (LinearLayout) convertView;
         }
-        Personal food = personals.get(position);
+        PersonalItem food = personals.get(position);
 
         ImageView iv = listLayout.findViewById(R.id.btn_edit);
         iv.setImageResource(food.getImg());

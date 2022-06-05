@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.lol_deliver.R;
+import com.example.lol_deliver.activity.PersonaldataActivity;
 
 public class EditorActivity extends AppCompatActivity {
 

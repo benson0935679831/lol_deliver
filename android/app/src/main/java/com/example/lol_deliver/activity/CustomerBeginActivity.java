@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.lol_deliver.R;
+import com.example.lol_deliver.item.ShopItem;
+import com.example.lol_deliver.item.SidebarItem;
+import com.example.lol_deliver.adapter.ShopAdapter;
+import com.example.lol_deliver.adapter.SidebarAdapter;
 
 import java.util.ArrayList;
 
@@ -27,7 +33,7 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         shopList.add(new ShopItem(R.drawable.macdonald,"麥當勞 台中逢甲店","20-30分鐘•30.00TWD","4.7"));
         shopList.add(new ShopItem(R.drawable.qingno3,"慶三號烤肉倉庫 台中逢甲店","50-60分鐘•20.00TWD","4.8"));
 
-        ShopAdapter adapter = new ShopAdapter(this,R.layout.shopitem, shopList);
+        ShopAdapter adapter = new ShopAdapter(this,R.layout.item_shop, shopList);
 
         ListView lvShop =(ListView) findViewById(R.id.lv_shops);
         lvShop.setAdapter(adapter);
@@ -37,7 +43,7 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         ArrayList<SidebarItem> sidebarItems = new ArrayList<SidebarItem>();
         sidebarItems.add(new SidebarItem(R.drawable.icon_personaldata, "個人資料"));
         sidebarItems.add(new SidebarItem(R.drawable.icon_setting, "設定"));
-        SidebarAdapter sidebarAdapter = new SidebarAdapter(this, R.layout.sidebaritem, sidebarItems);
+        SidebarAdapter sidebarAdapter = new SidebarAdapter(this, R.layout.item_sidebar, sidebarItems);
         ListView lvSidebar = (ListView) findViewById(R.id.lv_sidebar);
         lvSidebar.setAdapter(sidebarAdapter);
         lvSidebar.setOnItemClickListener(this);

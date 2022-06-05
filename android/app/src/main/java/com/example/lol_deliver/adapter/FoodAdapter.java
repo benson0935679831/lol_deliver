@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.example.lol_deliver.item.FoodItem;
+import com.example.lol_deliver.R;
 
 import java.util.List;
 
@@ -29,7 +32,7 @@ public class FoodAdapter extends ArrayAdapter<FoodItem> {
         LinearLayout foodLayout = null;
 
         if(convertView == null){
-            foodLayout = (LinearLayout) inflater.inflate(R.layout.fooditem, null);
+            foodLayout = (LinearLayout) inflater.inflate(R.layout.item_food, null);
         }
         else{
             foodLayout = (LinearLayout) convertView;

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fooditem.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fooditem.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_pencil.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\pencil.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fooditem.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item\\layout\\fooditem.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_macdonald.jpg.flat",
@@ -117,7 +117,7 @@
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_sidebaritem.xml.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\sidebaritem.xml"
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item\\layout\\sidebaritem.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_personaldata.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_personaldata.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",

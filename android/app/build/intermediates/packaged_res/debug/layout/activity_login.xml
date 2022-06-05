@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/MainTheme_color"
-    tools:context=".LoginActivity">
+    tools:context=".activity.LoginActivity">
 
     <EditText
         android:id="@+id/et_login_account"

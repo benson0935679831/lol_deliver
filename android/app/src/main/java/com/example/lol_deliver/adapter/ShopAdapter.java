@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.example.lol_deliver.R;
+import com.example.lol_deliver.item.ShopItem;
 
 import java.util.List;
 
@@ -29,7 +32,7 @@ public class ShopAdapter extends ArrayAdapter<ShopItem>{
         LinearLayout shopLayout = null;
 
         if(convertView == null){
-            shopLayout = (LinearLayout) inflater.inflate(R.layout.shopitem, null);
+            shopLayout = (LinearLayout) inflater.inflate(R.layout.item_shop, null);
         }
         else{
             shopLayout = (LinearLayout) convertView;

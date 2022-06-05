@@ -1,10 +1,10 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.item;
 
-public class Personal {
+public class PersonalItem {
     private int img;
     private String subject;
     private String content;
-    public Personal(int img, String subject, String content){
+    public PersonalItem(int img, String subject, String content){
         this.img = img;
         this.subject = subject;
         this.content = content;

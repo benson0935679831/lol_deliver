@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.item;
 
 public class FoodItem {
     private int imgResId;

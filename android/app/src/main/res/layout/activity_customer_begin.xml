@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/MainTheme_color"
-    tools:context=".CustomerBeginActivity">
+    tools:context=".activity.CustomerBeginActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

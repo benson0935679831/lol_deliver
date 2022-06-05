@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.lol_deliver.item.FoodItem;
+import com.example.lol_deliver.R;
+import com.example.lol_deliver.adapter.FoodAdapter;
 
 import java.util.ArrayList;
 
@@ -25,7 +29,7 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
         foodList.add(new FoodItem(R.drawable.macdonald,"梅花豬肉鍋","", "$400起"));
         foodList.add(new FoodItem(R.drawable.qingno3,"超值獨享鍋物三選一","小肥牛、梅花豚、雞腿肉擇一", "$228起"));
 
-        FoodAdapter adapter = new FoodAdapter(this,R.layout.fooditem, foodList);
+        FoodAdapter adapter = new FoodAdapter(this,R.layout.item_food, foodList);
 
         ListView lvfood =(ListView) findViewById(R.id.lv_menu);
         lvfood.setAdapter(adapter);

@@ -1,4 +1,4 @@
-package com.example.lol_deliver;
+package com.example.lol_deliver.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.google.android.material.button.MaterialButtonToggleGroup;
+import com.example.lol_deliver.R;
+import com.example.lol_deliver.activity.SignupActivity;
 
 public class SelectIdentityActivity extends AppCompatActivity {
 

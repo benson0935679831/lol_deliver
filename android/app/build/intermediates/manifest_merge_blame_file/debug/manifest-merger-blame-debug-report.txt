@@ -38,8 +38,8 @@
 24-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:13:9-49
 25        <activity
 25-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:14:9-16:40
-26            android:name="com.example.lol_deliver.ShopMenuActivity"
-26-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:15:13-45
+26            android:name="com.example.lol_deliver.activity.ShopMenuActivity"
+26-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:15:13-54
 27            android:exported="false" />
 27-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:16:13-37
 28        <activity
@@ -50,20 +50,20 @@
 30-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:19:13-37
 31        <activity
 31-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:20:9-22:40
-32            android:name="com.example.lol_deliver.LoginActivity"
-32-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:21:13-42
+32            android:name="com.example.lol_deliver.activity.LoginActivity"
+32-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:21:13-51
 33            android:exported="false" />
 33-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:22:13-37
 34        <activity
 34-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:23:9-24:40
-35            android:name="com.example.lol_deliver.CustomerBeginActivity"
-35-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:23:19-56
+35            android:name="com.example.lol_deliver.activity.CustomerBeginActivity"
+35-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:23:19-65
 36            android:exported="false" />
 36-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:24:13-37
 37        <activity
 37-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:25:9-33:20
-38            android:name="com.example.lol_deliver.MainActivity"
-38-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:26:13-41
+38            android:name="com.example.lol_deliver.activity.MainActivity"
+38-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:26:13-50
 39            android:exported="true" >
 39-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:27:13-36
 40            <intent-filter>
@@ -79,26 +79,26 @@
 45        </activity>
 46        <activity
 46-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:34:9-36:40
-47            android:name="com.example.lol_deliver.SignupActivity"
-47-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:35:13-43
+47            android:name="com.example.lol_deliver.activity.SignupActivity"
+47-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:35:13-52
 48            android:exported="false" />
 48-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:36:13-37
 49        <activity
 49-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:37:9-39:40
-50            android:name="com.example.lol_deliver.SelectIdentityActivity"
-50-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:38:13-51
+50            android:name="com.example.lol_deliver.activity.SelectIdentityActivity"
+50-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:38:13-60
 51            android:exported="false" />
 51-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:39:13-37
 52        <activity
 52-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:40:9-41:39
-53            android:name="com.example.lol_deliver.PersonaldataActivity"
-53-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:40:19-55
+53            android:name="com.example.lol_deliver.activity.PersonaldataActivity"
+53-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:40:19-64
 54            android:exported="false" />
 54-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:41:13-37
 55        <activity
 55-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:42:9-43:39
-56            android:name="com.example.lol_deliver.EditorActivity"
-56-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:42:19-49
+56            android:name="com.example.lol_deliver.activity.EditorActivity"
+56-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:42:19-58
 57            android:exported="false" />
 57-->C:\Users\user\AndroidStudioProjects\lol_deliver\android\app\src\main\AndroidManifest.xml:43:13-37
 58        <activity
