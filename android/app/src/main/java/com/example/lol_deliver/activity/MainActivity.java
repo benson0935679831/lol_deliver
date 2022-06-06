@@ -11,7 +11,12 @@ import com.example.lol_deliver.ShopkeeperHomepage;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-
+    /**
+     * DataListener是用來實作接收identity的介面
+     */
+    public interface DataListener {
+        void newIdentityReceived(String identity);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sign_out(View view){
         FirebaseAuth.getInstance().signOut();
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 
     public void personalData(View view){

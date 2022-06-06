@@ -43,6 +43,12 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         ArrayList<SidebarItem> sidebarItems = new ArrayList<SidebarItem>();
         sidebarItems.add(new SidebarItem(R.drawable.icon_personaldata, "個人資料"));
         sidebarItems.add(new SidebarItem(R.drawable.icon_setting, "設定"));
+        sidebarItems.add(new SidebarItem(R.drawable.ic_history_order, "歷史訂單"));
+        sidebarItems.add(new SidebarItem(R.drawable.ic_contact, "聯絡客服"));
+        sidebarItems.add(new SidebarItem(R.drawable.ic_location, "地址"));
+        sidebarItems.add(new SidebarItem(R.drawable.ic_like, "收藏店家"));
+        sidebarItems.add(new SidebarItem(R.drawable.ic_sign_out, "登出"));
+
         SidebarAdapter sidebarAdapter = new SidebarAdapter(this, R.layout.item_sidebar, sidebarItems);
         ListView lvSidebar = (ListView) findViewById(R.id.lv_sidebar);
         lvSidebar.setAdapter(sidebarAdapter);
