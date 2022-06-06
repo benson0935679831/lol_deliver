@@ -1788,11 +1788,15 @@ drawable ic_add_cart_off
 drawable ic_add_cart_on
 drawable ic_clock
 drawable ic_clock_black_24dp
+drawable ic_contact
 drawable ic_dashboard_black_24dp
+drawable ic_history_order
 drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_like
+drawable ic_location
 drawable ic_menu_food
 drawable ic_minus_off
 drawable ic_minus_on
@@ -1803,6 +1807,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_plus_off
 drawable ic_plus_on
+drawable ic_sign_out
 drawable icon_back
 drawable icon_personaldata
 drawable icon_search
