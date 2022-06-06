@@ -68,6 +68,7 @@ id button7
 id button8
 id button9
 id cardView
+id cb_sideDish_optionName
 id content
 id cv_order
 id divider
@@ -119,6 +120,7 @@ id iv_star
 id linearLayout
 id linear_layout
 id lv_menu
+id lv_option
 id lv_shops
 id lv_sideDish
 id lv_sidebar
@@ -130,6 +132,7 @@ id navigation_home
 id navigation_notifications
 id nvg_sk
 id personal_list
+id rb_sideDish_optionName
 id subject
 id textView
 id textView10
@@ -164,10 +167,15 @@ id tv_register
 id tv_shopDetail
 id tv_shopName
 id tv_shopStar
+id tv_sideDIsh_extra
+id tv_sideDish_cateName
+id tv_sideDish_extra
 id tv_sideDish_foodDetail
 id tv_sideDish_foodName
 id tv_sideDish_foodPrice
 id tv_sideDish_foodQuan
+id tv_sideDish_opitonDesc
+id tv_sideDish_option
 id tv_sk_Fri
 id tv_sk_Mon
 id tv_sk_Sat
@@ -202,10 +210,13 @@ layout fragment_sk_homepage
 layout fragment_sk_now_order
 layout fragment_sk_now_order1
 layout item_food
+layout item_option_mutiple
+layout item_option_single
 layout item_order
 layout item_personal
 layout item_shop
 layout item_sidebar
+layout item_sidedish
 menu bottom_nav_menu
 menu sk_homepage
 mipmap ic_launcher
