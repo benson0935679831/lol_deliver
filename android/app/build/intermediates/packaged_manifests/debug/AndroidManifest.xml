@@ -23,6 +23,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.LOL_Deliver" >
         <activity
+            android:name="com.example.lol_deliver.SKStatistics"
+            android:exported="false" />
+        <activity
             android:name="com.example.lol_deliver.SKModifyMenu"
             android:exported="false" />
         <activity

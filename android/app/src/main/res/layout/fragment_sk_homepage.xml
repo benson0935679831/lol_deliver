@@ -283,7 +283,7 @@
             app:layout_constraintTop_toTopOf="@+id/cardView" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btn_sk_statistic"
             android:layout_width="196dp"
             android:layout_height="43dp"
             android:layout_marginTop="532dp"

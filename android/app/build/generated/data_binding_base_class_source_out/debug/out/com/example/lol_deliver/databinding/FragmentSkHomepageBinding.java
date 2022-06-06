@@ -29,7 +29,7 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
   public final Button btnSkModifyMenu;
 
   @NonNull
-  public final Button button5;
+  public final Button btnSkStatistic;
 
   @NonNull
   public final CardView cardView;
@@ -92,7 +92,7 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
   public final TextView tvSkWed;
 
   private FragmentSkHomepageBinding(@NonNull FrameLayout rootView, @NonNull Button btnSkModifyInfo,
-      @NonNull Button btnSkModifyMenu, @NonNull Button button5, @NonNull CardView cardView,
+      @NonNull Button btnSkModifyMenu, @NonNull Button btnSkStatistic, @NonNull CardView cardView,
       @NonNull ImageView ivSkShopIcon, @NonNull TextView tvSkAddress, @NonNull TextView tvSkFri,
       @NonNull TextView tvSkMon, @NonNull TextView tvSkPhone, @NonNull TextView tvSkSat,
       @NonNull TextView tvSkShopname, @NonNull TextView tvSkSun, @NonNull TextView tvSkThur,
@@ -103,7 +103,7 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
     this.rootView = rootView;
     this.btnSkModifyInfo = btnSkModifyInfo;
     this.btnSkModifyMenu = btnSkModifyMenu;
-    this.button5 = button5;
+    this.btnSkStatistic = btnSkStatistic;
     this.cardView = cardView;
     this.ivSkShopIcon = ivSkShopIcon;
     this.tvSkAddress = tvSkAddress;
@@ -165,9 +165,9 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button5;
-      Button button5 = ViewBindings.findChildViewById(rootView, id);
-      if (button5 == null) {
+      id = R.id.btn_sk_statistic;
+      Button btnSkStatistic = ViewBindings.findChildViewById(rootView, id);
+      if (btnSkStatistic == null) {
         break missingId;
       }
 
@@ -292,7 +292,7 @@ public final class FragmentSkHomepageBinding implements ViewBinding {
       }
 
       return new FragmentSkHomepageBinding((FrameLayout) rootView, btnSkModifyInfo, btnSkModifyMenu,
-          button5, cardView, ivSkShopIcon, tvSkAddress, tvSkFri, tvSkMon, tvSkPhone, tvSkSat,
+          btnSkStatistic, cardView, ivSkShopIcon, tvSkAddress, tvSkFri, tvSkMon, tvSkPhone, tvSkSat,
           tvSkShopname, tvSkSun, tvSkThur, tvSkTime, tvSkTimeFri, tvSkTimeMon, tvSkTimeSat,
           tvSkTimeSun, tvSkTimeThur, tvSkTimeTue, tvSkTimeWed, tvSkTue, tvSkWed);
     }

@@ -10,7 +10,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -37,6 +36,7 @@ public class SKHomepageFragment extends Fragment {
 
     Button btn_modifyInfo;
     Button btn_modifyMenu;
+    Button btn_statistics;
 
     TextView Name, Phone ,Address;
     TextView Mon, Tue, Wed, Thur, Fri, Sat, Sun;
@@ -95,6 +95,14 @@ public class SKHomepageFragment extends Fragment {
             }
         });
 
+        btn_statistics = (Button) view.findViewById(R.id.btn_sk_statistic);
+        btn_statistics.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Statistics(view);
+            }
+        });
+
         Name = (TextView) view.findViewById(R.id.tv_sk_shopname);
         Phone = (TextView) view.findViewById(R.id.tv_sk_phone);
         Address = (TextView) view.findViewById(R.id.tv_sk_address);
@@ -145,6 +153,11 @@ public class SKHomepageFragment extends Fragment {
 
     public void ModifyMenu(View view) {
         Intent intent = new Intent(SKHomepageFragment.this.getActivity(), SKModifyMenu.class);
+        startActivity(intent);
+    }
+
+    public void Statistics(View view) {
+        Intent intent = new Intent(SKHomepageFragment.this.getActivity(), SKStatistics.class);
         startActivity(intent);
     }
 }
