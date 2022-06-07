@@ -124,7 +124,7 @@
     <td>陳昶廷</td>
     <td>D0845456</td>
     <td>ChangTingChen</td>
-    <td></td>
+    <td>#18</td>
   </tr>
 </table>
 <H1>2022-06-07</H1>
@@ -157,7 +157,7 @@
     <td>陳昶廷</td>
     <td>D0845456</td>
     <td>ChangTingChen</td>
-    <td>#16</td>
+    <td>#16、#19</td>
   </tr>
 </table>
 
