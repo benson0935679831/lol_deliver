@@ -118,7 +118,7 @@
     <td>韋嘉祐</td>
     <td>D0843810</td>
     <td>CasperQAQ</td>
-    <td></td>
+    <td>#05</td>
   </tr>
   <tr>
     <td>陳昶廷</td>
