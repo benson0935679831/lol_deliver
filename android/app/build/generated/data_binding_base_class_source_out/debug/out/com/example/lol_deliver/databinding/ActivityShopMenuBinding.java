@@ -44,6 +44,9 @@ public final class ActivityShopMenuBinding implements ViewBinding {
   public final TextView tvMenuComment;
 
   @NonNull
+  public final TextView tvMenuListener;
+
+  @NonNull
   public final TextView tvMenuMoreBtn;
 
   @NonNull
@@ -64,10 +67,10 @@ public final class ActivityShopMenuBinding implements ViewBinding {
   private ActivityShopMenuBinding(@NonNull ConstraintLayout rootView, @NonNull View divider3,
       @NonNull ImageView imageView3, @NonNull ImageView ivMenuBack,
       @NonNull ImageView ivMenuShopIcon, @NonNull LinearLayout linearLayout,
-      @NonNull ListView lvMenu, @NonNull TextView tvMenuComment, @NonNull TextView tvMenuMoreBtn,
-      @NonNull TextView tvMenuRefactorBtn, @NonNull TextView tvMenuShopDistance,
-      @NonNull TextView tvMenuShopLowConsume, @NonNull TextView tvMenuShopName,
-      @NonNull TextView tvMenuTransTime) {
+      @NonNull ListView lvMenu, @NonNull TextView tvMenuComment, @NonNull TextView tvMenuListener,
+      @NonNull TextView tvMenuMoreBtn, @NonNull TextView tvMenuRefactorBtn,
+      @NonNull TextView tvMenuShopDistance, @NonNull TextView tvMenuShopLowConsume,
+      @NonNull TextView tvMenuShopName, @NonNull TextView tvMenuTransTime) {
     this.rootView = rootView;
     this.divider3 = divider3;
     this.imageView3 = imageView3;
@@ -76,6 +79,7 @@ public final class ActivityShopMenuBinding implements ViewBinding {
     this.linearLayout = linearLayout;
     this.lvMenu = lvMenu;
     this.tvMenuComment = tvMenuComment;
+    this.tvMenuListener = tvMenuListener;
     this.tvMenuMoreBtn = tvMenuMoreBtn;
     this.tvMenuRefactorBtn = tvMenuRefactorBtn;
     this.tvMenuShopDistance = tvMenuShopDistance;
@@ -153,6 +157,12 @@ public final class ActivityShopMenuBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_menu_listener;
+      TextView tvMenuListener = ViewBindings.findChildViewById(rootView, id);
+      if (tvMenuListener == null) {
+        break missingId;
+      }
+
       id = R.id.tv_menu_moreBtn;
       TextView tvMenuMoreBtn = ViewBindings.findChildViewById(rootView, id);
       if (tvMenuMoreBtn == null) {
@@ -190,9 +200,9 @@ public final class ActivityShopMenuBinding implements ViewBinding {
       }
 
       return new ActivityShopMenuBinding((ConstraintLayout) rootView, divider3, imageView3,
-          ivMenuBack, ivMenuShopIcon, linearLayout, lvMenu, tvMenuComment, tvMenuMoreBtn,
-          tvMenuRefactorBtn, tvMenuShopDistance, tvMenuShopLowConsume, tvMenuShopName,
-          tvMenuTransTime);
+          ivMenuBack, ivMenuShopIcon, linearLayout, lvMenu, tvMenuComment, tvMenuListener,
+          tvMenuMoreBtn, tvMenuRefactorBtn, tvMenuShopDistance, tvMenuShopLowConsume,
+          tvMenuShopName, tvMenuTransTime);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

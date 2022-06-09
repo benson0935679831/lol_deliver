@@ -1851,8 +1851,14 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pencil
 drawable qingno3
+drawable sk_btn1
+drawable sk_btn2
+drawable sk_btn3
+drawable sk_btn4
+drawable sk_items_linechart
 drawable sk_myshop
 drawable sk_nowticket
+drawable sk_turniver_linechart
 drawable star_1
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1968,11 +1974,11 @@ id btn_setting
 id btn_shoper
 id btn_sk_modifyInfo
 id btn_sk_modifyMenu
+id btn_sk_statistic
 id btn_user
 id button
 id button2
 id button4
-id button5
 id button6
 id button7
 id button8
@@ -2108,6 +2114,10 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id ib_sk_commit
+id ib_sk_items
+id ib_sk_list
+id ib_sk_turnover
 id icon
 id icon_group
 id icon_only
@@ -2116,6 +2126,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageView3
 id imageView5
 id info
@@ -2349,6 +2360,7 @@ id textTop
 id textView
 id textView10
 id textView11
+id textView12
 id textView3
 id textView4
 id textView5
@@ -2388,6 +2400,7 @@ id tv_foodName
 id tv_foodPrice
 id tv_icon
 id tv_menu_comment
+id tv_menu_listener
 id tv_menu_moreBtn
 id tv_menu_refactorBtn
 id tv_menu_shopDistance
@@ -2423,6 +2436,7 @@ id tv_sk_Wed
 id tv_sk_address
 id tv_sk_phone
 id tv_sk_shopname
+id tv_sk_statistics_name
 id tv_sk_time
 id tv_sk_timeFri
 id tv_sk_timeMon
@@ -2527,8 +2541,11 @@ layout activity_select_identity
 layout activity_shop_menu
 layout activity_sidedish
 layout activity_signup
+layout activity_sk_items
 layout activity_sk_modify_info
 layout activity_sk_modify_menu
+layout activity_sk_statistics
+layout activity_sk_turnover
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -2549,7 +2566,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_sk_homepage
 layout fragment_sk_now_order
-layout fragment_sk_now_order1
 layout item_food
 layout item_option_mutiple
 layout item_option_single

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/MainTheme_color"
+    android:onClick="OnItemsClick"
     tools:context=".SKStatistics">
 
     <androidx.cardview.widget.CardView
@@ -74,6 +75,7 @@
         android:layout_marginTop="28dp"
         android:adjustViewBounds="true"
         android:backgroundTint="@color/MainTheme_color"
+        android:onClick="OnTurnoverClick"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -87,6 +89,7 @@
         android:layout_height="149dp"
         android:adjustViewBounds="true"
         android:backgroundTint="@color/MainTheme_color"
+        android:onClick="OnItemsClick"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.195"
