@@ -33,7 +33,7 @@ public class EditorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editor);
         //隱藏標題列
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
         Uid = LoginActivity.Uid;
         editName = findViewById(R.id.edit_name);
         editEmail = findViewById(R.id.edit_email);

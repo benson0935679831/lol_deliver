@@ -38,7 +38,7 @@ public class SignupActivity extends AppCompatActivity implements OnCompleteListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         etName = findViewById(R.id.et_name);
         etPhone = findViewById(R.id.et_phone);

@@ -43,7 +43,7 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_menu);
         //隱藏標題列
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         tv_shopName = (TextView) findViewById(R.id.tv_menu_shopName);
         iv_shopImg = (ImageView) findViewById(R.id.iv_menu_shopImg);

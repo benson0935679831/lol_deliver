@@ -1812,14 +1812,6 @@ int drawable icon_personaldata 0x7f070097
 int drawable icon_search 0x7f070098
 int drawable icon_setting 0x7f070099
 int drawable icon_sidebar 0x7f07009a
-int drawable img_jhu_mush 0x7f0700ce
-int drawable img_jhu_pork 0x7f0700cf
-int drawable img_mac_chicken 0x7f0700d0
-int drawable img_mac_classic 0x7f0700d1
-int drawable img_mac_six 0x7f0700d2
-int drawable img_qing3_fatty 0x7f0700d3
-int drawable img_qing3_manjiu 0x7f0700d4
-int drawable img_qing3_veryhot 0x7f0700d5
 int drawable like 0x7f07009b
 int drawable logo 0x7f07009c
 int drawable macdonald 0x7f07009d
@@ -2153,7 +2145,7 @@ int id iv_filter 0x7f080116
 int id iv_like 0x7f080117
 int id iv_magnifier 0x7f080118
 int id iv_menu_back 0x7f080119
-int id iv_menu_shopImg 0x7f08025e
+int id iv_menu_shopIcon 0x7f08011a
 int id iv_sideDish_addCartBtn 0x7f08011b
 int id iv_sideDish_backIcon 0x7f08011c
 int id iv_sideDish_foodIcon 0x7f08011d

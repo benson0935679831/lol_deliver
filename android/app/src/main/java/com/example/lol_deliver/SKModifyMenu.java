@@ -10,6 +10,6 @@ public class SKModifyMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sk_modify_menu);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
     }
 }

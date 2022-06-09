@@ -31,7 +31,7 @@ public class SKModifyInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sk_modify_info);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         Name = (EditText) findViewById(R.id.et_sk_shopName);
         Phone = (EditText) findViewById(R.id.et_sk_phone);

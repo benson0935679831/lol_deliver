@@ -32,7 +32,7 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_customer_begin);
         //隱藏標題列
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         mDatabase = FirebaseDatabase.getInstance().getReference("shops");
         // ShopItem
