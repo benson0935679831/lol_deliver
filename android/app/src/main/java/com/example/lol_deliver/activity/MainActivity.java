@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //隱藏標題列
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);

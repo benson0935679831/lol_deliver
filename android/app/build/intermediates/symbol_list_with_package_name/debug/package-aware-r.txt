@@ -1978,6 +1978,7 @@ id btn_sk_statistic
 id btn_user
 id button
 id button2
+id button3
 id button4
 id button6
 id button7
@@ -2012,6 +2013,9 @@ id confirm_button
 id container
 id content
 id contentPanel
+id content_email
+id content_name
+id content_phone
 id contiguous
 id coordinator
 id cos
@@ -2055,8 +2059,11 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
-id edit_data
+id edit_email
+id edit_name
+id edit_phone
 id edit_query
+id editor
 id elastic
 id end
 id endToStart
@@ -2165,7 +2172,6 @@ id list_item
 id lv_menu
 id lv_option
 id lv_shops
-id lv_sideDish
 id lv_sidebar
 id masked
 id material_clock_display
@@ -2258,7 +2264,6 @@ id path
 id pathRelative
 id peekHeight
 id percent
-id personal_list
 id pin
 id position
 id postLayout
@@ -2330,6 +2335,9 @@ id status_bar_latest_event_content
 id stop
 id stretch
 id subject
+id subject_email
+id subject_name
+id subject_phone
 id submenuarrow
 id submit_area
 id tabMode

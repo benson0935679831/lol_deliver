@@ -10,6 +10,6 @@ public class SKTurnover extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sk_turnover);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
     }
 }

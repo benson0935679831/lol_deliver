@@ -24,7 +24,7 @@ public class SKStatistics extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sk_statistics);
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         name = (TextView) findViewById(R.id.tv_sk_statistics_name);
         loadInfo("name", name);

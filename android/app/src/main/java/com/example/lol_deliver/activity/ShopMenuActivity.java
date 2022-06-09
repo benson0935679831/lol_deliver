@@ -37,7 +37,7 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_menu);
         //隱藏標題列
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         ArrayList<FoodItem> foodList = new ArrayList<FoodItem>();
 

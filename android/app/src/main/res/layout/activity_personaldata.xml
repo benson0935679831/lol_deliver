@@ -42,10 +42,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="395dp"
+        android:layout_width="0dp"
         android:layout_height="637dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,8 +116,8 @@
             android:id="@+id/editor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@null"
             android:background="#E87B17"
+            android:backgroundTint="@null"
             android:onClick="onClick"
             android:text="編輯" />
     </LinearLayout>

@@ -56,6 +56,24 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3278985507246377" />
         <entry key="app/src/main/res/layout/activity_personaldata.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/activity_select_identity.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_shop_menu.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_sidedish.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_sk_items.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_sk_modify_info.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_sk_modify_menu.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_sk_statistics.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/activity_sk_turnover.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/fragment_sk_homepage.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/fragment_sk_now_order.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_food.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_option_mutiple.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_option_single.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_order.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_personal.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_shop.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_sidebar.xml" value="0.3278985507246377" />
+        <entry key="app/src/main/res/layout/item_sidedish.xml" value="0.3278985507246377" />
       </map>
     </option>
   </component>

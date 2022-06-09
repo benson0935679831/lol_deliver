@@ -38,7 +38,7 @@ public class PersonaldataActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personaldata);
         //隱藏標題列
-        getSupportActionBar().hide();
+//        getSupportActionBar().hide();
 
         Uid = LoginActivity.Uid;
 
