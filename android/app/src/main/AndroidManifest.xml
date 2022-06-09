@@ -15,6 +15,9 @@
             android:name=".SKHistoryOrder"
             android:exported="false" />
         <activity
+            android:name=".activity.OrderActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.CartWithItemActivity"
             android:exported="false" />
         <activity
