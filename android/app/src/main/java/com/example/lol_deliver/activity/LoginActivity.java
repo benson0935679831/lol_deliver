@@ -4,6 +4,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -29,6 +31,9 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
     private DatabaseReference mDatabase;
     private String identity2;
     static public String Uid;
+
+    private String account,repassword,re_account,re_password;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +42,7 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
 
         etEmail = findViewById(R.id.et_login_account);
         etPassword = findViewById(R.id.et_login_password);
+        release();
         etName = findViewById(R.id.et_name);
         firebaseAuth = FirebaseAuth.getInstance();
     }
@@ -44,11 +50,27 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
     public void onLogin(View view){
         String email = etEmail.getText().toString();
         String password = etPassword.getText().toString();
+        account = email;
+        repassword = password;
 //        name = etName.getText().toString();
         firebaseAuth.signInWithEmailAndPassword(email,password)
                 .addOnCompleteListener(this, this);
+        remeber();
     }
-
+    private void remeber(){
+        SharedPreferences user = getSharedPreferences("remember", MODE_PRIVATE);
+        SharedPreferences.Editor editor = user.edit();
+        editor.putString("account",account);
+        editor.putString("password",repassword);
+        editor.commit();
+    }
+    private void release(){
+        SharedPreferences user = getSharedPreferences("remember", MODE_PRIVATE);
+        re_account = user.getString("account","");
+        re_password = user.getString("password","");
+        etEmail.setText(re_account);
+        etPassword.setText(re_password);
+    }
     public void onRegister(View view){
         Intent intent = new Intent(this, SelectIdentityActivity.class);
         startActivity(intent);
