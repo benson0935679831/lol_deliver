@@ -281,4 +281,26 @@
         app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:onClick="Cancel"
+        app:layout_constraintEnd_toStartOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sk_timeSun"
+        app:srcCompat="@drawable/ic_cancel" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="ModifyInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sk_timeSun"
+        app:srcCompat="@drawable/ic_confirm" />
 </androidx.constraintlayout.widget.ConstraintLayout>

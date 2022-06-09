@@ -4,7 +4,6 @@ package com.example.lol_deliver.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -25,29 +24,29 @@ public final class ActivitySelectIdentityBinding implements ViewBinding {
   public final ImageView btnBack1;
 
   @NonNull
-  public final Button btnDeliver;
-
-  @NonNull
-  public final Button btnShoper;
-
-  @NonNull
-  public final Button btnUser;
-
-  @NonNull
   public final View divider;
+
+  @NonNull
+  public final ImageView imageView7;
+
+  @NonNull
+  public final ImageView imageView8;
+
+  @NonNull
+  public final ImageView imageView9;
 
   @NonNull
   public final TextView tvRegister;
 
   private ActivitySelectIdentityBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView btnBack1, @NonNull Button btnDeliver, @NonNull Button btnShoper,
-      @NonNull Button btnUser, @NonNull View divider, @NonNull TextView tvRegister) {
+      @NonNull ImageView btnBack1, @NonNull View divider, @NonNull ImageView imageView7,
+      @NonNull ImageView imageView8, @NonNull ImageView imageView9, @NonNull TextView tvRegister) {
     this.rootView = rootView;
     this.btnBack1 = btnBack1;
-    this.btnDeliver = btnDeliver;
-    this.btnShoper = btnShoper;
-    this.btnUser = btnUser;
     this.divider = divider;
+    this.imageView7 = imageView7;
+    this.imageView8 = imageView8;
+    this.imageView9 = imageView9;
     this.tvRegister = tvRegister;
   }
 
@@ -84,27 +83,27 @@ public final class ActivitySelectIdentityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btn_deliver;
-      Button btnDeliver = ViewBindings.findChildViewById(rootView, id);
-      if (btnDeliver == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_shoper;
-      Button btnShoper = ViewBindings.findChildViewById(rootView, id);
-      if (btnShoper == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_user;
-      Button btnUser = ViewBindings.findChildViewById(rootView, id);
-      if (btnUser == null) {
-        break missingId;
-      }
-
       id = R.id.divider;
       View divider = ViewBindings.findChildViewById(rootView, id);
       if (divider == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView7;
+      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView8;
+      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView9;
+      ImageView imageView9 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView9 == null) {
         break missingId;
       }
 
@@ -114,8 +113,8 @@ public final class ActivitySelectIdentityBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySelectIdentityBinding((ConstraintLayout) rootView, btnBack1, btnDeliver,
-          btnShoper, btnUser, divider, tvRegister);
+      return new ActivitySelectIdentityBinding((ConstraintLayout) rootView, btnBack1, divider,
+          imageView7, imageView8, imageView9, tvRegister);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

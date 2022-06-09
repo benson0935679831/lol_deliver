@@ -4,7 +4,6 @@ package com.example.lol_deliver.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -37,7 +36,7 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
   public final View divider3;
 
   @NonNull
-  public final Button editor;
+  public final ImageView imageView12;
 
   @NonNull
   public final TextView subjectEmail;
@@ -53,7 +52,7 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
 
   private ActivityPersonaldataBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView btnBack3, @NonNull TextView contentEmail, @NonNull TextView contentName,
-      @NonNull TextView contentPhone, @NonNull View divider3, @NonNull Button editor,
+      @NonNull TextView contentPhone, @NonNull View divider3, @NonNull ImageView imageView12,
       @NonNull TextView subjectEmail, @NonNull TextView subjectName, @NonNull TextView subjectPhone,
       @NonNull TextView tvPersonal) {
     this.rootView = rootView;
@@ -62,7 +61,7 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
     this.contentName = contentName;
     this.contentPhone = contentPhone;
     this.divider3 = divider3;
-    this.editor = editor;
+    this.imageView12 = imageView12;
     this.subjectEmail = subjectEmail;
     this.subjectName = subjectName;
     this.subjectPhone = subjectPhone;
@@ -126,9 +125,9 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editor;
-      Button editor = ViewBindings.findChildViewById(rootView, id);
-      if (editor == null) {
+      id = R.id.imageView12;
+      ImageView imageView12 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView12 == null) {
         break missingId;
       }
 
@@ -157,7 +156,7 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
       }
 
       return new ActivityPersonaldataBinding((ConstraintLayout) rootView, btnBack3, contentEmail,
-          contentName, contentPhone, divider3, editor, subjectEmail, subjectName, subjectPhone,
+          contentName, contentPhone, divider3, imageView12, subjectEmail, subjectName, subjectPhone,
           tvPersonal);
     }
     String missingId = rootView.getResources().getResourceName(id);

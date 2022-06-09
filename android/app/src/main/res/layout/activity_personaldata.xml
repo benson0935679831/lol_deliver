@@ -112,14 +112,13 @@
                 android:textSize="24sp" />
         </LinearLayout>
 
-        <Button
-            android:id="@+id/editor"
+        <ImageView
+            android:id="@+id/imageView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#E87B17"
-            android:backgroundTint="@null"
             android:onClick="onClick"
-            android:text="編輯" />
+            app:srcCompat="@drawable/ic_edit" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
