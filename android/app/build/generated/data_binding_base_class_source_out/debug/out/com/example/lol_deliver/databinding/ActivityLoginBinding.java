@@ -4,7 +4,6 @@ package com.example.lol_deliver.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
@@ -23,12 +22,6 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnLogin;
-
-  @NonNull
-  public final Button btnRegister;
-
-  @NonNull
   public final EditText etLoginAccount;
 
   @NonNull
@@ -40,17 +33,22 @@ public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnLogin,
-      @NonNull Button btnRegister, @NonNull EditText etLoginAccount,
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
+  public final ImageView imageView6;
+
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull EditText etLoginAccount,
       @NonNull EditText etLoginPassword, @NonNull Guideline guideline2,
-      @NonNull ImageView imageView) {
+      @NonNull ImageView imageView, @NonNull ImageView imageView4, @NonNull ImageView imageView6) {
     this.rootView = rootView;
-    this.btnLogin = btnLogin;
-    this.btnRegister = btnRegister;
     this.etLoginAccount = etLoginAccount;
     this.etLoginPassword = etLoginPassword;
     this.guideline2 = guideline2;
     this.imageView = imageView;
+    this.imageView4 = imageView4;
+    this.imageView6 = imageView6;
   }
 
   @Override
@@ -80,18 +78,6 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_login;
-      Button btnLogin = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogin == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_register;
-      Button btnRegister = ViewBindings.findChildViewById(rootView, id);
-      if (btnRegister == null) {
-        break missingId;
-      }
-
       id = R.id.et_login_account;
       EditText etLoginAccount = ViewBindings.findChildViewById(rootView, id);
       if (etLoginAccount == null) {
@@ -116,8 +102,20 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin, btnRegister,
-          etLoginAccount, etLoginPassword, guideline2, imageView);
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((ConstraintLayout) rootView, etLoginAccount, etLoginPassword,
+          guideline2, imageView, imageView4, imageView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

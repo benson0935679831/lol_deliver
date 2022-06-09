@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LOL_Deliver">
         <activity
-            android:name=".SKHistoryOrder"
+            android:name=".activity.CartWithItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CartActivity"
             android:exported="false" />
         <activity
             android:name=".SKItems"

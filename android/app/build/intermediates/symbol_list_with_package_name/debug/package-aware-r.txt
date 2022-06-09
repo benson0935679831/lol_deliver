@@ -1755,9 +1755,6 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable btn_sk_home_modifyinfo
-drawable btn_sk_home_modifymenu
-drawable btn_sk_home_statistic
 drawable button_drawable
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1783,6 +1780,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable empty_cart
 drawable example
 drawable filter
 drawable googleg_disabled_color_18
@@ -1791,8 +1789,10 @@ drawable ic_add_cart_off
 drawable ic_add_cart_on
 drawable ic_clock
 drawable ic_clock_black_24dp
+drawable ic_close
 drawable ic_contact
 drawable ic_dashboard_black_24dp
+drawable ic_go_shopping
 drawable ic_history_order
 drawable ic_home_black_24dp
 drawable ic_keyboard_black_24dp
@@ -1824,7 +1824,6 @@ drawable img_mac_six
 drawable img_qing3_fatty
 drawable img_qing3_manjiu
 drawable img_qing3_veryhot
-drawable img_sk_noworder
 drawable like
 drawable logo
 drawable macdonald
@@ -2061,6 +2060,8 @@ id divider2
 id divider3
 id divider4
 id divider5
+id divider6
+id divider7
 id dragDown
 id dragEnd
 id dragLeft
@@ -2147,14 +2148,16 @@ id image
 id imageView
 id imageView2
 id imageView3
-id imageView4
-id imageView5
 id info
 id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id iv_cart
+id iv_close
+id iv_close2
 id iv_ct_icon
+id iv_emptyCart
 id iv_filter
 id iv_like
 id iv_magnifier
@@ -2302,7 +2305,6 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -2383,7 +2385,6 @@ id textView
 id textView10
 id textView11
 id textView12
-id textView2
 id textView3
 id textView4
 id textView5
@@ -2416,8 +2417,11 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_cart
+id tv_cart2
 id tv_chkPassword
 id tv_email
+id tv_emptyCartDescibtion
 id tv_foodDetail
 id tv_foodName
 id tv_foodPrice
@@ -2555,6 +2559,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout acitivity_shopkeeper_homepage
+layout activity_cart
+layout activity_cart_with_item
 layout activity_customer_begin
 layout activity_editor
 layout activity_login
@@ -2564,7 +2570,6 @@ layout activity_select_identity
 layout activity_shop_menu
 layout activity_sidedish
 layout activity_signup
-layout activity_sk_history_order
 layout activity_sk_items
 layout activity_sk_modify_info
 layout activity_sk_modify_menu
@@ -2722,6 +2727,7 @@ string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string button_signUp
 string cancel
+string cart
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -2747,6 +2753,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
 string default_web_client_id
+string emptyCartDescription
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2755,6 +2762,7 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string gcm_defaultSenderId
+string goShopping
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key

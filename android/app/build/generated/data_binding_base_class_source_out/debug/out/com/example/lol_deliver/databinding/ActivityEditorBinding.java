@@ -4,7 +4,6 @@ package com.example.lol_deliver.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,12 +25,6 @@ public final class ActivityEditorBinding implements ViewBinding {
   public final ImageView btnBack3;
 
   @NonNull
-  public final Button button3;
-
-  @NonNull
-  public final Button button4;
-
-  @NonNull
   public final View divider3;
 
   @NonNull
@@ -44,20 +37,26 @@ public final class ActivityEditorBinding implements ViewBinding {
   public final EditText editPhone;
 
   @NonNull
+  public final ImageView imageView13;
+
+  @NonNull
+  public final ImageView imageView14;
+
+  @NonNull
   public final TextView tvPersonal;
 
   private ActivityEditorBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack3,
-      @NonNull Button button3, @NonNull Button button4, @NonNull View divider3,
-      @NonNull EditText editEmail, @NonNull EditText editName, @NonNull EditText editPhone,
+      @NonNull View divider3, @NonNull EditText editEmail, @NonNull EditText editName,
+      @NonNull EditText editPhone, @NonNull ImageView imageView13, @NonNull ImageView imageView14,
       @NonNull TextView tvPersonal) {
     this.rootView = rootView;
     this.btnBack3 = btnBack3;
-    this.button3 = button3;
-    this.button4 = button4;
     this.divider3 = divider3;
     this.editEmail = editEmail;
     this.editName = editName;
     this.editPhone = editPhone;
+    this.imageView13 = imageView13;
+    this.imageView14 = imageView14;
     this.tvPersonal = tvPersonal;
   }
 
@@ -94,18 +93,6 @@ public final class ActivityEditorBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.button3;
-      Button button3 = ViewBindings.findChildViewById(rootView, id);
-      if (button3 == null) {
-        break missingId;
-      }
-
-      id = R.id.button4;
-      Button button4 = ViewBindings.findChildViewById(rootView, id);
-      if (button4 == null) {
-        break missingId;
-      }
-
       id = R.id.divider3;
       View divider3 = ViewBindings.findChildViewById(rootView, id);
       if (divider3 == null) {
@@ -130,14 +117,26 @@ public final class ActivityEditorBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView13;
+      ImageView imageView13 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView14;
+      ImageView imageView14 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView14 == null) {
+        break missingId;
+      }
+
       id = R.id.tv_personal;
       TextView tvPersonal = ViewBindings.findChildViewById(rootView, id);
       if (tvPersonal == null) {
         break missingId;
       }
 
-      return new ActivityEditorBinding((ConstraintLayout) rootView, btnBack3, button3, button4,
-          divider3, editEmail, editName, editPhone, tvPersonal);
+      return new ActivityEditorBinding((ConstraintLayout) rootView, btnBack3, divider3, editEmail,
+          editName, editPhone, imageView13, imageView14, tvPersonal);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

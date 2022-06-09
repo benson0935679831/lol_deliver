@@ -4,9 +4,9 @@ package com.example.lol_deliver.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,12 +25,6 @@ public final class ActivitySignupBinding implements ViewBinding {
 
   @NonNull
   public final ImageButton btnBack;
-
-  @NonNull
-  public final Button btnRegist;
-
-  @NonNull
-  public final Button button;
 
   @NonNull
   public final View divider;
@@ -54,6 +48,12 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final Guideline guideline3;
 
   @NonNull
+  public final ImageView imageView10;
+
+  @NonNull
+  public final ImageView imageView11;
+
+  @NonNull
   public final TextView tvChkPassword;
 
   @NonNull
@@ -72,15 +72,13 @@ public final class ActivitySignupBinding implements ViewBinding {
   public final TextView tvRegistAccount;
 
   private ActivitySignupBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnBack,
-      @NonNull Button btnRegist, @NonNull Button button, @NonNull View divider,
-      @NonNull EditText etChkPassword, @NonNull EditText etEmail, @NonNull EditText etName,
-      @NonNull EditText etPassword, @NonNull EditText etPhone, @NonNull Guideline guideline3,
+      @NonNull View divider, @NonNull EditText etChkPassword, @NonNull EditText etEmail,
+      @NonNull EditText etName, @NonNull EditText etPassword, @NonNull EditText etPhone,
+      @NonNull Guideline guideline3, @NonNull ImageView imageView10, @NonNull ImageView imageView11,
       @NonNull TextView tvChkPassword, @NonNull TextView tvEmail, @NonNull TextView tvName,
       @NonNull TextView tvPassword, @NonNull TextView tvPhone, @NonNull TextView tvRegistAccount) {
     this.rootView = rootView;
     this.btnBack = btnBack;
-    this.btnRegist = btnRegist;
-    this.button = button;
     this.divider = divider;
     this.etChkPassword = etChkPassword;
     this.etEmail = etEmail;
@@ -88,6 +86,8 @@ public final class ActivitySignupBinding implements ViewBinding {
     this.etPassword = etPassword;
     this.etPhone = etPhone;
     this.guideline3 = guideline3;
+    this.imageView10 = imageView10;
+    this.imageView11 = imageView11;
     this.tvChkPassword = tvChkPassword;
     this.tvEmail = tvEmail;
     this.tvName = tvName;
@@ -126,18 +126,6 @@ public final class ActivitySignupBinding implements ViewBinding {
       id = R.id.btn_back;
       ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
-        break missingId;
-      }
-
-      id = R.id.btn_regist;
-      Button btnRegist = ViewBindings.findChildViewById(rootView, id);
-      if (btnRegist == null) {
-        break missingId;
-      }
-
-      id = R.id.button;
-      Button button = ViewBindings.findChildViewById(rootView, id);
-      if (button == null) {
         break missingId;
       }
 
@@ -183,6 +171,18 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView10;
+      ImageView imageView10 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView11;
+      ImageView imageView11 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView11 == null) {
+        break missingId;
+      }
+
       id = R.id.tv_chkPassword;
       TextView tvChkPassword = ViewBindings.findChildViewById(rootView, id);
       if (tvChkPassword == null) {
@@ -219,8 +219,8 @@ public final class ActivitySignupBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivitySignupBinding((ConstraintLayout) rootView, btnBack, btnRegist, button,
-          divider, etChkPassword, etEmail, etName, etPassword, etPhone, guideline3, tvChkPassword,
+      return new ActivitySignupBinding((ConstraintLayout) rootView, btnBack, divider, etChkPassword,
+          etEmail, etName, etPassword, etPhone, guideline3, imageView10, imageView11, tvChkPassword,
           tvEmail, tvName, tvPassword, tvPhone, tvRegistAccount);
     }
     String missingId = rootView.getResources().getResourceName(id);
