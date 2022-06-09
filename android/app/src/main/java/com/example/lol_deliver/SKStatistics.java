@@ -3,7 +3,9 @@ package com.example.lol_deliver;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -44,5 +46,15 @@ public class SKStatistics extends AppCompatActivity {
                     }
                 }
         );
+    }
+
+    public void OnTurnoverClick(View view) {
+        Intent intent = new Intent(this, SKTurnover.class);
+        startActivity(intent);
+    }
+
+    public void OnItemsClick(View view) {
+        Intent intent = new Intent(this, SKItems.class);
+        startActivity(intent);
     }
 }

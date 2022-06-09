@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -114,23 +115,24 @@ public class SKHomepageFragment extends Fragment {
         Sat = (TextView) view.findViewById(R.id.tv_sk_timeSat);
         Sun = (TextView) view.findViewById(R.id.tv_sk_timeSun);
 
-        loadInfo("name", Name);
-        loadInfo("phone", Phone);
-        loadInfo("address", Address);
-        loadInfo("Mon", Mon);
-        loadInfo("Tue", Tue);
-        loadInfo("Wed", Wed);
-        loadInfo("Thur", Thur);
-        loadInfo("Fri", Fri);
-        loadInfo("Sat", Sat);
-        loadInfo("Sun", Sun);
+        mDataBase = FirebaseDatabase.getInstance().getReference().child("shops").child("JhuJian");
+
+        loadInfo(mDataBase, "name", Name);
+        loadInfo(mDataBase, "phone", Phone);
+        loadInfo(mDataBase, "address", Address);
+        loadInfo(mDataBase, "Mon", Mon);
+        loadInfo(mDataBase, "Tue", Tue);
+        loadInfo(mDataBase, "Wed", Wed);
+        loadInfo(mDataBase, "Thur", Thur);
+        loadInfo(mDataBase, "Fri", Fri);
+        loadInfo(mDataBase, "Sat", Sat);
+        loadInfo(mDataBase, "Sun", Sun);
         return view;
 //        return inflater.inflate(R.layout.fragment_sk_homepage, container, false);
     }
 
-    public void loadInfo(String tag, TextView tv){
-        mDataBase = FirebaseDatabase.getInstance().getReference();
-        mDataBase.child("shops").child("JhuJian").child(tag).addListenerForSingleValueEvent(
+    public void loadInfo(DatabaseReference dbr, String tag, TextView tv){
+        dbr.child(tag).addListenerForSingleValueEvent(
                 new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {

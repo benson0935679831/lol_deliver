@@ -1855,8 +1855,10 @@ drawable sk_btn1
 drawable sk_btn2
 drawable sk_btn3
 drawable sk_btn4
+drawable sk_items_linechart
 drawable sk_myshop
 drawable sk_nowticket
+drawable sk_turniver_linechart
 drawable star_1
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1976,7 +1978,6 @@ id btn_sk_statistic
 id btn_user
 id button
 id button2
-id button3
 id button4
 id button6
 id button7
@@ -2011,9 +2012,6 @@ id confirm_button
 id container
 id content
 id contentPanel
-id content_email
-id content_name
-id content_phone
 id contiguous
 id coordinator
 id cos
@@ -2057,11 +2055,8 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
-id edit_email
-id edit_name
-id edit_phone
+id edit_data
 id edit_query
-id editor
 id elastic
 id end
 id endToStart
@@ -2131,6 +2126,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageView3
 id imageView5
 id info
@@ -2169,6 +2165,7 @@ id list_item
 id lv_menu
 id lv_option
 id lv_shops
+id lv_sideDish
 id lv_sidebar
 id masked
 id material_clock_display
@@ -2261,6 +2258,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id personal_list
 id pin
 id position
 id postLayout
@@ -2332,9 +2330,6 @@ id status_bar_latest_event_content
 id stop
 id stretch
 id subject
-id subject_email
-id subject_name
-id subject_phone
 id submenuarrow
 id submit_area
 id tabMode
@@ -2405,6 +2400,7 @@ id tv_foodName
 id tv_foodPrice
 id tv_icon
 id tv_menu_comment
+id tv_menu_listener
 id tv_menu_moreBtn
 id tv_menu_refactorBtn
 id tv_menu_shopDistance
@@ -2545,9 +2541,11 @@ layout activity_select_identity
 layout activity_shop_menu
 layout activity_sidedish
 layout activity_signup
+layout activity_sk_items
 layout activity_sk_modify_info
 layout activity_sk_modify_menu
 layout activity_sk_statistics
+layout activity_sk_turnover
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

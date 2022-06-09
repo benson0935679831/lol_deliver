@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
     public interface DataListener {
         void newIdentityReceived(String identity);
     }
+
+    public interface DataListenerMenu {
+        void setString(String target, String res);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void test(View view){
-        Intent intent = new Intent(this, SideDishActivity.class);
-        startActivity(intent);
-    }
+//    public void test(View view){
+//        Intent intent = new Intent(this, SideDishActivity.class);
+//        startActivity(intent);
+//    }
 }
