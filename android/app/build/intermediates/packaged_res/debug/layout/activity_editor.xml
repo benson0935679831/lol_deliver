@@ -42,27 +42,67 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edit_data"
+        android:id="@+id/edit_name"
         android:layout_width="344dp"
         android:layout_height="49dp"
         android:layout_marginTop="44dp"
         android:ems="10"
+        android:hint="請輸入名字"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="請輸入電子郵件"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name" />
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="344dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="請輸入電話"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_email" />
+
     <Button
         android:id="@+id/button4"
-        android:layout_width="180dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="24dp"
-        android:onClick="goSave"
+        android:layout_width="146dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="68dp"
+        android:onClick="editor"
         android:text="修改"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_data" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_phone" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="146dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="68dp"
+        android:onClick="Cancel"
+        android:text="取消"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_phone" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

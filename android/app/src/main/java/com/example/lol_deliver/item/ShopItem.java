@@ -1,19 +1,19 @@
 package com.example.lol_deliver.item;
 
 public class ShopItem {
-    private int imgResId;
+    private String imgResId;
     private String shopName;
     private String shopDetail;
     private String shopStar;
 
-    public ShopItem(int imgResId, String shopName, String shopDetail, String shopStar){
+    public ShopItem(String imgResId, String shopName, String shopDetail, String shopStar){
         this.imgResId = imgResId;
         this.shopName = shopName;
         this.shopDetail = shopDetail;
         this.shopStar = shopStar;
     }
 
-    public int getImgResId() {
+    public String getImgResId() {
         return imgResId;
     }
 

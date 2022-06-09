@@ -1,6 +1,8 @@
 package com.example.lol_deliver.adapter;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +13,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 import com.example.lol_deliver.R;
 import com.example.lol_deliver.item.ShopItem;
@@ -40,7 +43,10 @@ public class ShopAdapter extends ArrayAdapter<ShopItem>{
         ShopItem food = shopItemList.get(position);
 
         ImageView iv = shopLayout.findViewById(R.id.iv_sk_shopIcon);
-        iv.setImageResource(food.getImgResId());
+        String uri = food.getImgResId();
+        int imageResource = context.getResources().getIdentifier(uri, null, context.getPackageName());
+        Drawable imageId = ContextCompat.getDrawable(context, imageResource);
+        iv.setImageDrawable(imageId);
         // 這行true會導致圖片不一樣大
 //        iv.setAdjustViewBounds(true);
         TextView tvShopName = shopLayout.findViewById(R.id.tv_shopName);

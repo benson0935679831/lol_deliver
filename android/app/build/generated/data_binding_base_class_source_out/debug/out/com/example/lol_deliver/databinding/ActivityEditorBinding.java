@@ -26,25 +26,38 @@ public final class ActivityEditorBinding implements ViewBinding {
   public final ImageView btnBack3;
 
   @NonNull
+  public final Button button3;
+
+  @NonNull
   public final Button button4;
 
   @NonNull
   public final View divider3;
 
   @NonNull
-  public final EditText editData;
+  public final EditText editEmail;
+
+  @NonNull
+  public final EditText editName;
+
+  @NonNull
+  public final EditText editPhone;
 
   @NonNull
   public final TextView tvPersonal;
 
   private ActivityEditorBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView btnBack3,
-      @NonNull Button button4, @NonNull View divider3, @NonNull EditText editData,
+      @NonNull Button button3, @NonNull Button button4, @NonNull View divider3,
+      @NonNull EditText editEmail, @NonNull EditText editName, @NonNull EditText editPhone,
       @NonNull TextView tvPersonal) {
     this.rootView = rootView;
     this.btnBack3 = btnBack3;
+    this.button3 = button3;
     this.button4 = button4;
     this.divider3 = divider3;
-    this.editData = editData;
+    this.editEmail = editEmail;
+    this.editName = editName;
+    this.editPhone = editPhone;
     this.tvPersonal = tvPersonal;
   }
 
@@ -81,6 +94,12 @@ public final class ActivityEditorBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.button3;
+      Button button3 = ViewBindings.findChildViewById(rootView, id);
+      if (button3 == null) {
+        break missingId;
+      }
+
       id = R.id.button4;
       Button button4 = ViewBindings.findChildViewById(rootView, id);
       if (button4 == null) {
@@ -93,9 +112,21 @@ public final class ActivityEditorBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.edit_data;
-      EditText editData = ViewBindings.findChildViewById(rootView, id);
-      if (editData == null) {
+      id = R.id.edit_email;
+      EditText editEmail = ViewBindings.findChildViewById(rootView, id);
+      if (editEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.edit_name;
+      EditText editName = ViewBindings.findChildViewById(rootView, id);
+      if (editName == null) {
+        break missingId;
+      }
+
+      id = R.id.edit_phone;
+      EditText editPhone = ViewBindings.findChildViewById(rootView, id);
+      if (editPhone == null) {
         break missingId;
       }
 
@@ -105,8 +136,8 @@ public final class ActivityEditorBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityEditorBinding((ConstraintLayout) rootView, btnBack3, button4, divider3,
-          editData, tvPersonal);
+      return new ActivityEditorBinding((ConstraintLayout) rootView, btnBack3, button3, button4,
+          divider3, editEmail, editName, editPhone, tvPersonal);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
