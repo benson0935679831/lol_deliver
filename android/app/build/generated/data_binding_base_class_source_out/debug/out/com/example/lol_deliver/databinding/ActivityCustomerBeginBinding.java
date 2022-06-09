@@ -40,7 +40,7 @@ public final class ActivityCustomerBeginBinding implements ViewBinding {
   public final Guideline guideline4;
 
   @NonNull
-  public final ImageView imageView5;
+  public final ImageView ivCart;
 
   @NonNull
   public final ImageView ivFilter;
@@ -56,16 +56,16 @@ public final class ActivityCustomerBeginBinding implements ViewBinding {
 
   private ActivityCustomerBeginBinding(@NonNull DrawerLayout rootView,
       @NonNull ImageButton btnSetting, @NonNull View divider2, @NonNull TextInputEditText etSearch,
-      @NonNull FrameLayout frameLayout, @NonNull Guideline guideline4,
-      @NonNull ImageView imageView5, @NonNull ImageView ivFilter, @NonNull ImageView ivMagnifier,
-      @NonNull ListView lvShops, @NonNull ListView lvSidebar) {
+      @NonNull FrameLayout frameLayout, @NonNull Guideline guideline4, @NonNull ImageView ivCart,
+      @NonNull ImageView ivFilter, @NonNull ImageView ivMagnifier, @NonNull ListView lvShops,
+      @NonNull ListView lvSidebar) {
     this.rootView = rootView;
     this.btnSetting = btnSetting;
     this.divider2 = divider2;
     this.etSearch = etSearch;
     this.frameLayout = frameLayout;
     this.guideline4 = guideline4;
-    this.imageView5 = imageView5;
+    this.ivCart = ivCart;
     this.ivFilter = ivFilter;
     this.ivMagnifier = ivMagnifier;
     this.lvShops = lvShops;
@@ -129,9 +129,9 @@ public final class ActivityCustomerBeginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView5;
-      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView5 == null) {
+      id = R.id.iv_cart;
+      ImageView ivCart = ViewBindings.findChildViewById(rootView, id);
+      if (ivCart == null) {
         break missingId;
       }
 
@@ -160,7 +160,7 @@ public final class ActivityCustomerBeginBinding implements ViewBinding {
       }
 
       return new ActivityCustomerBeginBinding((DrawerLayout) rootView, btnSetting, divider2,
-          etSearch, frameLayout, guideline4, imageView5, ivFilter, ivMagnifier, lvShops, lvSidebar);
+          etSearch, frameLayout, guideline4, ivCart, ivFilter, ivMagnifier, lvShops, lvSidebar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
