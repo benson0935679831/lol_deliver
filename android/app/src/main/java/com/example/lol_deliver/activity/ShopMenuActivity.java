@@ -37,6 +37,7 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
     private String shopName;
     TextView tv_shopName;
     ImageView iv_shopImg;
+    private ArrayList<FoodItem> foodList = new ArrayList<FoodItem>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +48,6 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
 
         tv_shopName = (TextView) findViewById(R.id.tv_menu_shopName);
         iv_shopImg = (ImageView) findViewById(R.id.iv_menu_shopImg);
-        ArrayList<FoodItem> foodList = new ArrayList<FoodItem>();
         Intent intent = getIntent();
         shopName = intent.getExtras().getString("shopName");
         mDataBase = FirebaseDatabase.getInstance().getReference().child("shops").child(shopName);
@@ -65,7 +65,7 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
                     Log.d("shops",snapshot.child("name").getValue().toString());
                     Log.d("shops",snapshot.child("detail").getValue().toString());
                     Log.d("shops",snapshot.child("price").getValue().toString());
-                    FoodItem food = new FoodItem(snapshot.child("id").getValue().toString(), snapshot.child("name").getValue().toString(),snapshot.child("detail").getValue().toString(), snapshot.child("price").getValue().toString());
+                    FoodItem food = new FoodItem(snapshot.child("id").getValue().toString(), snapshot.child("name").getValue().toString(),snapshot.child("detail").getValue().toString(), snapshot.child("price").getValue().toString(), snapshot.getKey());
 
                     foodList.add(food);
                 }
@@ -86,8 +86,14 @@ public class ShopMenuActivity extends AppCompatActivity implements AdapterView.O
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
-        //Toast.makeText(this, "第"+Integer.toString(index)+"樣食物",Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "tmp", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, SideDishActivity.class);
+        intent.putExtra("foodName", foodList.get(index).getFoodName());
+        intent.putExtra("foodDetail", foodList.get(index).getFoodDetail());
+        intent.putExtra("foodPrice", foodList.get(index).getFoodPrice());
+        intent.putExtra("foodImg", foodList.get(index).getImgResId());
+        intent.putExtra("shopName", shopName);
+        intent.putExtra("foodId", foodList.get(index).getFoodDetail());
+        startActivity(intent);
     }
     public void goBack(View view){
         finish();

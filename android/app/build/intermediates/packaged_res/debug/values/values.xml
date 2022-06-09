@@ -45,7 +45,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_home">Home</string>
     <string name="title_notifications">Notifications</string>
-    <style name="Theme.LOL_Deliver" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.LOL_Deliver" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
