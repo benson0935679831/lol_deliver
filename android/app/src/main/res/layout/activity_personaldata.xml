@@ -116,6 +116,8 @@
             android:id="@+id/editor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@null"
+            android:background="#E87B17"
             android:onClick="onClick"
             android:text="編輯" />
     </LinearLayout>
