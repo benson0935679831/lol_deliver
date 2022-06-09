@@ -161,22 +161,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_chkPassword" />
 
-    <Button
-        android:id="@+id/btn_regist"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="32dp"
-        android:backgroundTint="@null"
-        android:background="#E87B17"
-        android:onClick="onRegister"
-        android:text="@string/button_signUp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_chkPassword" />
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
@@ -201,8 +185,6 @@
         android:layout_height="70dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="36dp"
-        android:backgroundTint="@null"
-        android:background="#E87B17"
         android:onClick="onCancel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
