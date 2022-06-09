@@ -8,6 +8,10 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\sk_turniver_linechart.png"
     },
     {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_modifymenu.png.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_modifymenu.png"
+    },
+    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
@@ -152,6 +156,10 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\menu\\sk_homepage.xml"
     },
     {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_modifyinfo.png.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_modifyinfo.png"
+    },
+    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_contact.png.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_contact.png"
     },
@@ -210,6 +218,10 @@
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus_off.png.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_minus_off.png"
+    },
+    {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_sk_noworder.png.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_sk_noworder.png"
     },
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
@@ -328,6 +340,10 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_mac_classic.jpeg"
     },
     {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_history_order.xml.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_history_order.xml"
+    },
+    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sk_homepage.xml.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_homepage.xml"
     },
@@ -346,6 +362,10 @@
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_modify_info.xml.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_modify_info.xml"
+    },
+    {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_statistic.png.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_statistic.png"
     },
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_option_single.xml.flat",

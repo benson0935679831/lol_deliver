@@ -25,15 +25,19 @@ public final class FragmentSkNowOrderBinding implements ViewBinding {
   public final CardView cardView;
 
   @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
   public final ImageView ivSkShopIcon;
 
   @NonNull
   public final TextView textView;
 
   private FragmentSkNowOrderBinding(@NonNull FrameLayout rootView, @NonNull CardView cardView,
-      @NonNull ImageView ivSkShopIcon, @NonNull TextView textView) {
+      @NonNull ImageView imageView4, @NonNull ImageView ivSkShopIcon, @NonNull TextView textView) {
     this.rootView = rootView;
     this.cardView = cardView;
+    this.imageView4 = imageView4;
     this.ivSkShopIcon = ivSkShopIcon;
     this.textView = textView;
   }
@@ -71,6 +75,12 @@ public final class FragmentSkNowOrderBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
       id = R.id.iv_sk_shopIcon;
       ImageView ivSkShopIcon = ViewBindings.findChildViewById(rootView, id);
       if (ivSkShopIcon == null) {
@@ -83,8 +93,8 @@ public final class FragmentSkNowOrderBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSkNowOrderBinding((FrameLayout) rootView, cardView, ivSkShopIcon,
-          textView);
+      return new FragmentSkNowOrderBinding((FrameLayout) rootView, cardView, imageView4,
+          ivSkShopIcon, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

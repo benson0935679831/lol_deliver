@@ -57,4 +57,9 @@ public class SKStatistics extends AppCompatActivity {
         Intent intent = new Intent(this, SKItems.class);
         startActivity(intent);
     }
+
+    public void OnHistoryOrderClick(View view) {
+        Intent intent = new Intent(this, SKHistoryOrder.class);
+        startActivity(intent);
+    }
 }

@@ -1754,6 +1754,9 @@ int drawable btn_radio_off_mtrl 0x7f07005d
 int drawable btn_radio_off_to_on_mtrl_animation 0x7f07005e
 int drawable btn_radio_on_mtrl 0x7f07005f
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070060
+int drawable btn_sk_home_modifyinfo 0x7f0700d7
+int drawable btn_sk_home_modifymenu 0x7f0700d8
+int drawable btn_sk_home_statistic 0x7f0700d9
 int drawable button_drawable 0x7f070061
 int drawable common_full_open_on_phone 0x7f070062
 int drawable common_google_signin_btn_icon_dark 0x7f070063
@@ -1820,6 +1823,7 @@ int drawable img_mac_six 0x7f07009f
 int drawable img_qing3_fatty 0x7f0700a0
 int drawable img_qing3_manjiu 0x7f0700a1
 int drawable img_qing3_veryhot 0x7f0700a2
+int drawable img_sk_noworder 0x7f0700d6
 int drawable like 0x7f0700a3
 int drawable logo 0x7f0700a4
 int drawable macdonald 0x7f0700a5
@@ -2142,6 +2146,7 @@ int id image 0x7f08010b
 int id imageView 0x7f08010c
 int id imageView2 0x7f08010d
 int id imageView3 0x7f08010e
+int id imageView4 0x7f08025e
 int id imageView5 0x7f08010f
 int id info 0x7f080110
 int id invisible 0x7f080111
@@ -2296,6 +2301,7 @@ int id scroll 0x7f0801a5
 int id scrollIndicatorDown 0x7f0801a6
 int id scrollIndicatorUp 0x7f0801a7
 int id scrollView 0x7f0801a8
+int id scrollView2 0x7f08025f
 int id scrollable 0x7f0801a9
 int id search_badge 0x7f0801aa
 int id search_bar 0x7f0801ab
@@ -2376,6 +2382,7 @@ int id textView 0x7f0801f5
 int id textView10 0x7f0801f6
 int id textView11 0x7f0801f7
 int id textView12 0x7f0801f8
+int id textView2 0x7f080260
 int id textView3 0x7f0801f9
 int id textView4 0x7f0801fa
 int id textView5 0x7f0801fb
@@ -2556,6 +2563,7 @@ int layout activity_select_identity 0x7f0b0022
 int layout activity_shop_menu 0x7f0b0023
 int layout activity_sidedish 0x7f0b0024
 int layout activity_signup 0x7f0b0025
+int layout activity_sk_history_order 0x7f0b0094
 int layout activity_sk_items 0x7f0b0026
 int layout activity_sk_modify_info 0x7f0b0027
 int layout activity_sk_modify_menu 0x7f0b0028

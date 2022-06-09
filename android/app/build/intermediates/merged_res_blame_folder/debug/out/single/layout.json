@@ -92,6 +92,10 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sk_history_order.xml",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_history_order.xml"
+    },
+    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sk_statistics.xml",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_statistics.xml"
     },

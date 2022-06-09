@@ -14,6 +14,9 @@ color white
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
 drawable basket
+drawable btn_sk_home_modifyinfo
+drawable btn_sk_home_modifymenu
+drawable btn_sk_home_statistic
 drawable button_drawable
 drawable example
 drawable filter
@@ -48,6 +51,7 @@ drawable img_mac_six
 drawable img_qing3_fatty
 drawable img_qing3_manjiu
 drawable img_qing3_veryhot
+drawable img_sk_noworder
 drawable like
 drawable logo
 drawable macdonald
@@ -133,6 +137,7 @@ id ib_sk_turnover
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id imageView5
 id iv_ct_icon
 id iv_filter
@@ -162,6 +167,7 @@ id navigation_home
 id navigation_notifications
 id nvg_sk
 id rb_sideDish_optionName
+id scrollView2
 id subject
 id subject_email
 id subject_name
@@ -170,6 +176,7 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView2
 id textView3
 id textView4
 id textView5
@@ -239,6 +246,7 @@ layout activity_select_identity
 layout activity_shop_menu
 layout activity_sidedish
 layout activity_signup
+layout activity_sk_history_order
 layout activity_sk_items
 layout activity_sk_modify_info
 layout activity_sk_modify_menu

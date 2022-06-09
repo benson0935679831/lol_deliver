@@ -1755,6 +1755,9 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable btn_sk_home_modifyinfo
+drawable btn_sk_home_modifymenu
+drawable btn_sk_home_statistic
 drawable button_drawable
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -1821,6 +1824,7 @@ drawable img_mac_six
 drawable img_qing3_fatty
 drawable img_qing3_manjiu
 drawable img_qing3_veryhot
+drawable img_sk_noworder
 drawable like
 drawable logo
 drawable macdonald
@@ -2143,6 +2147,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id imageView5
 id info
 id invisible
@@ -2297,6 +2302,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -2377,6 +2383,7 @@ id textView
 id textView10
 id textView11
 id textView12
+id textView2
 id textView3
 id textView4
 id textView5
@@ -2557,6 +2564,7 @@ layout activity_select_identity
 layout activity_shop_menu
 layout activity_sidedish
 layout activity_signup
+layout activity_sk_history_order
 layout activity_sk_items
 layout activity_sk_modify_info
 layout activity_sk_modify_menu

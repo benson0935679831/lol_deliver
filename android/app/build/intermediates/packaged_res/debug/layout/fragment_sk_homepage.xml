@@ -13,6 +13,7 @@
         android:background="@color/MainTheme_color">
 
         <ScrollView
+            android:id="@+id/scrollView2"
             android:layout_width="411dp"
             android:layout_height="194dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -270,47 +271,43 @@
 
         </androidx.cardview.widget.CardView>
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_sk_modifyInfo"
-            android:layout_width="196dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="420dp"
-            android:backgroundTint="@null"
-            android:background="#E87B17"
-            android:drawableLeft="@drawable/button_drawable"
-            android:text="修改資訊"
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/MainTheme_color"
+            android:onClick="ModifyInfo"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_sk_home_modifyinfo"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/cardView" />
+            app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
-        <Button
-            android:id="@+id/btn_sk_statistic"
-            android:layout_width="196dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="532dp"
-            android:backgroundTint="@null"
-            android:background="#E87B17"
-            android:drawableLeft="@drawable/button_drawable"
-            android:text="統計資訊"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/cardView" />
-
-        <Button
+        <ImageButton
             android:id="@+id/btn_sk_modifyMenu"
-            android:layout_width="196dp"
-            android:layout_height="43dp"
-            android:layout_marginTop="12dp"
-            android:backgroundTint="@null"
-            android:background="#E87B17"
-            android:drawableLeft="@drawable/button_drawable"
-            android:text="編輯菜單"
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/MainTheme_color"
+            android:onClick="ModifyMenu"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_sk_home_modifymenu"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_sk_modifyInfo" />
+
+        <ImageButton
+            android:id="@+id/btn_sk_statistic"
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/MainTheme_color"
+            android:onClick="Statistics"
+            android:scaleType="fitXY"
+            android:src="@drawable/btn_sk_home_statistic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sk_modifyMenu" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

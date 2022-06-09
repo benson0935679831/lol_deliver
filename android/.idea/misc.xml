@@ -47,6 +47,7 @@
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_shop_menu.xml" value="0.22826086956521738" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_sidedish.xml" value="0.22826086956521738" />
+        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_sk_history_order.xml" value="0.24114583333333334" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_sk_items.xml" value="0.22826086956521738" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_sk_modify_info.xml" value="0.22826086956521738" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_sk_modify_menu.xml" value="0.22826086956521738" />
@@ -54,7 +55,7 @@
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/activity_sk_turnover.xml" value="0.2" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_dashboard.xml" value="0.22826086956521738" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_sk_homepage.xml" value="0.22826086956521738" />
-        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_sk_now_order.xml" value="0.22826086956521738" />
+        <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_sk_now_order.xml" value="0.264" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/fragment_sk_now_order1.xml" value="0.22826086956521738" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/item_food.xml" value="0.264" />
         <entry key="..\:/lol_deliver/android/app/src/main/res/layout/item_sidedish.xml" value="0.22826086956521738" />

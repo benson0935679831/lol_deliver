@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -35,9 +36,9 @@ public class SKHomepageFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    Button btn_modifyInfo;
-    Button btn_modifyMenu;
-    Button btn_statistics;
+    ImageButton btn_modifyInfo;
+    ImageButton btn_modifyMenu;
+    ImageButton btn_statistics;
 
     TextView Name, Phone ,Address;
     TextView Mon, Tue, Wed, Thur, Fri, Sat, Sun;
@@ -80,7 +81,7 @@ public class SKHomepageFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_sk_homepage, null);
 
-        btn_modifyInfo = (Button) view.findViewById(R.id.btn_sk_modifyInfo);
+        btn_modifyInfo = (ImageButton) view.findViewById(R.id.btn_sk_modifyInfo);
         btn_modifyInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -88,7 +89,7 @@ public class SKHomepageFragment extends Fragment {
             }
         });
 
-        btn_modifyMenu = (Button) view.findViewById(R.id.btn_sk_modifyMenu);
+        btn_modifyMenu = (ImageButton) view.findViewById(R.id.btn_sk_modifyMenu);
         btn_modifyMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,7 +97,7 @@ public class SKHomepageFragment extends Fragment {
             }
         });
 
-        btn_statistics = (Button) view.findViewById(R.id.btn_sk_statistic);
+        btn_statistics = (ImageButton) view.findViewById(R.id.btn_sk_statistic);
         btn_statistics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
