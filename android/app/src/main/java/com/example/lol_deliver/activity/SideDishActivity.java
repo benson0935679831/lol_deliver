@@ -79,7 +79,7 @@ public class SideDishActivity extends AppCompatActivity{
         if(foodCount == 0)
             return;
         else{
-            Intent intent = new Intent(this, MainActivity.class);//改成結帳頁面
+            Intent intent = new Intent(this, CartWithItemActivity.class);//改成結帳頁面
             intent.putExtra("foodCount", foodCount);
             intent.putExtra("foodName", id);
             intent.putExtra("shopName", shopName);

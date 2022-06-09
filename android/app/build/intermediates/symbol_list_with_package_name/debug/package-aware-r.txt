@@ -1785,6 +1785,7 @@ drawable example
 drawable filter
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_account
 drawable ic_add_cart_off
 drawable ic_add_cart_on
 drawable ic_clock
@@ -2148,6 +2149,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id info
 id invisible
 id inward
@@ -2419,6 +2421,9 @@ id transition_transform
 id triangle
 id tv_cart
 id tv_cart2
+id tv_cart_price
+id tv_cart_shopName
+id tv_cart_total
 id tv_chkPassword
 id tv_email
 id tv_emptyCartDescibtion

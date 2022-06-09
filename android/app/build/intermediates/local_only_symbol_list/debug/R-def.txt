@@ -18,6 +18,7 @@ drawable button_drawable
 drawable empty_cart
 drawable example
 drawable filter
+drawable ic_account
 drawable ic_add_cart_off
 drawable ic_add_cart_on
 drawable ic_clock
@@ -138,6 +139,7 @@ id ib_sk_turnover
 id imageView
 id imageView2
 id imageView3
+id imageView4
 id iv_cart
 id iv_close
 id iv_close2
@@ -187,6 +189,9 @@ id textView8
 id textView9
 id tv_cart
 id tv_cart2
+id tv_cart_price
+id tv_cart_shopName
+id tv_cart_total
 id tv_chkPassword
 id tv_email
 id tv_emptyCartDescibtion
