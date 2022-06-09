@@ -28,6 +28,7 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
     private EditText etName;
     private DatabaseReference mDatabase;
     private String identity2;
+    static public String Uid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,7 +62,7 @@ public class LoginActivity extends AppCompatActivity implements OnCompleteListen
         if(task.isSuccessful()){
             Toast.makeText(this, "登入成功", Toast.LENGTH_LONG).show();
             FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-            String Uid = user.getUid();
+            Uid = user.getUid();
             if(Uid!=null) {
                 Log.d("user", Uid);
             }

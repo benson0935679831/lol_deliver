@@ -4,8 +4,8 @@ package com.example.lol_deliver.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,21 +25,47 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
   public final ImageView btnBack3;
 
   @NonNull
+  public final TextView contentEmail;
+
+  @NonNull
+  public final TextView contentName;
+
+  @NonNull
+  public final TextView contentPhone;
+
+  @NonNull
   public final View divider3;
 
   @NonNull
-  public final ListView personalList;
+  public final Button editor;
+
+  @NonNull
+  public final TextView subjectEmail;
+
+  @NonNull
+  public final TextView subjectName;
+
+  @NonNull
+  public final TextView subjectPhone;
 
   @NonNull
   public final TextView tvPersonal;
 
   private ActivityPersonaldataBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView btnBack3, @NonNull View divider3, @NonNull ListView personalList,
+      @NonNull ImageView btnBack3, @NonNull TextView contentEmail, @NonNull TextView contentName,
+      @NonNull TextView contentPhone, @NonNull View divider3, @NonNull Button editor,
+      @NonNull TextView subjectEmail, @NonNull TextView subjectName, @NonNull TextView subjectPhone,
       @NonNull TextView tvPersonal) {
     this.rootView = rootView;
     this.btnBack3 = btnBack3;
+    this.contentEmail = contentEmail;
+    this.contentName = contentName;
+    this.contentPhone = contentPhone;
     this.divider3 = divider3;
-    this.personalList = personalList;
+    this.editor = editor;
+    this.subjectEmail = subjectEmail;
+    this.subjectName = subjectName;
+    this.subjectPhone = subjectPhone;
     this.tvPersonal = tvPersonal;
   }
 
@@ -76,15 +102,51 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.content_email;
+      TextView contentEmail = ViewBindings.findChildViewById(rootView, id);
+      if (contentEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.content_name;
+      TextView contentName = ViewBindings.findChildViewById(rootView, id);
+      if (contentName == null) {
+        break missingId;
+      }
+
+      id = R.id.content_phone;
+      TextView contentPhone = ViewBindings.findChildViewById(rootView, id);
+      if (contentPhone == null) {
+        break missingId;
+      }
+
       id = R.id.divider3;
       View divider3 = ViewBindings.findChildViewById(rootView, id);
       if (divider3 == null) {
         break missingId;
       }
 
-      id = R.id.personal_list;
-      ListView personalList = ViewBindings.findChildViewById(rootView, id);
-      if (personalList == null) {
+      id = R.id.editor;
+      Button editor = ViewBindings.findChildViewById(rootView, id);
+      if (editor == null) {
+        break missingId;
+      }
+
+      id = R.id.subject_email;
+      TextView subjectEmail = ViewBindings.findChildViewById(rootView, id);
+      if (subjectEmail == null) {
+        break missingId;
+      }
+
+      id = R.id.subject_name;
+      TextView subjectName = ViewBindings.findChildViewById(rootView, id);
+      if (subjectName == null) {
+        break missingId;
+      }
+
+      id = R.id.subject_phone;
+      TextView subjectPhone = ViewBindings.findChildViewById(rootView, id);
+      if (subjectPhone == null) {
         break missingId;
       }
 
@@ -94,8 +156,9 @@ public final class ActivityPersonaldataBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityPersonaldataBinding((ConstraintLayout) rootView, btnBack3, divider3,
-          personalList, tvPersonal);
+      return new ActivityPersonaldataBinding((ConstraintLayout) rootView, btnBack3, contentEmail,
+          contentName, contentPhone, divider3, editor, subjectEmail, subjectName, subjectPhone,
+          tvPersonal);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
