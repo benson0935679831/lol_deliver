@@ -18,17 +18,6 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.85" />
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:clickable="false"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.891"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline4"
-            app:srcCompat="@drawable/basket" />
-
         <View
             android:id="@+id/divider2"
             android:layout_width="409dp"
@@ -65,7 +54,6 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
             android:background="#00000000"
-            android:onClick="onClick"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.044"
@@ -108,13 +96,28 @@
                 app:srcCompat="@drawable/filter" />
 
         </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_cart"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:clickable="false"
+            android:onClick="onCartClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.891"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline4"
+            app:srcCompat="@drawable/basket" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/MainTheme_color">
+        android:background="@color/MainTheme_color"
+        android:visibility="gone"
+        tools:visibility="gone">
 
         <ListView
             android:id="@+id/lv_sidebar"

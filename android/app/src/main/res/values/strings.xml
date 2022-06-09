@@ -13,6 +13,9 @@
     <string name="log_in">登入</string>
     <string name="sign_up">註冊</string>
     <string name="cancel">取消</string>
+    <string name="cart">購物車</string>
+    <string name="goShopping">去購物</string>
+    <string name="emptyCartDescription">這裡空空如也,\n趕緊去購物填飽肚子吧!</string>
     <string name="title_activity_skhomepage">SKHomepage</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>

@@ -23,8 +23,11 @@
     <string name="app_name">峽谷外送員</string>
     <string name="button_signUp">註冊</string>
     <string name="cancel">取消</string>
+    <string name="cart">購物車</string>
     <string name="default_web_client_id" translatable="false">677307177218-imbasivu67d2a5gieb2udisn5clp131j.apps.googleusercontent.com</string>
+    <string name="emptyCartDescription">這裡空空如也,\n趕緊去購物填飽肚子吧!</string>
     <string name="gcm_defaultSenderId" translatable="false">677307177218</string>
+    <string name="goShopping">去購物</string>
     <string name="google_api_key" translatable="false">AIzaSyDRLKurmlNhlxcNklge6HYo6sD4B9bwpts</string>
     <string name="google_app_id" translatable="false">1:677307177218:android:6fa6c2900ad49866920a1b</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDRLKurmlNhlxcNklge6HYo6sD4B9bwpts</string>

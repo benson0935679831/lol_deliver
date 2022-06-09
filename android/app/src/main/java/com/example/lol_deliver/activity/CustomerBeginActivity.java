@@ -70,4 +70,8 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
         intent.putExtra("shopName", shopList.get(index).getShopId());
         startActivity(intent);
     }
+    public void onCartClick(View view){
+        Intent intent = new Intent(this, CartActivity.class);
+        startActivity(intent);
+    }
 }
