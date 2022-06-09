@@ -8,7 +8,7 @@
     tools:context=".activity.ShopMenuActivity">
 
     <ImageView
-        android:id="@+id/iv_menu_shopIcon"
+        android:id="@+id/iv_menu_shopImg"
         android:layout_width="match_parent"
         android:layout_height="112dp"
         android:adjustViewBounds="true"
@@ -28,7 +28,7 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_menu_shopIcon">
+        app:layout_constraintTop_toBottomOf="@+id/iv_menu_shopImg">
 
         <TextView
             android:id="@+id/tv_menu_shopName"

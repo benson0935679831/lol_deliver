@@ -1,6 +1,7 @@
 package com.example.lol_deliver.adapter;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 import com.example.lol_deliver.item.FoodItem;
 import com.example.lol_deliver.R;
@@ -40,7 +42,10 @@ public class FoodAdapter extends ArrayAdapter<FoodItem> {
         FoodItem food = foodItemList.get(position);
 
         ImageView iv = foodLayout.findViewById(R.id.iv_sk_foodIcon);
-        iv.setImageResource(food.getImgResId());
+        String uri = "@drawable/"+food.getImgResId();
+        int imageResource = context.getResources().getIdentifier(uri, null, context.getPackageName());
+        Drawable imageId = ContextCompat.getDrawable(context, imageResource);
+        iv.setImageDrawable(imageId);
         // 這行true會導致圖片不一樣大
 //        iv.setAdjustViewBounds(true);
         TextView tvfoodName = foodLayout.findViewById(R.id.tv_foodName);

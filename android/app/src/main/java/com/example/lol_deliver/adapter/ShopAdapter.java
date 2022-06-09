@@ -43,7 +43,7 @@ public class ShopAdapter extends ArrayAdapter<ShopItem>{
         ShopItem food = shopItemList.get(position);
 
         ImageView iv = shopLayout.findViewById(R.id.iv_sk_shopIcon);
-        String uri = food.getImgResId();
+        String uri = "@drawable/"+food.getImgResId();
         int imageResource = context.getResources().getIdentifier(uri, null, context.getPackageName());
         Drawable imageId = ContextCompat.getDrawable(context, imageResource);
         iv.setImageDrawable(imageId);

@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         void newIdentityReceived(String identity);
     }
 
-    public interface DataListenerMenu {
-        void setString(String target, String res);
+    public interface ShopNameListener {
+        void setShopName(String target, String res);
     }
 
     @Override

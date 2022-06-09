@@ -32,7 +32,7 @@ public final class ActivityShopMenuBinding implements ViewBinding {
   public final ImageView ivMenuBack;
 
   @NonNull
-  public final ImageView ivMenuShopIcon;
+  public final ImageView ivMenuShopImg;
 
   @NonNull
   public final LinearLayout linearLayout;
@@ -66,7 +66,7 @@ public final class ActivityShopMenuBinding implements ViewBinding {
 
   private ActivityShopMenuBinding(@NonNull ConstraintLayout rootView, @NonNull View divider3,
       @NonNull ImageView imageView3, @NonNull ImageView ivMenuBack,
-      @NonNull ImageView ivMenuShopIcon, @NonNull LinearLayout linearLayout,
+      @NonNull ImageView ivMenuShopImg, @NonNull LinearLayout linearLayout,
       @NonNull ListView lvMenu, @NonNull TextView tvMenuComment, @NonNull TextView tvMenuListener,
       @NonNull TextView tvMenuMoreBtn, @NonNull TextView tvMenuRefactorBtn,
       @NonNull TextView tvMenuShopDistance, @NonNull TextView tvMenuShopLowConsume,
@@ -75,7 +75,7 @@ public final class ActivityShopMenuBinding implements ViewBinding {
     this.divider3 = divider3;
     this.imageView3 = imageView3;
     this.ivMenuBack = ivMenuBack;
-    this.ivMenuShopIcon = ivMenuShopIcon;
+    this.ivMenuShopImg = ivMenuShopImg;
     this.linearLayout = linearLayout;
     this.lvMenu = lvMenu;
     this.tvMenuComment = tvMenuComment;
@@ -133,9 +133,9 @@ public final class ActivityShopMenuBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.iv_menu_shopIcon;
-      ImageView ivMenuShopIcon = ViewBindings.findChildViewById(rootView, id);
-      if (ivMenuShopIcon == null) {
+      id = R.id.iv_menu_shopImg;
+      ImageView ivMenuShopImg = ViewBindings.findChildViewById(rootView, id);
+      if (ivMenuShopImg == null) {
         break missingId;
       }
 
@@ -200,7 +200,7 @@ public final class ActivityShopMenuBinding implements ViewBinding {
       }
 
       return new ActivityShopMenuBinding((ConstraintLayout) rootView, divider3, imageView3,
-          ivMenuBack, ivMenuShopIcon, linearLayout, lvMenu, tvMenuComment, tvMenuListener,
+          ivMenuBack, ivMenuShopImg, linearLayout, lvMenu, tvMenuComment, tvMenuListener,
           tvMenuMoreBtn, tvMenuRefactorBtn, tvMenuShopDistance, tvMenuShopLowConsume,
           tvMenuShopName, tvMenuTransTime);
     }

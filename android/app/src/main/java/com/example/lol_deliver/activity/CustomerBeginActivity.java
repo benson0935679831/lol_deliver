@@ -45,7 +45,8 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
                     Log.d("shops",snapshot.child("id").getValue().toString());
                     Log.d("shops",snapshot.child("detail").getValue().toString());
                     Log.d("shops",snapshot.child("star").getValue().toString());
-                    ShopItem shop = new ShopItem(snapshot.child("id").getValue().toString(), snapshot.child("name").getValue().toString(),snapshot.child("detail").getValue().toString(),snapshot.child("star").getValue().toString());
+                    Log.d("shops",snapshot.getKey());
+                    ShopItem shop = new ShopItem(snapshot.child("id").getValue().toString(), snapshot.child("name").getValue().toString(),snapshot.child("detail").getValue().toString(),snapshot.child("star").getValue().toString(), snapshot.getKey());
 
                     shopList.add(shop);
                 }
@@ -66,7 +67,7 @@ public class CustomerBeginActivity extends AppCompatActivity implements AdapterV
     public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
         //        Toast.makeText(this, "第"+Integer.toString(index)+"間餐廳",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, ShopMenuActivity.class);
-        intent.putExtra("shopName", shopList.get(index).getShopName());
+        intent.putExtra("shopName", shopList.get(index).getShopId());
         startActivity(intent);
     }
 }
