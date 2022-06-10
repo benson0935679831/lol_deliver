@@ -12,10 +12,6 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_sidebar.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_option_mutiple.xml",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_option_mutiple.xml"
-    },
-    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_order.xml",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_order.xml"
     },
@@ -36,10 +32,6 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_now_order.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_option_single.xml",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_option_single.xml"
-    },
-    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_personal.xml",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_personal.xml"
     },
@@ -52,8 +44,16 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_food.xml"
     },
     {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sk_recieve_order.xml",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_recieve_order.xml"
+    },
+    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sidedish.xml",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sidedish.xml"
+    },
+    {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order.xml",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_order.xml"
     },
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sk_homepage.xml",

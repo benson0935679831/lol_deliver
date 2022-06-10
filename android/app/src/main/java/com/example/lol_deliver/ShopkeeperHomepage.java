@@ -33,6 +33,7 @@ public class ShopkeeperHomepage extends AppCompatActivity {
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
     private DatabaseReference mDataBase;
+    private boolean flag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,7 @@ public class ShopkeeperHomepage extends AppCompatActivity {
         fragmentTransaction.replace(R.id.fcv_sk, skHomepageFragment);
         fragmentTransaction.show(skHomepageFragment);
         fragmentTransaction.commit();
+        flag = false;
 
         bnView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
@@ -78,14 +80,17 @@ public class ShopkeeperHomepage extends AppCompatActivity {
         mDataBase.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                if(snapshot.hasChildren()){
-                    Intent intent = new Intent(ShopkeeperHomepage.this, SKRecieveOrder.class);
-                    for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
-                        intent.putExtra("orderId", dataSnapshot.getKey());
-                    }
-                    startActivity(intent);
+                if(!flag) {
+                        flag = true;
                 }
                 else{
+                    if(snapshot.hasChildren()) {
+                        Intent intent = new Intent(ShopkeeperHomepage.this, SKRecieveOrder.class);
+                        for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                            intent.putExtra("orderId", dataSnapshot.getKey());
+                        }
+                        startActivity(intent);
+                    }
                 }
             }
 

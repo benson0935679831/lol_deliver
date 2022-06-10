@@ -156,6 +156,10 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_sidebar.xml"
     },
     {
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order.xml.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -214,10 +218,6 @@
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_editor.xml.flat",
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_editor.xml"
-    },
-    {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_option_single.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_option_single.xml"
     },
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn3.png.flat",
@@ -416,12 +416,12 @@
         "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_personaldata.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_recieve_order.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_recieve_order.xml"
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_order.png.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_order.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_option_mutiple.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_option_mutiple.xml"
+        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_recieve_order.xml.flat",
+        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_recieve_order.xml"
     },
     {
         "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_deliver.png.flat",

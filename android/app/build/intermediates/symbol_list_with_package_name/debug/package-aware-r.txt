@@ -1819,6 +1819,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
+drawable ic_order
 drawable ic_plus_off
 drawable ic_plus_on
 drawable ic_register
@@ -2004,7 +2005,6 @@ id cache_measures
 id cancel_action
 id cancel_button
 id cardView
-id cb_sideDish_optionName
 id center
 id center_horizontal
 id center_vertical
@@ -2038,7 +2038,6 @@ id counterclockwise
 id custom
 id customPanel
 id cut
-id cv_order
 id dark
 id date_picker_actions
 id decelerate
@@ -2060,6 +2059,8 @@ id disablePostScroll
 id disableScroll
 id disjoint
 id divider
+id divider10
+id divider11
 id divider2
 id divider3
 id divider4
@@ -2182,6 +2183,7 @@ id iv_menu_back
 id iv_menu_shopImg
 id iv_sideDish_addCartBtn
 id iv_sideDish_backIcon
+id iv_sideDish_backIcon2
 id iv_sideDish_foodIcon
 id iv_sideDish_minusBtn
 id iv_sideDish_plusBtn
@@ -2204,6 +2206,7 @@ id listMode
 id list_item
 id lv_menu
 id lv_option
+id lv_order_food
 id lv_shops
 id lv_sidebar
 id masked
@@ -2304,7 +2307,6 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
-id rb_sideDish_optionName
 id rectangles
 id reverseSawtooth
 id right
@@ -2404,7 +2406,11 @@ id textView10
 id textView11
 id textView12
 id textView13
+id textView15
+id textView17
 id textView2
+id textView20
+id textView22
 id textView3
 id textView4
 id textView5
@@ -2437,6 +2443,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_Name
 id tv_cart
 id tv_cart2
 id tv_cart_price
@@ -2458,18 +2465,21 @@ id tv_menu_shopLowConsume
 id tv_menu_shopName
 id tv_menu_transTime
 id tv_name
-id tv_order
+id tv_order_address
+id tv_order_id
+id tv_order_shopName
+id tv_order_total
 id tv_password
 id tv_personal
 id tv_phone
+id tv_price
+id tv_quantity
 id tv_registAccount
 id tv_register
 id tv_shopDetail
 id tv_shopName
 id tv_shopStar
-id tv_sideDIsh_extra
 id tv_sideDish_cateName
-id tv_sideDish_extra
 id tv_sideDish_foodDetail
 id tv_sideDish_foodName
 id tv_sideDish_foodPrice
@@ -2592,6 +2602,7 @@ layout activity_customer_begin
 layout activity_editor
 layout activity_login
 layout activity_main
+layout activity_order
 layout activity_personaldata
 layout activity_select_identity
 layout activity_shop_menu
@@ -2625,8 +2636,6 @@ layout design_text_input_start_icon
 layout fragment_sk_homepage
 layout fragment_sk_now_order
 layout item_food
-layout item_option_mutiple
-layout item_option_single
 layout item_order
 layout item_personal
 layout item_shop

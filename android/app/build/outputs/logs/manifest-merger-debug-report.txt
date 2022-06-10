@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\karta\.gradle\caches\transforms-3\1424adf5c43f9ae0ddb7a5dd3ddb920d\transformed\viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\karta\.gradle\caches\transforms-3\7007b8e0afebb438cab8301250b9c23b\transformed\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\karta\.gradle\caches\transforms-3\f97c5df623dd74a0a16a6b829c4558ac\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -66,20 +66,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\karta\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\karta\.gradle\caches\transforms-3\1ef7b216f2329211a86f04fa83dca8ed\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\karta\.gradle\caches\transforms-3\1ed04b1c220abe929d68f0d8f703665c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\karta\.gradle\caches\transforms-3\65d573d01cb9ac217dbe76413691b885\transformed\annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
+INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
 	package
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
 		INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:1-82:12
 		INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:2:11-69
@@ -92,7 +92,7 @@ MERGED from [com.google.firebase:firebase-database:20.0.5] C:\Users\karta\.gradl
 	android:name
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:7:5-74:19
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:7:5-80:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\karta\.gradle\caches\transforms-3\f97c5df623dd74a0a16a6b829c4558ac\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\karta\.gradle\caches\transforms-3\f97c5df623dd74a0a16a6b829c4558ac\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\karta\.gradle\caches\transforms-3\c79ded034b955bd08f6f52dd2dec2819\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -133,124 +133,136 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ka
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:13:9-49
-activity#com.example.lol_deliver.SKHistoryOrder
+activity#com.example.lol_deliver.SKRecieveOrder
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:14:9-16:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:15:13-43
-activity#com.example.lol_deliver.activity.CartWithItemActivity
+activity#com.example.lol_deliver.SKHistoryOrder
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:18:13-58
-activity#com.example.lol_deliver.activity.CartActivity
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:18:13-43
+activity#com.example.lol_deliver.activity.OrderActivity
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:21:13-50
-activity#com.example.lol_deliver.SKItems
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:21:13-51
+activity#com.example.lol_deliver.activity.CartWithItemActivity
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:24:13-36
-activity#com.example.lol_deliver.SKTurnover
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:24:13-58
+activity#com.example.lol_deliver.activity.CartActivity
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:27:13-39
-activity#com.example.lol_deliver.SKStatistics
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:27:13-50
+activity#com.example.lol_deliver.SKItems
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:30:13-41
-activity#com.example.lol_deliver.SKModifyMenu
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:30:13-36
+activity#com.example.lol_deliver.SKTurnover
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:33:13-41
-activity#com.example.lol_deliver.SKModifyInfo
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:33:13-39
+activity#com.example.lol_deliver.SKStatistics
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:36:13-41
-activity#com.example.lol_deliver.activity.ShopMenuActivity
+activity#com.example.lol_deliver.SKModifyMenu
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:39:13-54
-activity#com.example.lol_deliver.ShopkeeperHomepage
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:39:13-41
+activity#com.example.lol_deliver.SKModifyInfo
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:42:13-47
-activity#com.example.lol_deliver.activity.LoginActivity
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:42:13-41
+activity#com.example.lol_deliver.activity.ShopMenuActivity
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:45:13-51
-activity#com.example.lol_deliver.activity.CustomerBeginActivity
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:45:13-54
+activity#com.example.lol_deliver.ShopkeeperHomepage
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:48:13-59
-activity#com.example.lol_deliver.activity.SideDishActivity
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:48:13-47
+activity#com.example.lol_deliver.activity.LoginActivity
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:51:13-54
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:51:13-51
+activity#com.example.lol_deliver.activity.CustomerBeginActivity
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:54:13-59
+activity#com.example.lol_deliver.activity.SideDishActivity
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:56:9-58:40
+	android:exported
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:57:13-54
 activity#com.example.lol_deliver.activity.MainActivity
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:53:9-61:20
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:59:9-67:20
 	android:exported
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:55:13-36
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:54:13-50
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:60:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:56:13-60:29
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:62:13-66:29
 action#android.intent.action.MAIN
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:57:17-69
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:63:17-69
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:57:25-66
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:63:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:59:17-77
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:65:17-77
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:59:27-74
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:65:27-74
 activity#com.example.lol_deliver.activity.SignupActivity
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:62:9-64:40
-	android:exported
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:64:13-37
-	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:63:13-52
-activity#com.example.lol_deliver.activity.SelectIdentityActivity
-ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:65:9-67:40
-	android:exported
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:67:13-37
-	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:66:13-60
-activity#com.example.lol_deliver.activity.PersonaldataActivity
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:68:9-70:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:70:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:69:13-58
-activity#com.example.lol_deliver.activity.EditorActivity
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:69:13-52
+activity#com.example.lol_deliver.activity.SelectIdentityActivity
 ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:71:9-73:40
 	android:exported
 		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:73:13-37
 	android:name
-		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:72:13-52
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:72:13-60
+activity#com.example.lol_deliver.activity.PersonaldataActivity
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:74:9-76:40
+	android:exported
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:75:13-58
+activity#com.example.lol_deliver.activity.EditorActivity
+ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:77:9-79:40
+	android:exported
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml:78:13-52
 uses-sdk
 INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\lol_deliver\android\app\src\main\AndroidManifest.xml

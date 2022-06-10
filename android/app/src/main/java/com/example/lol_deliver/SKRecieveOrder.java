@@ -58,7 +58,8 @@ public class SKRecieveOrder extends AppCompatActivity {
 
     public void Ok(View view) {
         Toast.makeText(this, "接單成功！", Toast.LENGTH_SHORT);
-        setContentView(R.layout.acitivity_shopkeeper_homepage);
+        Intent intent = new Intent(this, ShopkeeperHomepage.class);
+        startActivity(intent);
     }
 
     public void Cancel(View view) {
