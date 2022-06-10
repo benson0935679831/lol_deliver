@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -61,5 +62,8 @@ public class SKStatistics extends AppCompatActivity {
     public void OnHistoryOrderClick(View view) {
         Intent intent = new Intent(this, SKHistoryOrder.class);
         startActivity(intent);
+    }
+
+    public void OnClick(View view) {
     }
 }

@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,6 +32,7 @@ public class ShopkeeperHomepage extends AppCompatActivity {
     private SKNowOrderFragment skNowOrderFragment;
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
+    private DatabaseReference mDataBase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,6 +67,31 @@ public class ShopkeeperHomepage extends AppCompatActivity {
                 fragmentTransaction.show(selectedFragment);
                 fragmentTransaction.commit();
                 return true;
+            }
+        });
+
+        OrderRecieve();
+    }
+
+    private void OrderRecieve() {
+        mDataBase = FirebaseDatabase.getInstance().getReference().child("orders");
+        mDataBase.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if(snapshot.hasChildren()){
+                    Intent intent = new Intent(ShopkeeperHomepage.this, SKRecieveOrder.class);
+                    for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                        intent.putExtra("orderId", dataSnapshot.getKey());
+                    }
+                    startActivity(intent);
+                }
+                else{
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
             }
         });
     }

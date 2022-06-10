@@ -104,6 +104,7 @@
         android:layout_height="149dp"
         android:adjustViewBounds="true"
         android:backgroundTint="@color/MainTheme_color"
+        android:onClick="OnClick"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
