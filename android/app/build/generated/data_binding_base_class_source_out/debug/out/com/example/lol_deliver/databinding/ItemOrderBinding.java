@@ -8,7 +8,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.lol_deliver.R;
@@ -21,16 +20,20 @@ public final class ItemOrderBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final CardView cvOrder;
+  public final TextView tvName;
 
   @NonNull
-  public final TextView tvOrder;
+  public final TextView tvPrice;
 
-  private ItemOrderBinding(@NonNull LinearLayout rootView, @NonNull CardView cvOrder,
-      @NonNull TextView tvOrder) {
+  @NonNull
+  public final TextView tvQuantity;
+
+  private ItemOrderBinding(@NonNull LinearLayout rootView, @NonNull TextView tvName,
+      @NonNull TextView tvPrice, @NonNull TextView tvQuantity) {
     this.rootView = rootView;
-    this.cvOrder = cvOrder;
-    this.tvOrder = tvOrder;
+    this.tvName = tvName;
+    this.tvPrice = tvPrice;
+    this.tvQuantity = tvQuantity;
   }
 
   @Override
@@ -60,19 +63,25 @@ public final class ItemOrderBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.cv_order;
-      CardView cvOrder = ViewBindings.findChildViewById(rootView, id);
-      if (cvOrder == null) {
+      id = R.id.tv_Name;
+      TextView tvName = ViewBindings.findChildViewById(rootView, id);
+      if (tvName == null) {
         break missingId;
       }
 
-      id = R.id.tv_order;
-      TextView tvOrder = ViewBindings.findChildViewById(rootView, id);
-      if (tvOrder == null) {
+      id = R.id.tv_price;
+      TextView tvPrice = ViewBindings.findChildViewById(rootView, id);
+      if (tvPrice == null) {
         break missingId;
       }
 
-      return new ItemOrderBinding((LinearLayout) rootView, cvOrder, tvOrder);
+      id = R.id.tv_quantity;
+      TextView tvQuantity = ViewBindings.findChildViewById(rootView, id);
+      if (tvQuantity == null) {
+        break missingId;
+      }
+
+      return new ItemOrderBinding((LinearLayout) rootView, tvName, tvPrice, tvQuantity);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

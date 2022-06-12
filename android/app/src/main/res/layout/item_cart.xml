@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:background="@color/MainTheme_color">
+
+    <ImageView
+        android:id="@+id/iv_cart_minus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_minus_on" />
+
+    <TextView
+        android:id="@+id/tv_cart_quantity"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="10"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/iv_cart_plus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_plus_on" />
+
+    <TextView
+        android:id="@+id/tv_cart_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="10"
+        android:gravity="center_vertical"
+        android:text="雙層牛肉三明治" />
+
+    <TextView
+        android:id="@+id/tv_cart_foodPrice"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="right|center_vertical"
+        android:text="$ 110" />
+</LinearLayout>

@@ -156,7 +156,10 @@ id imageView6
 id imageView7
 id imageView8
 id imageView9
+id iv_account
 id iv_cart
+id iv_cart_minus
+id iv_cart_plus
 id iv_close
 id iv_close2
 id iv_ct_icon
@@ -177,6 +180,7 @@ id iv_sk_shopIcon
 id iv_star
 id linearLayout
 id linear_layout
+id lv_cart
 id lv_menu
 id lv_option
 id lv_order_food
@@ -214,7 +218,10 @@ id textView9
 id tv_Name
 id tv_cart
 id tv_cart2
+id tv_cart_foodPrice
+id tv_cart_name
 id tv_cart_price
+id tv_cart_quantity
 id tv_cart_shopName
 id tv_cart_total
 id tv_chkPassword
@@ -277,6 +284,7 @@ id tv_sk_timeSun
 id tv_sk_timeThur
 id tv_sk_timeTue
 id tv_sk_timeWed
+id tv_sqlData
 layout acitivity_shopkeeper_homepage
 layout activity_cart
 layout activity_cart_with_item
@@ -299,6 +307,7 @@ layout activity_sk_statistics
 layout activity_sk_turnover
 layout fragment_sk_homepage
 layout fragment_sk_now_order
+layout item_cart
 layout item_food
 layout item_order
 layout item_personal

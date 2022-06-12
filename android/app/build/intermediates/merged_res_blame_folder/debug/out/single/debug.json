@@ -1,450 +1,454 @@
 [
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_history_order.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_history_order.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_sidedish.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_sidedish.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_example.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\example.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_modifyinfo.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_modifyinfo.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_items.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_items.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_login.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_login.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_food.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_food.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart_with_item.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_cart_with_item.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_contact.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_contact.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn4.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn4.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_qing3_veryhot.jpg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_qing3_veryhot.jpg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_setting.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_setting.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_acitivity_shopkeeper_homepage.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\acitivity_shopkeeper_homepage.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_acitivity_shopkeeper_homepage.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\acitivity_shopkeeper_homepage.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus_off.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_plus_off.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_like.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\like.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_items.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_items.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_order.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_order.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_modify_menu.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_modify_menu.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus_on.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_plus_on.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_jhu_mush.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_jhu_mush.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_nowticket.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_nowticket.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_close.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_close.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_sidebar.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_sidebar.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_pencil.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\pencil.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_mac_classic.jpeg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_mac_classic.jpeg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_qing3_manjiu.jpg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_qing3_manjiu.jpg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_like.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_like.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_mac_six.jpg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_mac_six.jpg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_order.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\basket.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_modify_menu.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_modify_menu.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_account.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_account.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_modifyinfo.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_modifyinfo.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sk_now_order.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_now_order.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_contact.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_contact.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_food.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_food.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_statistic.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_statistic.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_location.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_location.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_star_1.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\star_1.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_history_order.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_history_order.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_sign_out.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_sign_out.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_filter.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\filter.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_food.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_menu_food.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_recieve_order.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_recieve_order.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_zhujian.jpg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\zhujian.jpg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_like.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\like.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_mac_chicken.jpeg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_mac_chicken.jpeg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shop.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_shop.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_back.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_back.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn2.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn2.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home_black_24dp.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_order.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_order.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus_on.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_minus_on.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_shop.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_shop.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_cart.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_sidebar.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_sidebar.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus_off.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_minus_off.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_order.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_mac_six.jpg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_mac_six.jpg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_back.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_back.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart_with_item.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_cart_with_item.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sidedish.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sidedish.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_empty_cart.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\empty_cart.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_select_identity.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_select_identity.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_personaldata.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_personaldata.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sk_items_linechart.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\sk_items_linechart.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus_on.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_minus_on.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_account.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_account.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_customer_begin.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_customer_begin.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_nowticket.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_nowticket.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus_on.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_plus_on.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_search.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_search.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_go_shopping.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_go_shopping.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_myshop.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_myshop.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_mac_classic.jpeg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_mac_classic.jpeg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_search.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_search.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_history_order.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_history_order.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_food.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_menu_food.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sk_homepage.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_homepage.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_editor.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_editor.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_modify_info.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_modify_info.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_sidebar.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_sidebar.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_editor.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_editor.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_myshop.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_myshop.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn3.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn3.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_turnover.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_turnover.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_modify.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_modify.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_modifymenu.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_modifymenu.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\menu_sk_homepage.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\menu\\sk_homepage.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sk_turniver_linechart.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\sk_turniver_linechart.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_mac_chicken.jpeg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_mac_chicken.jpeg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_edit.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_edit.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_clock.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_clock.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_example.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\example.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_filter.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\filter.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_drawable.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\button_drawable.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_customer_begin.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_customer_begin.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_empty_cart.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\empty_cart.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_sidedish.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_sidedish.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_pencil.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\pencil.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_sk_editinfo.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_sk_editinfo.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_macdonald.jpg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\macdonald.jpg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_modify.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_modify.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_select_identity.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_select_identity.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_sk_editinfo.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_sk_editinfo.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_macdonald.jpg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\macdonald.jpg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_basket.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\basket.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_qing3_fatty.jpeg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_qing3_fatty.jpeg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cancel.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_cancel.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_shop_menu.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_shop_menu.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_customer.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_customer.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_star_1.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\star_1.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_confirm.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_confirm.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_clock.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_clock.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn3.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn3.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_cart.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn1.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn1.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_close.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_close.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_shop.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_shop.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_modifymenu.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_modifymenu.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_cart_off.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_add_cart_off.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sk_turniver_linechart.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\sk_turniver_linechart.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_statistics.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_statistics.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_history_order.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_history_order.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_plus_off.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_plus_off.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_personaldata.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_personaldata.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_jhu_pork.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_jhu_pork.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_qingno3.jpeg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\qingno3.jpeg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\menu_sk_homepage.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\menu\\sk_homepage.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_cart_off.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_add_cart_off.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_qing3_fatty.jpeg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_qing3_fatty.jpeg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_setting.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_setting.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_jhu_mush.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_jhu_mush.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_jhu_pork.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_jhu_pork.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_signup.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav_menu.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_modify_info.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_modify_info.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_cart_on.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_add_cart_on.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_statistics.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_statistics.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_personal.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_personal.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_sk_noworder.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_sk_noworder.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_sign_out.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_sign_out.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_minus_off.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_minus_off.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_cart.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_sidebar.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_sidebar.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_personal.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_personal.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_register.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_register.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cancel.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_cancel.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_personaldata.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_personaldata.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_sk_noworder.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_sk_noworder.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_turnover.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_turnover.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn2.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn2.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_location.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_location.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_button_drawable.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\button_drawable.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_qing3_veryhot.jpg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_qing3_veryhot.jpg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_deliver.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_deliver.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_login.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_login.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_zhujian.jpg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\zhujian.jpg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_go_shopping.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_go_shopping.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sk_homepage.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_homepage.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_customer.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_customer.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add_cart_on.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_add_cart_on.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_shop.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_shop.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_confirm.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_confirm.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\item_order.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_icon_personaldata.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\icon_personaldata.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_edit.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_edit.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_order.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_order.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sk_recieve_order.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sk_recieve_order.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_deliver.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_deliver.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn1.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn1.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_sk_now_order.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\fragment_sk_now_order.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_register.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\ic_register.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_qingno3.jpeg.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\qingno3.jpeg"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_like.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\ic_like.png"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_sk_items_linechart.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\sk_items_linechart.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sidedish.xml.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_sidedish.xml"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_qing3_manjiu.jpg.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\img_qing3_manjiu.jpg"
     },
     {
-        "merged": "D:\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable_btn_sk_home_statistic.png.flat",
-        "source": "D:\\lol_deliver\\android\\app\\src\\main\\res\\drawable\\btn_sk_home_statistic.png"
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_shop_menu.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\layout\\activity_shop_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_sk_btn4.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lol_deliver\\android\\app\\src\\main\\res\\drawable-v24\\sk_btn4.png"
     }
 ]
